@@ -1,6 +1,6 @@
 # pennsylvania-department-of-education-app
 
-#Steps to Launch Our Application
+Steps to Launch Our Application
 1. Clone the remote repository to your local machine
 2. Use pip to install all of the necessary libraries and frameworks listed in dependencies.txt
 3. Change the directory to src from the local repository
