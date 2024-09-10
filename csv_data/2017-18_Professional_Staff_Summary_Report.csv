@@ -1,0 +1,69 @@
+CONTACT:
+PA Department of Education
+Office of Data Quality
+333 Market Street
+"Harrisburg, PA  17126-0333"
+Email:  RA-DDQDataCollection@pa.gov
+Phone:  (717) 787-2644
+Fax:  (717) 787-3148
+Text Telephone TTY:  (717) 783-8445
+""
+""
+PROFESSIONAL STAFF SUMMARY
+This workbook contains 2017-18 full- and part-time professional staff counts for all public schools
+"in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools,"
+intermediate units and state juvenile correctional institutes.
+"Average Salaries, Years of Service and Education Level are calculated for full-time staff only, categories are based on primary assignment."
+"Salaries less than $18,500 reported for full-time staff are not considered when calculating averages.  "
+"For category (administrative, classroom teacher, coordinate/support, and other) totals and averages, a person is counted once within each category. "
+An individual holding assignments in more than one category will only be counted once in the overall (PP-Professional Personnel) totals and averages for an LEA.
+""
+"School Security staff are not counted, nor is their data used in calculating averages.  "
+""
+"LEA, COUNTY, AND STATEWIDE TOTAL NOTES"
+LEVEL TOTALS ARE DISTINCT WITHIN THE LEVEL:
+"Local Education Agency (LEA) Level: An individual is only counted once per LEA, regardless of the number of schools or buildings where she or he is employed."
+"County Level: An individual is only counted once per county, regardless of the number of LEAs where she or he is employed."
+"State Level: An individual is only counted once per state, regardless of the number of LEAs or counties where she or he is employed."
+""
+THE EFFECT OF CATEGORIES ON TOTALS AND AVERAGES
+"The sum of individuals in each category may be greater than the count of individuals in all categories, due to individuals holding assignments in more than one category.  "
+"When an individual is employed by more than one LEA, the characteristics reported by each LEA are considered separately in calculating averages statewide or within a county."
+""
+FIELD DEFINITIONS
+AUN – Administrative Unit Number
+LEA – Local Education Agency
+PP – Professional Personnel
+F – Female
+M – Male
+Ad – Administrative (Professional Personnel Category)
+CT – Classroom Teacher (Professional Personnel Category)
+Co – Coordinate Services (Professional Personnel Category)
+Ot – Other Professional Personnel (Professional Personnel Category)
+Sal – Salary
+Svc – Service (Years of Service as a professional in education)
+LEA-Professional Personnel Category – Consecutive years of service as a professional in current LEA)
+Ed – Education Level
+""
+LEA TYPE CODES
+CS - Charter School
+CTC - Career Technical Center (AVTS)
+IU - Intermediate Unit
+SD - School District
+SJCI - State Juvenile Correctional Institute
+""
+EDUCATION LEVEL CODES
+1 - Less than high school graduate
+2 - High school graduate
+"3 - Some college, less than bachelor's degree"
+4 - Bachelor's degree (includes master's equivalency)
+5 - Master's degree
+6 - Doctor's degree
+""
+SALARY CONTRACT YEAR
+Salaries may reflect expired collective bargaining agreements.
+""
+""
+Data Source: Pennsylvania Information Management System (PIMS)
+2017-18 Professional Staff Collection
+2018-07-16 00:00:00

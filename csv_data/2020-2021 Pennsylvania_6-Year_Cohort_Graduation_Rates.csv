@@ -1,0 +1,36 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3
+SY 2020-21 6-Year Cohort Graduation Rate,,,
+,,,
+"Please note, the 4-Year Cohort Graduation Rate was first measured using data from PIMS for SY 2010-11. The 5-Year Cohort Graduation Rate was first measured for SY 2011-12. The 6-Year Cohort Graduation Rate was first measured for SY 2012-13.",,,
+,,,
+,,,
+"Cohort: Students who together entered high school (defined by 9th Grade) for the first time during the same school year. Determined by the data field ""Grade 09 Entry Date"" in the Student Template of PIMS.",,,
+,,,
+"Cohort Graduation Rate: A measurement of what percentage of a cohort have graduated within a specific time-frame. For example, the 4-Year Cohort Graduation Rate is the percentage of students who entered 9th Grade four years ago that have graduated by the end of the four years.",,,
+,,,
+Graduates: Students who earned and graduated with a regular high school diploma by the end of the measurement period. DOES NOT include students who earned a GED or students who walk with their class but did not earn their diploma at that time.,,,
+,,,
+LEA: Local Educational Agency.,,,
+PIMS: Pennsylvania Information Management System - State wide data collection database.,,,
+,,,
+The below table provides quick reference of which graduation rates correspond to which 9th Grade Cohorts. The highlighted data is represented in this report:,,,
+,,,
+Grade 9 Entry Year,Cohort Graduation Rate,,
+,4-Year,5-Year,6-Year
+2007-08,2010-11,2011-12,2012-13
+2008-09,2011-12,2012-13,2013-14
+2009-10,2012-13,2013-14,2014-15
+2010-11,2013-14,2014-15,2015-16
+2011-12,2014-15,2015-16,2016-17
+2012-13,2015-16,2016-17,2017-18
+2013-14,2016-17,2017-18,2018-19
+2014-15,2017-18,2018-19,2019-20
+2015-16,2018-19,2019-20,2020-21
+2016-17,2019-20,2020-21,2021-22
+2017-18,2020-21,2021-22,2022-23
+2018-19,2021-22,2022-23,2023-24
+2019-20,2022-23,2023-24,2024-25
+,,,
+Questions? Please contact ra-ddqdatacollection@pa.gov.,,,
+,,,
+2022-05-18 00:00:00,,,
