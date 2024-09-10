@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import os
+import re
 
 # Check if the tag is a link to a data file (futurereadypa.org)
 def is_datafile_link_futurereadypa(tag):
@@ -9,6 +10,10 @@ def is_datafile_link_futurereadypa(tag):
 # Check if the tag is a link to a data file (education.pa.gov)
 def is_datafile_link_educationpa(tag):
     return tag.name == 'a' and tag.get('href') and tag['href'].endswith('.xlsx')
+
+# Check if the tag is a link to a data file (paschoolperformance.org)
+def is_datafile_link_paschoolperformance(tag):
+    return tag.name == 'a' and tag.get('href') and (tag['href'].endswith('.xlsx') or tag['href'].endswith('.zip'))
 
 # Download data files
 def download_datafiles(base_url, url_list, output_folder, is_datafile_link):
@@ -29,7 +34,7 @@ def download_datafiles(base_url, url_list, output_folder, is_datafile_link):
                 link = data['href']
                 link_url = base_url + link
                 link_response = requests.get(link_url)
-                filename = data.text.replace(' ', '_').replace(':', '') + '.xlsx'
+                filename = re.sub(r'[\\/:*?"<>|\r\n]', '', data.text.replace(' ', '_').replace(':', '')) + '.xlsx'
                 with open(os.path.join(output_folder, filename), 'wb') as f:
                     f.write(link_response.content)
         # Handle invalid URLs
@@ -44,8 +49,14 @@ os.chdir("pennsylvania-department-of-education-app")
 # 1 - 5 (futurereadypa.org)
 download_datafiles("https://futurereadypa.org", ["/Home/DataFiles"], "data", is_datafile_link_futurereadypa)
 
-# 6 - 9, 11 - 15, 17 (education.pa.gov)
-education_pa_urls = ["/DataAndReporting/LoanCanLowIncome/Pages/PublicSchools.aspx", "/DataAndReporting/LoanCanLowIncome/Pages/PrivateSchools.aspx", "/DataAndReporting/Assessments/Pages/Keystone-Exams-Results.aspx", "/DataAndReporting/Assessments/Pages/PSSA-Results.aspx", "/DataAndReporting/Graduates/Pages/default.aspx", "/DataAndReporting/Dropouts/Pages/default.aspx", "/DataAndReporting/CohortGradRate/Pages/default.aspx", "/DataAndReporting/Enrollment/Pages/PublicSchEnrReports.aspx", "/DataAndReporting/Enrollment/Pages/PrivateNPEnrRpts.aspx", "/DataAndReporting/ProfSupPers/Pages/ProfStaffSummary.aspx"]
+# 6 - 9, 11 - 17 (education.pa.gov)
+education_pa_urls = ["/DataAndReporting/LoanCanLowIncome/Pages/PublicSchools.aspx", "/DataAndReporting/LoanCanLowIncome/Pages/PrivateSchools.aspx", "/DataAndReporting/Assessments/Pages/Keystone-Exams-Results.aspx", "/DataAndReporting/Assessments/Pages/PSSA-Results.aspx", "/DataAndReporting/Graduates/Pages/default.aspx", "/DataAndReporting/Dropouts/Pages/default.aspx", "/DataAndReporting/CohortGradRate/Pages/default.aspx", "/DataAndReporting/Enrollment/Pages/PublicSchEnrReports.aspx", "/DataAndReporting/Enrollment/Pages/PrivateNPEnrRpts.aspx", "/DataAndReporting/ProfSupPers/Pages/ProfStaffSummary.aspx", "/Teachers%20-%20Administrators/School%20Finances/Finances/AFR%20Data%20Summary/Pages/AFR-Data-Summary-Level.aspx","/Teachers%20-%20Administrators/School%20Finances/Finances/AFR%20Data%20Summary/Pages/AFR-Data-Detailed-.aspx"]
 download_datafiles("https://www.education.pa.gov", education_pa_urls, "data", is_datafile_link_educationpa)
 
-# currently missing 10 and 16
+# currently missing 10 and 16 
+    # solved
+
+# 10
+download_datafiles("https://paschoolperformance.org/Downloads.html", [""], "data", is_datafile_link_paschoolperformance)
+
+# 16 added into with education.pa.gov
