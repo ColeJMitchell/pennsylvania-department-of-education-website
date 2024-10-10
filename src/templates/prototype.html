@@ -31,7 +31,7 @@
         }
         .overlay-head {
             position: absolute;
-            top: 35%;
+            top: 30%;
             left: 30%;
             color: white;
             font-family: 'Bebas Neue', sans-serif;
@@ -42,6 +42,20 @@
         4px -4px 0 black,   
         -4px 4px 0 black,   
         4px 4px 0 black;    
+        }
+        .overlay-caption{
+            position: absolute;
+            top: 55%;
+            left: 40%;
+            color: white;
+            font-family: 'Bebas Neue', sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+            text-shadow: 
+        -4px -4px 0 black, 
+        4px -4px 0 black,   
+        -4px 4px 0 black,   
+        4px 4px 0 black; 
         }
     </style>
 </head>
@@ -61,6 +75,7 @@
                 {%load static%}
                 <img src="{% static 'bricks.jpg' %}" alt="Image of bricks" class="full-width-image">
                 <div class="overlay-head">Pennsylvania Education</div>
+                <div class="overlay-caption">Simplifying The Search For The Perfect School </div>
             </div>
 
         </div>
