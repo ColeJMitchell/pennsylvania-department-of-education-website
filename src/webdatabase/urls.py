@@ -17,8 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from pages.views import home_page
+from pages.views import map_page
 
 urlpatterns = [
     path('', home_page, name='home'),
+    path('map/', map_page, name='map'),
     path('admin/', admin.site.urls),
 ]
