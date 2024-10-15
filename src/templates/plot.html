@@ -44,7 +44,26 @@
         -4px 4px 0 black,   
         4px 4px 0 black;    
         }
+        .navbar {
+            font-size: 18px; 
+            font-weight: bold;
+        }
         
+        .navbar-nav .nav-link {
+            font-size: 18px; 
+        }
+
+        .dropdown-menu {
+            border: 3px solid black;
+        }
+        
+        .dropdown-item {
+            font-size: 16px; 
+        }
+
+        .dropdown-divider {
+            border: 3px solid black; 
+        }
     </style>
 </head>
 <body>
@@ -55,7 +74,10 @@
                     {% csrf_token %}
                     <button type="submit" class="btn" name="home">Home</button>
                 </form>
-                <div class="btn">Comparison</div>
+                <form method="post" action="{% url 'comparison' %}">
+                    {% csrf_token %}
+                    <button type="submit" class="btn" name="comparison">Comparison</button>
+                </form>
                 <button type="submit" class="btn" name="map">Plot</button>
                 <form method="post" action="{% url 'map' %}">
                     {% csrf_token %}
@@ -74,7 +96,7 @@
                               Select a School
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="schoolsDropdown">
-                              <li style="margin-left: 30%;">School A</li>
+                              <li >School A</li>
                               <li><hr class="dropdown-divider"></li>
                               <li>School B</li>
                               <li><hr class="dropdown-divider"></li>

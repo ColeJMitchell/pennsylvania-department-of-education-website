@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Comparison</title>
     <style>
         body {
             padding: 0; 
@@ -63,11 +63,11 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-2 d-flex flex-column justify-content-between align-items-center sidebar">
-                <div class="btn">Home</div>
-                <form method="post" action="{% url 'comparison' %}">
+                <form method="post" action="{% url 'home' %}">
                     {% csrf_token %}
-                    <button type="submit" class="btn" name="comparison">Comparison</button>
+                    <button type="submit" class="btn" name="home">Home</button>
                 </form>
+                <div class="btn">Comparison</div>
                 <form method="post" action="{% url 'plot' %}">
                     {% csrf_token %}
                     <button type="submit" class="btn" name="plot">Plot</button>
@@ -77,13 +77,6 @@
                     <button type="submit" class="btn" name="map">Map</button>
                 </form>
             </div>
-            <div class="col-10" style="padding: 0;">
-                {%load static%}
-                <img src="{% static 'bricks.jpg' %}" alt="Image of bricks" class="full-width-image">
-                <div class="overlay-head">Pennsylvania Education</div>
-                <div class="overlay-caption">Simplifying The Search For The Perfect School </div>
-            </div>
-
         </div>
     </div>
 

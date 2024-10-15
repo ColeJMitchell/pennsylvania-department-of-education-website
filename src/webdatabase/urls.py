@@ -19,10 +19,12 @@ from django.urls import path
 from pages.views import home_page
 from pages.views import map_page
 from pages.views import plot_page
+from pages.views import comparison_page
 
 urlpatterns = [
     path('', home_page, name='home'),
     path('map/', map_page, name='map'),
     path('plot/', plot_page, name='plot'),
+    path('comparison/', comparison_page, name='comparison'),
     path('admin/', admin.site.urls),
 ]

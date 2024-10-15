@@ -18,3 +18,10 @@ def plot_page(request):
         return render(request, "plot.html", {})
     else:
         return render(request, "plot.html", {})
+    
+    
+def comparison_page(request):
+    if request.method == "POST":
+        return render(request, "comparison.html", {})
+    else:
+        return render(request, "comparison.html", {})
