@@ -65,7 +65,10 @@
             <div class="col-2 d-flex flex-column justify-content-between align-items-center sidebar">
                 <div class="btn">Home</div>
                 <div class="btn">Comparison</div>
-                <div class="btn">Plot</div>
+                <form method="post" action="{% url 'plot' %}">
+                    {% csrf_token %}
+                    <button type="submit" class="btn" name="plot">Plot</button>
+                </form>
                 <form method="post" action="{% url 'map' %}">
                     {% csrf_token %}
                     <button type="submit" class="btn" name="map">Map</button>
