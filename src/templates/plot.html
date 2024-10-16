@@ -137,7 +137,7 @@
                             {% if county_submit %}
                             {{ county_submit }}
                             {% else %}
-                              Select District
+                              Select County
                             {% endif %}
                           </a>
                           <ul class="dropdown-menu" aria-labelledby="schoolsDropdown">
@@ -147,7 +147,7 @@
                             <li><hr class="dropdown-divider"></li>
                             <li onclick="changeCounty('County C')" style="margin-left: 10px;">County C</li>
                             <li><hr class="dropdown-divider"></li>
-                            <li onclick="changeCounty('Select District')" style="margin-left: 10px;">Reset</li>
+                            <li onclick="changeCounty('Select County')" style="margin-left: 10px;">Reset</li>
                           </ul>
                         </li>
                       </ul>
@@ -165,7 +165,7 @@
                             {% if year_submit %}
                             {{ year_submit }}
                             {% else %}
-                              Select Year
+                              Select Years
                             {% endif %}
                           </a>
                           <ul class="dropdown-menu" aria-labelledby="schoolsDropdown">
@@ -175,7 +175,7 @@
                             <li><hr class="dropdown-divider"></li>
                             <li onclick="changeYear('2017-2018')" style="margin-left: 10px;">Year 2017-2018</li>
                             <li><hr class="dropdown-divider"></li>
-                            <li onclick="changeYear('Select Year')" style="margin-left: 10px;">Reset</li>
+                            <li onclick="changeYear('Select Years')" style="margin-left: 10px;">Reset</li>
                           </ul>
                         </li>
                       </ul>
@@ -218,7 +218,7 @@
         </div>
     </div>
     <script>
-        let school_submit = "{{ school_submit|default:'Select School' }}";
+        let school_submit = "{{ school_submit|default:'Select Schools' }}";
         let county_submit = "{{ county_submit|default:'Select County' }}";
         let year_submit = "{{ year_submit|default:'Select Years' }}";
         function changeSchool(school) {
