@@ -14,18 +14,12 @@ def add_data():
         reader = csv.reader(f)
 
         for row in reader:
-            try:
-                enrollment.objects.create(
-                    district=row[0],
-                    school=row[1],
-                    enrollmentnum=int(row[2]),  
-                    years=row[3]
-                )
-                print(f"Added enrollment: {row}")
-            except ValueError as e:
-                print(f"Error adding enrollment from row {row}: {e}")
-            except Exception as e:
-                print(f"Unexpected error: {e}")
+            enrollment.objects.create(
+                district=row[0],
+                school=row[1],
+                enrollmentnum=int(row[2]),  
+                years=row[3]
+            )
 
 if __name__ == "__main__":
     add_data()
