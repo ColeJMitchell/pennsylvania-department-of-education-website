@@ -78,22 +78,33 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-2 d-flex flex-column justify-content-between align-items-center sidebar">
-                <form method="post" action="{% url 'home' %}">
-                    {% csrf_token %}
-                    <button type="submit" class="btn" name="home">Home</button>
-                </form>
-                <form method="post" action="{% url 'comparison' %}">
-                    {% csrf_token %}
-                    <button type="submit" class="btn" name="comparison">Comparison</button>
-                </form>
-                <button type="submit" class="btn" name="map">Plot</button>
-                <form method="post" action="{% url 'map' %}">
-                    {% csrf_token %}
-                    <button type="submit" class="btn" name="map">Map</button>
-                </form>
+            <!-- First 2 Col. Sidebar-->
+            <div class="col-2 d-flex flex-column justify-content-center align-items-center sidebar bg-dark" style="height: 100vh;">
+              <!-- Home Button -->
+              <form method="post" action="{% url 'home' %}" class="w-100 m-auto">
+                  {% csrf_token %}
+                  <button type="submit" class="btn btn-dark m-auto p-3 w-100" >Home</button>
+              </form>
+  
+              <!-- Comparison Button -->
+              <form method="post" action="{% url 'plot' %}" class="w-100 m-auto">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-dark m-auto p-3 w-100">Comparison</button>
+              </form>
+  
+              <!-- Plot Button -->
+              <div class="btn btn-dark m-auto p-3 w-100">
+                Plot
+              </div>
+  
+              <!-- Map Button -->
+              <form method="post" action="{% url 'map' %}" class="w-100 m-auto">
+                  {% csrf_token %}
+                  <button type="submit" class="btn btn-dark m-auto p-3 w-100">Map</button>
+              </form>
             </div>
 
+            <!-- Rest of Page-->
             <div class="col-10" style="height: 100px; padding-left: 75px; padding-right: 75px;">
                 
               <div class="navbar-container d-flex justify-content-between" style="height: 100px; padding-left: 75px; padding-right: 75px;">
@@ -144,6 +155,7 @@
                             <li onclick="changeDistrict('Yough School District')" style="margin-left: 10px;">Yough School District</li>
                             <li><hr class="dropdown-divider"></li>
                             <li onclick="changeDistrict('Philadelphia City SD')" style="margin-left: 10px;">Philadelphia City SD</li>
+
                             <li><hr class="dropdown-divider"></li>
                             <li onclick="changeDistrict('district C')" style="margin-left: 10px;">District C</li>
                             <li><hr class="dropdown-divider"></li>

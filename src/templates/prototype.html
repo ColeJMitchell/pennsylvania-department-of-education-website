@@ -1,3 +1,5 @@
+<!-- HOME PAGE-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,22 +63,36 @@
 </head>
 <body>
     <div class="container-fluid">
+
         <div class="row">
-            <div class="col-2 d-flex flex-column justify-content-between align-items-center sidebar">
-                <div class="btn">Home</div>
-                <form method="post" action="{% url 'comparison' %}">
+
+            <!-- First 2 Col. Sidebar-->
+            <div class="col-2 d-flex flex-column justify-content-center align-items-center sidebar bg-dark" style="height: 100vh;">
+                <!-- Home Button -->
+                <div class="btn btn-dark m-auto p-3 w-100">
+                    Home
+                </div>
+    
+                <!-- Comparison Button -->
+                <form method="post" action="{% url 'comparison' %}" class="w-100 m-auto">
                     {% csrf_token %}
-                    <button type="submit" class="btn" name="comparison">Comparison</button>
+                    <button type="submit" class="btn btn-dark m-auto p-3 w-100">Comparison</button>
                 </form>
-                <form method="post" action="{% url 'plot' %}">
+    
+                <!-- Plot Button -->
+                <form method="post" action="{% url 'plot' %}" class="w-100 m-auto">
                     {% csrf_token %}
-                    <button type="submit" class="btn" name="plot">Plot</button>
+                    <button type="submit" class="btn btn-dark m-auto p-3 w-100">Plot</button>
                 </form>
-                <form method="post" action="{% url 'map' %}">
+    
+                <!-- Map Button -->
+                <form method="post" action="{% url 'map' %}" class="w-100 m-auto">
                     {% csrf_token %}
-                    <button type="submit" class="btn" name="map">Map</button>
+                    <button type="submit" class="btn btn-dark m-auto p-3 w-100">Map</button>
                 </form>
             </div>
+
+
             <div class="col-10" style="padding: 0;">
                 {%load static%}
                 <img src="{% static 'bricks.jpg' %}" alt="Image of bricks" class="full-width-image">
