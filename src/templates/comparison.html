@@ -92,26 +92,26 @@
         <div class="row">
             <div class="col-2 d-flex flex-column justify-content-center align-items-center sidebar bg-light" style="height: 100vh;">
                 <!-- Home Button -->
-                <form method="post" action="{% url 'home' %}" class="w-100">
+                <form method="post" action="{% url 'home' %}" class="w-100 m-auto">
                     {% csrf_token %}
-                    <button type="submit" class="btn btn-dark mb-auto p-3 w-100" >Home</button>
+                    <button type="submit" class="btn btn-dark m-auto p-3 w-100" >Home</button>
                 </form>
     
                 <!-- Comparison Button -->
-                <div class="btn btn-dark mb-auto p-3 w-100">
+                <div class="btn btn-dark m-auto p-3 w-100">
                     Comparison
                 </div>
     
                 <!-- Plot Button -->
-                <form method="post" action="{% url 'plot' %}" class="w-100">
+                <form method="post" action="{% url 'plot' %}" class="w-100 m-auto">
                     {% csrf_token %}
-                    <button type="submit" class="btn btn-dark mb-auto p-3 w-100">Plot</button>
+                    <button type="submit" class="btn btn-dark m-auto p-3 w-100">Plot</button>
                 </form>
     
                 <!-- Map Button -->
-                <form method="post" action="{% url 'map' %}" class="w-100">
+                <form method="post" action="{% url 'map' %}" class="w-100 m-auto">
                     {% csrf_token %}
-                    <button type="submit" class="btn btn-dark p-3 w-100">Map</button>
+                    <button type="submit" class="btn btn-dark m-auto p-3 w-100">Map</button>
                 </form>
 
             </div>

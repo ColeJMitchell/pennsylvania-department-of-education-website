@@ -19,10 +19,28 @@ def plot_page(request):
         school_submit = request.POST.get('school_submit')
         county_submit = request.POST.get('county_submit')
         year_submit = request.POST.get('year_submit')
-        data = enrollment.objects.filter(school=school_submit, district=county_submit, years=year_submit)
-        print(school_submit, county_submit, year_submit)
+        if school_submit != "Select Schools" and county_submit == "Select County" and year_submit == "Select Years":
+            data = enrollment.objects.filter(school=school_submit)
+        elif school_submit == "Select Schools" and county_submit != "Select County" and year_submit == "Select Years":
+            data = enrollment.objects.filter(district=county_submit)
+        elif school_submit == "Select Schools" and county_submit == "Select County" and year_submit != "Select Years":
+            data = enrollment.objects.filter(years=year_submit)
+        elif school_submit != "Select Schools" and county_submit != "Select County" and year_submit == "Select Years":
+            data = enrollment.objects.filter(school=school_submit, district=county_submit)
+        elif school_submit != "Select Schools" and county_submit == "Select County" and year_submit != "Select Years":
+            data = enrollment.objects.filter(school=school_submit, years=year_submit)
+        elif school_submit == "Select Schools" and county_submit != "Select County" and year_submit != "Select Years":
+            data = enrollment.objects.filter(district=county_submit, years=year_submit)
+        elif school_submit != "Select Schools" and county_submit != "Select County" and year_submit != "Select Years":
+            data = enrollment.objects.filter(school=school_submit, district=county_submit, years=year_submit)
+        else:
+            return render(request, "plot.html", {})
+
         context = {
-            'enrollment': data
+            'enrollment': data,
+            'school_submit': school_submit,
+            'county_submit': county_submit,
+            'year_submit': year_submit,
         }
         return render(request, "plot.html", context)
 

@@ -52,12 +52,12 @@
         .navbar-nav .nav-link {
             font-size: 18px; 
             border: 2px solid black;
-            width: 166px;
+            width: 300px;
         }
 
         .dropdown-menu {
             border: 2px solid black;
-            width: 166px;
+            width: 200px;
         }
         
         .dropdown-item {
@@ -106,16 +106,20 @@
                         <ul class="navbar-nav">
                           <li class="nav-item dropdown d-flex">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="dropdown">
-                              Select a School
+                              {% if school_submit %}
+                              {{ school_submit }}
+                              {% else %}
+                              Select School
+                              {% endif %}
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="schoolsDropdown">
-                              <li onclick="changeSchool('School A')">School A</li>
+                              <li onclick="changeSchool('Yough SHS')" style="margin-left: 10px;">Yough SHS</li>
                               <li><hr class="dropdown-divider"></li>
-                              <li onclick="changeSchool('School B')">School B</li>
+                              <li onclick="changeSchool('School B')" style="margin-left: 10px;">School B</li>
                               <li><hr class="dropdown-divider"></li>
-                              <li onclick="changeSchool('School C')">School C</li>
+                              <li onclick="changeSchool('School C')" style="margin-left: 10px;">School C</li>
                               <li><hr class="dropdown-divider"></li>
-                              <li onclick="changeSchool('Yough SHS')">Yough SHS</li>
+                              <li onclick="changeSchool('Select School')" style="margin-left: 10px;">Reset</li>
                             </ul>
                           </li>
                         </ul>
@@ -130,16 +134,20 @@
                       <ul class="navbar-nav">
                         <li class="nav-item dropdown d-flex">
                           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="dropdown2">
-                            Select a District
+                            {% if county_submit %}
+                            {{ county_submit }}
+                            {% else %}
+                              Select District
+                            {% endif %}
                           </a>
                           <ul class="dropdown-menu" aria-labelledby="schoolsDropdown">
-                            <li onclick="changeCounty('County A')">County A</li>
+                            <li onclick="changeCounty('Yough School District')" style="margin-left: 10px;">Yough School District</li>
                             <li><hr class="dropdown-divider"></li>
-                            <li onclick="changeCounty('County B')">County B</li>
+                            <li onclick="changeCounty('County B')" style="margin-left: 10px;">County B</li>
                             <li><hr class="dropdown-divider"></li>
-                            <li onclick="changeCounty('County C')">County C</li>
+                            <li onclick="changeCounty('County C')" style="margin-left: 10px;">County C</li>
                             <li><hr class="dropdown-divider"></li>
-                            <li onclick="changeCounty('Yough School District')">Yough School District</li>
+                            <li onclick="changeCounty('Select District')" style="margin-left: 10px;">Reset</li>
                           </ul>
                         </li>
                       </ul>
@@ -154,16 +162,20 @@
                       <ul class="navbar-nav">
                         <li class="nav-item dropdown d-flex">
                           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="dropdown3">
-                            Select a Year
+                            {% if year_submit %}
+                            {{ year_submit }}
+                            {% else %}
+                              Select Year
+                            {% endif %}
                           </a>
                           <ul class="dropdown-menu" aria-labelledby="schoolsDropdown">
-                            <li onclick="changeYear('2014-2015')">Year 2014-2015</li>
+                            <li onclick="changeYear('2014-2015')" style="margin-left: 10px;">Year 2014-2015</li>
                             <li><hr class="dropdown-divider"></li>
-                            <li onclick="changeYear('2015-2016')">Year 2015-2016</li>
+                            <li onclick="changeYear('2015-2016')" style="margin-left: 10px;">Year 2015-2016</li>
                             <li><hr class="dropdown-divider"></li>
-                            <li onclick="changeYear('2016-2017')">Year 2016-2017</li>
+                            <li onclick="changeYear('2017-2018')" style="margin-left: 10px;">Year 2017-2018</li>
                             <li><hr class="dropdown-divider"></li>
-                            <li onclick="changeYear('2017-2018')">Year 2017-2018</li>
+                            <li onclick="changeYear('Select Year')" style="margin-left: 10px;">Reset</li>
                           </ul>
                         </li>
                       </ul>
@@ -206,9 +218,9 @@
         </div>
     </div>
     <script>
-        let school_submit = null;
-        let county_submit = null;
-        let year_submit = null;
+        let school_submit = "{{ school_submit|default:'Select School' }}";
+        let county_submit = "{{ county_submit|default:'Select County' }}";
+        let year_submit = "{{ year_submit|default:'Select Years' }}";
         function changeSchool(school) {
             document.getElementById("dropdown").textContent = school;
             school_submit = school;
@@ -225,12 +237,12 @@
             checkSubmit();
         }
         function checkSubmit() {
-                if (school_submit != null && county_submit != null && year_submit != null) {
+                if (school_submit !== null || county_submit !== null || year_submit !== null) {
                 document.getElementById("school_submit_id").value = school_submit;
                 document.getElementById("county_submit_id").value = county_submit;
                 document.getElementById("year_submit_id").value = year_submit;
                 document.getElementById("submission").submit();
-            }
+                }
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -238,3 +250,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>
+
