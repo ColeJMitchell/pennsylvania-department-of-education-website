@@ -17,35 +17,32 @@ def map_page(request):
 def plot_page(request):
     if request.method == "POST":
         school_submit = request.POST.get('school_submit')
-        county_submit = request.POST.get('county_submit')
+        district_submit = request.POST.get('district_submit')
         year_submit = request.POST.get('year_submit')
-        if school_submit != "Select Schools" and county_submit == "Select County" and year_submit == "Select Years":
-            data = enrollment.objects.filter(school=school_submit)
-        elif school_submit == "Select Schools" and county_submit != "Select County" and year_submit == "Select Years":
-            data = enrollment.objects.filter(district=county_submit)
-        elif school_submit == "Select Schools" and county_submit == "Select County" and year_submit != "Select Years":
-            data = enrollment.objects.filter(years=year_submit)
-        elif school_submit != "Select Schools" and county_submit != "Select County" and year_submit == "Select Years":
-            data = enrollment.objects.filter(school=school_submit, district=county_submit)
-        elif school_submit != "Select Schools" and county_submit == "Select County" and year_submit != "Select Years":
-            data = enrollment.objects.filter(school=school_submit, years=year_submit)
-        elif school_submit == "Select Schools" and county_submit != "Select County" and year_submit != "Select Years":
-            data = enrollment.objects.filter(district=county_submit, years=year_submit)
-        elif school_submit != "Select Schools" and county_submit != "Select County" and year_submit != "Select Years":
-            data = enrollment.objects.filter(school=school_submit, district=county_submit, years=year_submit)
+
+        filters = {}
+        if school_submit != "Select Schools":
+            filters['school'] = school_submit
+        if district_submit != "Select District":
+            filters['district'] = district_submit
+        if year_submit != "Select Years":
+            filters['years'] = year_submit
+
+        if filters:
+            data = enrollment.objects.filter(**filters)
         else:
-            return render(request, "plot.html", {})
+            data = None 
 
         context = {
             'enrollment': data,
             'school_submit': school_submit,
-            'county_submit': county_submit,
+            'district_submit': district_submit,
             'year_submit': year_submit,
         }
         return render(request, "plot.html", context)
-
     else:
         return render(request, "plot.html", {})
+
     
     
 def comparison_page(request):
