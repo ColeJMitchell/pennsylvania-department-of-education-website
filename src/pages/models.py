@@ -185,3 +185,11 @@ class districtPSSAStats(models.Model):
     percent_proficient = models.FloatField()
     percent_basic = models.FloatField()
     percent_below_basic = models.FloatField()
+
+
+class enrollment(models.Model):
+    district = models.CharField(max_length=100)
+    school = models.CharField(max_length=100)
+    enrollmentnum = models.IntegerField()
+    years = models.CharField(max_length=100)
+    
