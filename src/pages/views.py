@@ -23,7 +23,7 @@ def plot_page(request):
         filters = {}
         if school_submit != "Select Schools":
             filters['school'] = school_submit
-        if district_submit != "Select District":
+        if district_submit != "Select Districts":
             filters['district'] = district_submit
         if year_submit != "Select Years":
             filters['years'] = year_submit
@@ -39,6 +39,8 @@ def plot_page(request):
             'district_submit': district_submit,
             'year_submit': year_submit,
         }
+        print("Filters:", filters)
+        print("Data:", data)
         return render(request, "plot.html", context)
     else:
         return render(request, "plot.html", {})

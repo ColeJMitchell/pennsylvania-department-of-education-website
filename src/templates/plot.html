@@ -104,7 +104,7 @@
               </form>
             </div>
 
-            <!-- Rest of Page-->
+            <!-- Drop Down Bars and Submit Form-->
             <div class="col-10" style="height: 100px; padding-left: 75px; padding-right: 75px;">
                 
               <div class="navbar-container d-flex justify-content-between" style="height: 100px; padding-left: 75px; padding-right: 75px;">
@@ -126,11 +126,11 @@
                             <ul class="dropdown-menu" aria-labelledby="schoolsDropdown">
                               <li onclick="changeSchool('Yough SHS')" style="margin-left: 10px;">Yough SHS</li>
                               <li><hr class="dropdown-divider"></li>
-                              <li onclick="changeSchool('School B')" style="margin-left: 10px;">School B</li>
+                              <li onclick="changeSchool('Lincoln HS')" style="margin-left: 10px;">Lincoln HS</li>
                               <li><hr class="dropdown-divider"></li>
-                              <li onclick="changeSchool('School C')" style="margin-left: 10px;">School C</li>
+                              <li onclick="changeSchool('Holicong MS')" style="margin-left: 10px;">Holicong MS</li>
                               <li><hr class="dropdown-divider"></li>
-                              <li onclick="changeSchool('Select School')" style="margin-left: 10px;">Reset</li>
+                              <li onclick="changeSchool('Select Schools')" style="margin-left: 10px;">Reset</li>
                             </ul>
                           </li>
                         </ul>
@@ -157,9 +157,9 @@
                             <li onclick="changeDistrict('Philadelphia City SD')" style="margin-left: 10px;">Philadelphia City SD</li>
 
                             <li><hr class="dropdown-divider"></li>
-                            <li onclick="changeDistrict('district C')" style="margin-left: 10px;">District C</li>
+                            <li onclick="changeDistrict('Central Bucks SD')" style="margin-left: 10px;">Central Bucks SD</li>
                             <li><hr class="dropdown-divider"></li>
-                            <li onclick="changeDistrict('Select District')" style="margin-left: 10px;">Reset</li>
+                            <li onclick="changeDistrict('Select Districts')" style="margin-left: 10px;">Reset</li>
                           </ul>
                         </li>
                       </ul>
@@ -181,11 +181,11 @@
                             {% endif %}
                           </a>
                           <ul class="dropdown-menu" aria-labelledby="schoolsDropdown">
-                            <li onclick="changeYear('2014-2015')" style="margin-left: 10px;">Year 2014-2015</li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li onclick="changeYear('2015-2016')" style="margin-left: 10px;">Year 2015-2016</li>
-                            <li><hr class="dropdown-divider"></li>
                             <li onclick="changeYear('2017-2018')" style="margin-left: 10px;">Year 2017-2018</li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li onclick="changeYear('2018-2019')" style="margin-left: 10px;">Year 2018-2019</li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li onclick="changeYear('2020-2021')" style="margin-left: 10px;">Year 2020-2021</li>
                             <li><hr class="dropdown-divider"></li>
                             <li onclick="changeYear('Select Years')" style="margin-left: 10px;">Reset</li>
                           </ul>
@@ -196,7 +196,7 @@
 
               </div>
 
-                <div class="table-container">
+                <div class="table-container" style="overflow-y: auto; max-height: 800px;">
                   <table class="table table-bordered" style="border-width: 5px; border-style: solid; border-color: black;">
                       <thead>
                           <tr>
@@ -231,7 +231,7 @@
     </div>
     <script>
         let school_submit = "{{ school_submit|default:'Select Schools' }}";
-        let district_submit = "{{ district_submit|default:'Select District' }}";
+        let district_submit = "{{ district_submit|default:'Select Districts' }}";
         let year_submit = "{{ year_submit|default:'Select Years' }}";
         function changeSchool(school) {
             document.getElementById("dropdown").textContent = school;
@@ -262,4 +262,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>
-
