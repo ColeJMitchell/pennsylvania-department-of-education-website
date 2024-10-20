@@ -302,12 +302,14 @@
                           </tr>
                       </thead>
                       <tbody>
-                          {% for row in enrollment1 %}
+                         
                               <tr>
+                                {% for row in enrollment1 %}
                                   <td>{{ row.school }}</td>
                                   <td>{{ row.district }}</td>
                                   <td>{{ row.years }}</td>
                                   <td>{{ row.enrollmentnum }}</td>
+                                {% endfor %}
                                   {% for row2 in enrollment2 %}
                                     <td>{{ row2.school2 }}</td>
                                     <td>{{ row2.district2 }}</td>
@@ -315,7 +317,6 @@
                                     <td>{{ row2.enrollmentnum2 }}</td>
                                   {% endfor %}
                               </tr>
-                          {% endfor %}
                       </tbody>
                   </table>
               </div>
