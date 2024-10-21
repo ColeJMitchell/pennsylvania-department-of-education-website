@@ -206,7 +206,7 @@
                             {% if school_submit2 %}
                             {{ school_submit2 }}
                             {% else %}
-                            Select School 2
+                            Select Schools 2
                             {% endif %}
                           </a>
                           <ul class="dropdown-menu" aria-labelledby="schoolsDropdown">
@@ -234,7 +234,7 @@
                           {% if district_submit2 %}
                           {{ district_submit2 }}
                           {% else %}
-                            Select District 2
+                            Select Districts 2
                           {% endif %}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="schoolsDropdown">
@@ -302,21 +302,24 @@
                           </tr>
                       </thead>
                       <tbody>
-                         
+                          {% for row in enrollment1 %}
                               <tr>
-                                {% for row in enrollment1 %}
                                   <td>{{ row.school }}</td>
                                   <td>{{ row.district }}</td>
                                   <td>{{ row.years }}</td>
                                   <td>{{ row.enrollmentnum }}</td>
-                                {% endfor %}
-                                  {% for row2 in enrollment2 %}
+                              </tr>
+                          {% endfor %}
+
+                            {% for row2 in enrollment2 %}
+                                <tr>
                                     <td>{{ row2.school2 }}</td>
                                     <td>{{ row2.district2 }}</td>
                                     <td>{{ row2.years2 }}</td>
                                     <td>{{ row2.enrollmentnum2 }}</td>
-                                  {% endfor %}
-                              </tr>
+                                </tr>
+                            {% endfor %}
+
                       </tbody>
                   </table>
               </div>
@@ -327,18 +330,10 @@
                 <input type="hidden" id="school_submit_id" name="school_submit">
                 <input type="hidden" id="district_submit_id" name="district_submit">
                 <input type="hidden" id="year_submit_id" name="year_submit">
-              </form>
-
-              <form method="post" action="{% url 'comparison' %}" id="submission2">
-                {% csrf_token %}
                 <input type="hidden" id="school_submit_id2" name="school_submit2">
                 <input type="hidden" id="district_submit_id2" name="district_submit2">
                 <input type="hidden" id="year_submit_id2" name="year_submit2">
               </form>
-
-
-
-
             </div>
         </div>
     </div>
@@ -367,15 +362,6 @@
             year_submit = year;
             checkSubmit();
         }
-        function checkSubmit() {
-        if (school_submit !== "Select Schools" || district_submit !== "Select District" || year_submit !== "Select Years") {
-          document.getElementById("school_submit_id").value = school_submit;
-          document.getElementById("district_submit_id").value = district_submit;
-          document.getElementById("year_submit_id").value = year_submit;
-          document.getElementById("submission").submit();
-        }
-        }
-
 
         function changeSchool2(school) {
             document.getElementById("dropdown4").textContent = school;
@@ -393,12 +379,15 @@
             checkSubmit2();
         }
 
-        function checkSubmit2() {
-        if (school_submit2 !== "Select Schools 2" || district_submit2 !== "Select District 2" || year_submit2 !== "Select Years 2") {
+        function checkSubmit() {
+        if (school_submit2 !== "Select Schools 2" || district_submit2 !== "Select District 2" || year_submit2 !== "Select Years 2" ||  school_submit !== "Select Schools" || district_submit !== "Select District" || year_submit !== "Select Years") {
           document.getElementById("school_submit_id2").value = school_submit2;
           document.getElementById("district_submit_id2").value = district_submit2;
           document.getElementById("year_submit_id2").value = year_submit2;
-          document.getElementById("submission2").submit();
+          document.getElementById("school_submit_id").value = school_submit;
+          document.getElementById("district_submit_id").value = district_submit;
+          document.getElementById("year_submit_id").value = year_submit;
+          document.getElementById("submission").submit();
         }
         }
 
