@@ -6,9 +6,9 @@ import itertools
 # Create your views here.
 def home_page(request):
     if request.method == "POST":
-        return render(request, "prototype.html", {})
+        return render(request, "home.html", {})
     else:
-        return render(request, "prototype.html", {})
+        return render(request, "home.html", {})
 
 def map_page(request):
     api_key = settings.MAP_API_KEY
@@ -21,7 +21,7 @@ def plot_page(request):
         district_submit = request.POST.get('district_submit')
         year_submit = request.POST.get('year_submit')
 
-
+        #Filters that were selected in the front end
         filters = {}
         if school_submit != "Select Schools":
             filters['school'] = school_submit
@@ -34,7 +34,7 @@ def plot_page(request):
             data = enrollment.objects.filter(**filters)
         else:
             data = None 
-
+        # Create context
         context = {
             'enrollment': data,
             'school_submit': school_submit,
