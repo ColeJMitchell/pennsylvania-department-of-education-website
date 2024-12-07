@@ -34,12 +34,12 @@ UPPER ADAMS SD,Biology,All Students,99,51.5,28.3,14.1,6.1,2016
 UPPER ADAMS SD,Biology,Historically Underperforming,43,39.5,23.3,23.3,14,2016
 UPPER ADAMS SD,Literature,All Students,101,7.9,69.3,16.8,5.9,2016
 UPPER ADAMS SD,Literature,Historically Underperforming,45,6.7,60,20,13.3,2016
-A W BEATTIE CAREER CENTER,Algebra I,All Students,10,,,,,2016
-A W BEATTIE CAREER CENTER,Algebra I,Historically Underperforming,7,,,,,2016
+A W BEATTIE CAREER CENTER,Algebra I,All Students,10,NULL,NULL,NULL,NULL,2016
+A W BEATTIE CAREER CENTER,Algebra I,Historically Underperforming,7,NULL,NULL,NULL,NULL,2016
 A W BEATTIE CAREER CENTER,Biology,All Students,12,0,16.7,58.3,25,2016
-A W BEATTIE CAREER CENTER,Biology,Historically Underperforming,8,,,,,2016
-A W BEATTIE CAREER CENTER,Literature,All Students,10,,,,,2016
-A W BEATTIE CAREER CENTER,Literature,Historically Underperforming,7,,,,,2016
+A W BEATTIE CAREER CENTER,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
+A W BEATTIE CAREER CENTER,Literature,All Students,10,NULL,NULL,NULL,NULL,2016
+A W BEATTIE CAREER CENTER,Literature,Historically Underperforming,7,NULL,NULL,NULL,NULL,2016
 ACADEMY CHARTER SCHOOL,Algebra I,All Students,30,0,0,33.3,66.7,2016
 ACADEMY CHARTER SCHOOL,Algebra I,Historically Underperforming,27,0,0,37,63,2016
 ACADEMY CHARTER SCHOOL,Biology,All Students,30,0,0,3.3,96.7,2016
@@ -172,12 +172,12 @@ MCKEESPORT AREA SD,Biology,All Students,211,17.5,26.1,28,28.4,2016
 MCKEESPORT AREA SD,Biology,Historically Underperforming,143,12.6,25.2,28,34.3,2016
 MCKEESPORT AREA SD,Literature,All Students,214,6.1,52.3,32.2,9.3,2016
 MCKEESPORT AREA SD,Literature,Historically Underperforming,146,3.4,47.9,35.6,13,2016
-MCKEESPORT AREA TECH CTR,Algebra I,All Students,7,,,,,2016
-MCKEESPORT AREA TECH CTR,Algebra I,Historically Underperforming,5,,,,,2016
-MCKEESPORT AREA TECH CTR,Biology,All Students,7,,,,,2016
-MCKEESPORT AREA TECH CTR,Biology,Historically Underperforming,6,,,,,2016
-MCKEESPORT AREA TECH CTR,Literature,All Students,8,,,,,2016
-MCKEESPORT AREA TECH CTR,Literature,Historically Underperforming,7,,,,,2016
+MCKEESPORT AREA TECH CTR,Algebra I,All Students,7,NULL,NULL,NULL,NULL,2016
+MCKEESPORT AREA TECH CTR,Algebra I,Historically Underperforming,5,NULL,NULL,NULL,NULL,2016
+MCKEESPORT AREA TECH CTR,Biology,All Students,7,NULL,NULL,NULL,NULL,2016
+MCKEESPORT AREA TECH CTR,Biology,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
+MCKEESPORT AREA TECH CTR,Literature,All Students,8,NULL,NULL,NULL,NULL,2016
+MCKEESPORT AREA TECH CTR,Literature,Historically Underperforming,7,NULL,NULL,NULL,NULL,2016
 MONTOUR SD,Algebra I,All Students,244,20.1,64.3,12.7,2.9,2016
 MONTOUR SD,Algebra I,Historically Underperforming,69,14.5,49.3,27.5,8.7,2016
 MONTOUR SD,Biology,All Students,244,38.9,44.7,11.9,4.5,2016
@@ -220,12 +220,12 @@ PA DISTANCE LEARNING CS,Biology,All Students,35,11.4,37.1,25.7,25.7,2016
 PA DISTANCE LEARNING CS,Biology,Historically Underperforming,13,7.7,15.4,23.1,53.8,2016
 PA DISTANCE LEARNING CS,Literature,All Students,35,2.9,57.1,31.4,8.6,2016
 PA DISTANCE LEARNING CS,Literature,Historically Underperforming,13,0,30.8,53.8,15.4,2016
-PARKWAY WEST AVTS,Algebra I,All Students,4,,,,,2016
-PARKWAY WEST AVTS,Algebra I,Historically Underperforming,2,,,,,2016
-PARKWAY WEST AVTS,Biology,All Students,4,,,,,2016
-PARKWAY WEST AVTS,Biology,Historically Underperforming,2,,,,,2016
-PARKWAY WEST AVTS,Literature,All Students,3,,,,,2016
-PARKWAY WEST AVTS,Literature,Historically Underperforming,1,,,,,2016
+PARKWAY WEST AVTS,Algebra I,All Students,4,NULL,NULL,NULL,NULL,2016
+PARKWAY WEST AVTS,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+PARKWAY WEST AVTS,Biology,All Students,4,NULL,NULL,NULL,NULL,2016
+PARKWAY WEST AVTS,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+PARKWAY WEST AVTS,Literature,All Students,3,NULL,NULL,NULL,NULL,2016
+PARKWAY WEST AVTS,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
 PENN HILLS SD,Algebra I,All Students,303,7.6,33,40.6,18.8,2016
 PENN HILLS SD,Algebra I,Historically Underperforming,170,5.3,27.1,42.4,25.3,2016
 PENN HILLS SD,Biology,All Students,303,13.9,31.4,27.4,27.4,2016
@@ -352,18 +352,18 @@ SOUTH PARK SD,Biology,All Students,144,38.2,38.9,13.2,9.7,2016
 SOUTH PARK SD,Biology,Historically Underperforming,45,20,35.6,15.6,28.9,2016
 SOUTH PARK SD,Literature,All Students,144,8.3,76.4,10.4,4.9,2016
 SOUTH PARK SD,Literature,Historically Underperforming,45,6.7,57.8,20,15.6,2016
-SPECTRUM CS,Algebra I,All Students,2,,,,,2016
-SPECTRUM CS,Algebra I,Historically Underperforming,2,,,,,2016
-SPECTRUM CS,Biology,All Students,1,,,,,2016
-SPECTRUM CS,Biology,Historically Underperforming,1,,,,,2016
-SPECTRUM CS,Literature,All Students,1,,,,,2016
-SPECTRUM CS,Literature,Historically Underperforming,1,,,,,2016
-STEEL CENTER AVTS,Algebra I,All Students,6,,,,,2016
-STEEL CENTER AVTS,Algebra I,Historically Underperforming,6,,,,,2016
-STEEL CENTER AVTS,Biology,All Students,6,,,,,2016
-STEEL CENTER AVTS,Biology,Historically Underperforming,6,,,,,2016
-STEEL CENTER AVTS,Literature,All Students,5,,,,,2016
-STEEL CENTER AVTS,Literature,Historically Underperforming,5,,,,,2016
+SPECTRUM CS,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2016
+SPECTRUM CS,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+SPECTRUM CS,Biology,All Students,1,NULL,NULL,NULL,NULL,2016
+SPECTRUM CS,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+SPECTRUM CS,Literature,All Students,1,NULL,NULL,NULL,NULL,2016
+SPECTRUM CS,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+STEEL CENTER AVTS,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2016
+STEEL CENTER AVTS,Algebra I,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
+STEEL CENTER AVTS,Biology,All Students,6,NULL,NULL,NULL,NULL,2016
+STEEL CENTER AVTS,Biology,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
+STEEL CENTER AVTS,Literature,All Students,5,NULL,NULL,NULL,NULL,2016
+STEEL CENTER AVTS,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2016
 STEEL VALLEY SD,Algebra I,All Students,103,3.9,48.5,35,12.6,2016
 STEEL VALLEY SD,Algebra I,Historically Underperforming,80,5,45,36.3,13.8,2016
 STEEL VALLEY SD,Biology,All Students,104,4.8,41.3,23.1,30.8,2016
@@ -472,12 +472,12 @@ BEAVER AREA SD,Biology,All Students,169,42.6,43.2,10.1,4.1,2016
 BEAVER AREA SD,Biology,Historically Underperforming,27,25.9,40.7,18.5,14.8,2016
 BEAVER AREA SD,Literature,All Students,166,11.4,80.7,6.6,1.2,2016
 BEAVER AREA SD,Literature,Historically Underperforming,25,8,72,16,4,2016
-BEAVER COUNTY AVTS,Algebra I,All Students,6,,,,,2016
-BEAVER COUNTY AVTS,Algebra I,Historically Underperforming,3,,,,,2016
-BEAVER COUNTY AVTS,Biology,All Students,7,,,,,2016
-BEAVER COUNTY AVTS,Biology,Historically Underperforming,4,,,,,2016
-BEAVER COUNTY AVTS,Literature,All Students,7,,,,,2016
-BEAVER COUNTY AVTS,Literature,Historically Underperforming,4,,,,,2016
+BEAVER COUNTY AVTS,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2016
+BEAVER COUNTY AVTS,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
+BEAVER COUNTY AVTS,Biology,All Students,7,NULL,NULL,NULL,NULL,2016
+BEAVER COUNTY AVTS,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
+BEAVER COUNTY AVTS,Literature,All Students,7,NULL,NULL,NULL,NULL,2016
+BEAVER COUNTY AVTS,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
 BIG BEAVER FALLS AREA SD,Algebra I,All Students,116,10.3,49.1,28.4,12.1,2016
 BIG BEAVER FALLS AREA SD,Algebra I,Historically Underperforming,77,7.8,37.7,37.7,16.9,2016
 BIG BEAVER FALLS AREA SD,Biology,All Students,115,7,39.1,27,27,2016
@@ -557,11 +557,11 @@ BEDFORD AREA SD,Biology,Historically Underperforming,73,20.5,32.9,27.4,19.2,2016
 BEDFORD AREA SD,Literature,All Students,151,7.3,64.2,21.2,7.3,2016
 BEDFORD AREA SD,Literature,Historically Underperforming,72,5.6,51.4,31.9,11.1,2016
 BEDFORD CO TECHNICAL CENTER,Algebra I,All Students,21,0,57.1,42.9,0,2016
-BEDFORD CO TECHNICAL CENTER,Algebra I,Historically Underperforming,8,,,,,2016
+BEDFORD CO TECHNICAL CENTER,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
 BEDFORD CO TECHNICAL CENTER,Biology,All Students,20,0,55,35,10,2016
-BEDFORD CO TECHNICAL CENTER,Biology,Historically Underperforming,7,,,,,2016
+BEDFORD CO TECHNICAL CENTER,Biology,Historically Underperforming,7,NULL,NULL,NULL,NULL,2016
 BEDFORD CO TECHNICAL CENTER,Literature,All Students,22,0,77.3,18.2,4.5,2016
-BEDFORD CO TECHNICAL CENTER,Literature,Historically Underperforming,9,,,,,2016
+BEDFORD CO TECHNICAL CENTER,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2016
 CHESTNUT RIDGE SD,Algebra I,All Students,117,11.1,64.1,19.7,5.1,2016
 CHESTNUT RIDGE SD,Algebra I,Historically Underperforming,59,3.4,54.2,32.2,10.2,2016
 CHESTNUT RIDGE SD,Biology,All Students,116,11.2,53.4,28.4,6.9,2016
@@ -598,18 +598,18 @@ ANTIETAM SD,Biology,All Students,60,15,48.3,25,11.7,2016
 ANTIETAM SD,Biology,Historically Underperforming,33,12.1,33.3,36.4,18.2,2016
 ANTIETAM SD,Literature,All Students,59,3.4,66.1,23.7,6.8,2016
 ANTIETAM SD,Literature,Historically Underperforming,32,3.1,53.1,34.4,9.4,2016
-BERKS CTC,Algebra I,All Students,4,,,,,2016
-BERKS CTC,Algebra I,Historically Underperforming,3,,,,,2016
-BERKS CTC,Biology,All Students,3,,,,,2016
-BERKS CTC,Biology,Historically Underperforming,2,,,,,2016
-BERKS CTC,Literature,All Students,4,,,,,2016
-BERKS CTC,Literature,Historically Underperforming,3,,,,,2016
-BERKS CTC,Algebra I,All Students,6,,,,,2016
-BERKS CTC,Algebra I,Historically Underperforming,4,,,,,2016
-BERKS CTC,Biology,All Students,4,,,,,2016
-BERKS CTC,Biology,Historically Underperforming,3,,,,,2016
-BERKS CTC,Literature,All Students,7,,,,,2016
-BERKS CTC,Literature,Historically Underperforming,5,,,,,2016
+BERKS CTC,Algebra I,All Students,4,NULL,NULL,NULL,NULL,2016
+BERKS CTC,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
+BERKS CTC,Biology,All Students,3,NULL,NULL,NULL,NULL,2016
+BERKS CTC,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+BERKS CTC,Literature,All Students,4,NULL,NULL,NULL,NULL,2016
+BERKS CTC,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
+BERKS CTC,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2016
+BERKS CTC,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
+BERKS CTC,Biology,All Students,4,NULL,NULL,NULL,NULL,2016
+BERKS CTC,Biology,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
+BERKS CTC,Literature,All Students,7,NULL,NULL,NULL,NULL,2016
+BERKS CTC,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2016
 BOYERTOWN AREA SD,Algebra I,All Students,543,35.4,51,12.2,1.5,2016
 BOYERTOWN AREA SD,Algebra I,Historically Underperforming,165,18.8,50.3,26.1,4.8,2016
 BOYERTOWN AREA SD,Biology,All Students,542,37.8,45.9,14,2.2,2016
@@ -689,11 +689,11 @@ READING SD,Biology,Historically Underperforming,670,5.7,37.9,31.3,25.1,2016
 READING SD,Literature,All Students,668,1.8,59.9,27.4,10.9,2016
 READING SD,Literature,Historically Underperforming,668,1.8,59.9,27.4,10.9,2016
 READING-MUHLENBERG CTC,Algebra I,All Students,13,0,23.1,46.2,30.8,2016
-READING-MUHLENBERG CTC,Algebra I,Historically Underperforming,9,,,,,2016
+READING-MUHLENBERG CTC,Algebra I,Historically Underperforming,9,NULL,NULL,NULL,NULL,2016
 READING-MUHLENBERG CTC,Biology,All Students,15,0,6.7,26.7,66.7,2016
 READING-MUHLENBERG CTC,Biology,Historically Underperforming,11,0,9.1,27.3,63.6,2016
 READING-MUHLENBERG CTC,Literature,All Students,12,0,16.7,41.7,41.7,2016
-READING-MUHLENBERG CTC,Literature,Historically Underperforming,8,,,,,2016
+READING-MUHLENBERG CTC,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
 SCHUYLKILL VALLEY SD,Algebra I,All Students,143,16.1,57.3,23.8,2.8,2016
 SCHUYLKILL VALLEY SD,Algebra I,Historically Underperforming,43,9.3,34.9,48.8,7,2016
 SCHUYLKILL VALLEY SD,Biology,All Students,142,17.6,43,31,8.5,2016
@@ -730,12 +730,12 @@ ALTOONA AREA SD,Biology,All Students,514,18.3,45.9,26.8,8.9,2016
 ALTOONA AREA SD,Biology,Historically Underperforming,274,9.5,42.3,32.5,15.7,2016
 ALTOONA AREA SD,Literature,All Students,513,5.8,74.5,15.8,3.9,2016
 ALTOONA AREA SD,Literature,Historically Underperforming,274,2.2,67.2,23.4,7.3,2016
-ALTOONA AREA SD,Algebra I,All Students,2,,,,,2016
-ALTOONA AREA SD,Algebra I,Historically Underperforming,2,,,,,2016
-ALTOONA AREA SD,Biology,All Students,2,,,,,2016
-ALTOONA AREA SD,Biology,Historically Underperforming,2,,,,,2016
-ALTOONA AREA SD,Literature,All Students,2,,,,,2016
-ALTOONA AREA SD,Literature,Historically Underperforming,2,,,,,2016
+ALTOONA AREA SD,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2016
+ALTOONA AREA SD,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+ALTOONA AREA SD,Biology,All Students,2,NULL,NULL,NULL,NULL,2016
+ALTOONA AREA SD,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+ALTOONA AREA SD,Literature,All Students,2,NULL,NULL,NULL,NULL,2016
+ALTOONA AREA SD,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
 BELLWOOD-ANTIS SD,Algebra I,All Students,101,18.8,53.5,22.8,5,2016
 BELLWOOD-ANTIS SD,Algebra I,Historically Underperforming,41,12.2,53.7,22,12.2,2016
 BELLWOOD-ANTIS SD,Biology,All Students,101,26.7,45.5,18.8,8.9,2016
@@ -892,12 +892,12 @@ CTR STUDENT LEARNING CS - PENNSB,Biology,All Students,15,6.7,26.7,33.3,33.3,2016
 CTR STUDENT LEARNING CS - PENNSB,Biology,Historically Underperforming,11,9.1,27.3,27.3,36.4,2016
 CTR STUDENT LEARNING CS - PENNSB,Literature,All Students,15,0,46.7,40,13.3,2016
 CTR STUDENT LEARNING CS - PENNSB,Literature,Historically Underperforming,11,0,36.4,45.5,18.2,2016
-MIDDLE BUCKS INSTITUTE OF TECH,Algebra I,All Students,6,,,,,2016
-MIDDLE BUCKS INSTITUTE OF TECH,Algebra I,Historically Underperforming,5,,,,,2016
-MIDDLE BUCKS INSTITUTE OF TECH,Biology,All Students,7,,,,,2016
-MIDDLE BUCKS INSTITUTE OF TECH,Biology,Historically Underperforming,5,,,,,2016
-MIDDLE BUCKS INSTITUTE OF TECH,Literature,All Students,6,,,,,2016
-MIDDLE BUCKS INSTITUTE OF TECH,Literature,Historically Underperforming,4,,,,,2016
+MIDDLE BUCKS INSTITUTE OF TECH,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2016
+MIDDLE BUCKS INSTITUTE OF TECH,Algebra I,Historically Underperforming,5,NULL,NULL,NULL,NULL,2016
+MIDDLE BUCKS INSTITUTE OF TECH,Biology,All Students,7,NULL,NULL,NULL,NULL,2016
+MIDDLE BUCKS INSTITUTE OF TECH,Biology,Historically Underperforming,5,NULL,NULL,NULL,NULL,2016
+MIDDLE BUCKS INSTITUTE OF TECH,Literature,All Students,6,NULL,NULL,NULL,NULL,2016
+MIDDLE BUCKS INSTITUTE OF TECH,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
 MORRISVILLE BOROUGH SD,Algebra I,All Students,45,6.7,53.3,35.6,4.4,2016
 MORRISVILLE BOROUGH SD,Algebra I,Historically Underperforming,30,3.3,53.3,40,3.3,2016
 MORRISVILLE BOROUGH SD,Biology,All Students,46,8.7,39.1,37,15.2,2016
@@ -940,24 +940,24 @@ QUAKERTOWN COMMUNITY SD,Biology,All Students,404,41.6,41.8,12.9,3.7,2016
 QUAKERTOWN COMMUNITY SD,Biology,Historically Underperforming,124,17.7,44.4,25.8,12.1,2016
 QUAKERTOWN COMMUNITY SD,Literature,All Students,403,10.4,79.9,7.9,1.7,2016
 QUAKERTOWN COMMUNITY SD,Literature,Historically Underperforming,122,3.3,72.1,18.9,5.7,2016
-UPPER BUCKS CO AVTS,Algebra I,All Students,10,,,,,2016
-UPPER BUCKS CO AVTS,Algebra I,Historically Underperforming,6,,,,,2016
+UPPER BUCKS CO AVTS,Algebra I,All Students,10,NULL,NULL,NULL,NULL,2016
+UPPER BUCKS CO AVTS,Algebra I,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
 UPPER BUCKS CO AVTS,Biology,All Students,11,9.1,27.3,36.4,27.3,2016
-UPPER BUCKS CO AVTS,Biology,Historically Underperforming,6,,,,,2016
-UPPER BUCKS CO AVTS,Literature,All Students,10,,,,,2016
-UPPER BUCKS CO AVTS,Literature,Historically Underperforming,6,,,,,2016
+UPPER BUCKS CO AVTS,Biology,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
+UPPER BUCKS CO AVTS,Literature,All Students,10,NULL,NULL,NULL,NULL,2016
+UPPER BUCKS CO AVTS,Literature,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
 BUTLER AREA SD,Algebra I,All Students,520,24.6,60,12.1,3.3,2016
 BUTLER AREA SD,Algebra I,Historically Underperforming,173,14.5,53.2,23.1,9.2,2016
 BUTLER AREA SD,Biology,All Students,522,32,47.9,16.1,4,2016
 BUTLER AREA SD,Biology,Historically Underperforming,174,19.5,43.1,25.9,11.5,2016
 BUTLER AREA SD,Literature,All Students,524,11.6,76.7,10.5,1.1,2016
 BUTLER AREA SD,Literature,Historically Underperforming,175,4.6,69.1,23.4,2.9,2016
-BUTLER CO AVTS,Algebra I,All Students,2,,,,,2016
-BUTLER CO AVTS,Algebra I,Historically Underperforming,2,,,,,2016
-BUTLER CO AVTS,Biology,All Students,2,,,,,2016
-BUTLER CO AVTS,Biology,Historically Underperforming,2,,,,,2016
-BUTLER CO AVTS,Literature,All Students,2,,,,,2016
-BUTLER CO AVTS,Literature,Historically Underperforming,2,,,,,2016
+BUTLER CO AVTS,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2016
+BUTLER CO AVTS,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+BUTLER CO AVTS,Biology,All Students,2,NULL,NULL,NULL,NULL,2016
+BUTLER CO AVTS,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+BUTLER CO AVTS,Literature,All Students,2,NULL,NULL,NULL,NULL,2016
+BUTLER CO AVTS,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
 KARNS CITY AREA SD,Algebra I,All Students,123,5.7,71.5,19.5,3.3,2016
 KARNS CITY AREA SD,Algebra I,Historically Underperforming,39,7.7,56.4,25.6,10.3,2016
 KARNS CITY AREA SD,Biology,All Students,121,19,58.7,19.8,2.5,2016
@@ -994,12 +994,12 @@ SOUTH BUTLER COUNTY SD,Biology,All Students,215,36.7,50.2,11.6,1.4,2016
 SOUTH BUTLER COUNTY SD,Biology,Historically Underperforming,48,18.8,50,29.2,2.1,2016
 SOUTH BUTLER COUNTY SD,Literature,All Students,219,10.5,78.1,10.5,0.9,2016
 SOUTH BUTLER COUNTY SD,Literature,Historically Underperforming,50,6,68,24,2,2016
-ADMIRAL PEARY AVTS,Algebra I,All Students,1,,,,,2016
-ADMIRAL PEARY AVTS,Algebra I,Historically Underperforming,0,,,,,2016
-ADMIRAL PEARY AVTS,Biology,All Students,1,,,,,2016
-ADMIRAL PEARY AVTS,Biology,Historically Underperforming,0,,,,,2016
-ADMIRAL PEARY AVTS,Literature,All Students,1,,,,,2016
-ADMIRAL PEARY AVTS,Literature,Historically Underperforming,0,,,,,2016
+ADMIRAL PEARY AVTS,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2016
+ADMIRAL PEARY AVTS,Algebra I,Historically Underperforming,0,NULL,NULL,NULL,NULL,2016
+ADMIRAL PEARY AVTS,Biology,All Students,1,NULL,NULL,NULL,NULL,2016
+ADMIRAL PEARY AVTS,Biology,Historically Underperforming,0,NULL,NULL,NULL,NULL,2016
+ADMIRAL PEARY AVTS,Literature,All Students,1,NULL,NULL,NULL,NULL,2016
+ADMIRAL PEARY AVTS,Literature,Historically Underperforming,0,NULL,NULL,NULL,NULL,2016
 BLACKLICK VALLEY SD,Algebra I,All Students,37,16.2,48.6,27,8.1,2016
 BLACKLICK VALLEY SD,Algebra I,Historically Underperforming,15,13.3,33.3,33.3,20,2016
 BLACKLICK VALLEY SD,Biology,All Students,37,18.9,48.6,13.5,18.9,2016
@@ -1036,24 +1036,24 @@ FOREST HILLS SD,Biology,All Students,162,18.5,51.2,21,9.3,2016
 FOREST HILLS SD,Biology,Historically Underperforming,88,9.1,42,31.8,17,2016
 FOREST HILLS SD,Literature,All Students,161,12.4,73.3,8.7,5.6,2016
 FOREST HILLS SD,Literature,Historically Underperforming,88,5.7,71.6,12.5,10.2,2016
-GREATER JOHNSTOWN AVTS,Algebra I,All Students,3,,,,,2016
-GREATER JOHNSTOWN AVTS,Algebra I,Historically Underperforming,2,,,,,2016
-GREATER JOHNSTOWN AVTS,Biology,All Students,2,,,,,2016
-GREATER JOHNSTOWN AVTS,Biology,Historically Underperforming,2,,,,,2016
-GREATER JOHNSTOWN AVTS,Literature,All Students,2,,,,,2016
-GREATER JOHNSTOWN AVTS,Literature,Historically Underperforming,2,,,,,2016
+GREATER JOHNSTOWN AVTS,Algebra I,All Students,3,NULL,NULL,NULL,NULL,2016
+GREATER JOHNSTOWN AVTS,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+GREATER JOHNSTOWN AVTS,Biology,All Students,2,NULL,NULL,NULL,NULL,2016
+GREATER JOHNSTOWN AVTS,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+GREATER JOHNSTOWN AVTS,Literature,All Students,2,NULL,NULL,NULL,NULL,2016
+GREATER JOHNSTOWN AVTS,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
 GREATER JOHNSTOWN SD,Algebra I,All Students,180,2.8,46.1,37.2,13.9,2016
 GREATER JOHNSTOWN SD,Algebra I,Historically Underperforming,175,2.9,47.4,36.6,13.1,2016
 GREATER JOHNSTOWN SD,Biology,All Students,173,2.3,34.7,33.5,29.5,2016
 GREATER JOHNSTOWN SD,Biology,Historically Underperforming,168,2.4,35.7,33.3,28.6,2016
 GREATER JOHNSTOWN SD,Literature,All Students,178,1.7,65.2,23.6,9.6,2016
 GREATER JOHNSTOWN SD,Literature,Historically Underperforming,174,1.7,66.1,23,9.2,2016
-GREATER JOHNSTOWN SD,Algebra I,All Students,9,,,,,2016
-GREATER JOHNSTOWN SD,Algebra I,Historically Underperforming,9,,,,,2016
-GREATER JOHNSTOWN SD,Biology,All Students,8,,,,,2016
-GREATER JOHNSTOWN SD,Biology,Historically Underperforming,8,,,,,2016
-GREATER JOHNSTOWN SD,Literature,All Students,8,,,,,2016
-GREATER JOHNSTOWN SD,Literature,Historically Underperforming,8,,,,,2016
+GREATER JOHNSTOWN SD,Algebra I,All Students,9,NULL,NULL,NULL,NULL,2016
+GREATER JOHNSTOWN SD,Algebra I,Historically Underperforming,9,NULL,NULL,NULL,NULL,2016
+GREATER JOHNSTOWN SD,Biology,All Students,8,NULL,NULL,NULL,NULL,2016
+GREATER JOHNSTOWN SD,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
+GREATER JOHNSTOWN SD,Literature,All Students,8,NULL,NULL,NULL,NULL,2016
+GREATER JOHNSTOWN SD,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
 NORTHERN CAMBRIA SD,Algebra I,All Students,91,14.3,56,22,7.7,2016
 NORTHERN CAMBRIA SD,Algebra I,Historically Underperforming,52,9.6,44.2,32.7,13.5,2016
 NORTHERN CAMBRIA SD,Biology,All Students,91,11,50.5,23.1,15.4,2016
@@ -1138,12 +1138,12 @@ BELLEFONTE AREA SD,Biology,All Students,180,22.2,46.7,22.2,8.9,2016
 BELLEFONTE AREA SD,Biology,Historically Underperforming,61,13.1,32.8,31.1,23,2016
 BELLEFONTE AREA SD,Literature,All Students,182,7.1,65.4,23.1,4.4,2016
 BELLEFONTE AREA SD,Literature,Historically Underperforming,62,0,45.2,41.9,12.9,2016
-CENTRAL PA INST OF SCIENCE & TEC,Algebra I,All Students,4,,,,,2016
-CENTRAL PA INST OF SCIENCE & TEC,Algebra I,Historically Underperforming,4,,,,,2016
-CENTRAL PA INST OF SCIENCE & TEC,Biology,All Students,5,,,,,2016
-CENTRAL PA INST OF SCIENCE & TEC,Biology,Historically Underperforming,5,,,,,2016
-CENTRAL PA INST OF SCIENCE & TEC,Literature,All Students,3,,,,,2016
-CENTRAL PA INST OF SCIENCE & TEC,Literature,Historically Underperforming,3,,,,,2016
+CENTRAL PA INST OF SCIENCE & TEC,Algebra I,All Students,4,NULL,NULL,NULL,NULL,2016
+CENTRAL PA INST OF SCIENCE & TEC,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
+CENTRAL PA INST OF SCIENCE & TEC,Biology,All Students,5,NULL,NULL,NULL,NULL,2016
+CENTRAL PA INST OF SCIENCE & TEC,Biology,Historically Underperforming,5,NULL,NULL,NULL,NULL,2016
+CENTRAL PA INST OF SCIENCE & TEC,Literature,All Students,3,NULL,NULL,NULL,NULL,2016
+CENTRAL PA INST OF SCIENCE & TEC,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
 PENNS VALLEY AREA SD,Algebra I,All Students,116,32.8,48.3,12.9,6,2016
 PENNS VALLEY AREA SD,Algebra I,Historically Underperforming,35,20,37.1,25.7,17.1,2016
 PENNS VALLEY AREA SD,Biology,All Students,116,42.2,36.2,14.7,6.9,2016
@@ -1312,12 +1312,12 @@ CLARION AREA SD,Biology,All Students,59,23.7,59.3,13.6,3.4,2016
 CLARION AREA SD,Biology,Historically Underperforming,17,23.5,41.2,23.5,11.8,2016
 CLARION AREA SD,Literature,All Students,59,10.2,72.9,13.6,3.4,2016
 CLARION AREA SD,Literature,Historically Underperforming,18,5.6,61.1,22.2,11.1,2016
-CLARION COUNTY CAREER CENTER,Algebra I,All Students,6,,,,,2016
-CLARION COUNTY CAREER CENTER,Algebra I,Historically Underperforming,6,,,,,2016
-CLARION COUNTY CAREER CENTER,Biology,All Students,5,,,,,2016
-CLARION COUNTY CAREER CENTER,Biology,Historically Underperforming,5,,,,,2016
-CLARION COUNTY CAREER CENTER,Literature,All Students,5,,,,,2016
-CLARION COUNTY CAREER CENTER,Literature,Historically Underperforming,5,,,,,2016
+CLARION COUNTY CAREER CENTER,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2016
+CLARION COUNTY CAREER CENTER,Algebra I,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
+CLARION COUNTY CAREER CENTER,Biology,All Students,5,NULL,NULL,NULL,NULL,2016
+CLARION COUNTY CAREER CENTER,Biology,Historically Underperforming,5,NULL,NULL,NULL,NULL,2016
+CLARION COUNTY CAREER CENTER,Literature,All Students,5,NULL,NULL,NULL,NULL,2016
+CLARION COUNTY CAREER CENTER,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2016
 CLARION-LIMESTONE AREA SD,Algebra I,All Students,75,18.7,62.7,17.3,1.3,2016
 CLARION-LIMESTONE AREA SD,Algebra I,Historically Underperforming,30,10,63.3,23.3,3.3,2016
 CLARION-LIMESTONE AREA SD,Biology,All Students,75,25.3,49.3,21.3,4,2016
@@ -1331,9 +1331,9 @@ KEYSTONE SD,Biology,Historically Underperforming,35,17.1,34.3,40,8.6,2016
 KEYSTONE SD,Literature,All Students,80,18.8,67.5,12.5,1.3,2016
 KEYSTONE SD,Literature,Historically Underperforming,35,17.1,57.1,22.9,2.9,2016
 NORTH CLARION COUNTY SD,Algebra I,All Students,39,15.4,74.4,5.1,5.1,2016
-NORTH CLARION COUNTY SD,Algebra I,Historically Underperforming,10,,,,,2016
+NORTH CLARION COUNTY SD,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 NORTH CLARION COUNTY SD,Biology,All Students,39,15.4,69.2,7.7,7.7,2016
-NORTH CLARION COUNTY SD,Biology,Historically Underperforming,10,,,,,2016
+NORTH CLARION COUNTY SD,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 NORTH CLARION COUNTY SD,Literature,All Students,40,2.5,75,15,7.5,2016
 NORTH CLARION COUNTY SD,Literature,Historically Underperforming,11,0,36.4,36.4,27.3,2016
 REDBANK VALLEY SD,Algebra I,All Students,89,5.6,71.9,21.3,1.1,2016
@@ -1402,12 +1402,12 @@ WEST BRANCH AREA SD,Biology,All Students,81,18.5,46.9,27.2,7.4,2016
 WEST BRANCH AREA SD,Biology,Historically Underperforming,42,7.1,47.6,31,14.3,2016
 WEST BRANCH AREA SD,Literature,All Students,80,5,53.8,35,6.3,2016
 WEST BRANCH AREA SD,Literature,Historically Underperforming,41,2.4,46.3,41.5,9.8,2016
-KEYSTONE CENTRAL CTC,Algebra I,All Students,2,,,,,2016
-KEYSTONE CENTRAL CTC,Algebra I,Historically Underperforming,1,,,,,2016
-KEYSTONE CENTRAL CTC,Biology,All Students,2,,,,,2016
-KEYSTONE CENTRAL CTC,Biology,Historically Underperforming,1,,,,,2016
-KEYSTONE CENTRAL CTC,Literature,All Students,2,,,,,2016
-KEYSTONE CENTRAL CTC,Literature,Historically Underperforming,1,,,,,2016
+KEYSTONE CENTRAL CTC,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2016
+KEYSTONE CENTRAL CTC,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+KEYSTONE CENTRAL CTC,Biology,All Students,2,NULL,NULL,NULL,NULL,2016
+KEYSTONE CENTRAL CTC,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+KEYSTONE CENTRAL CTC,Literature,All Students,2,NULL,NULL,NULL,NULL,2016
+KEYSTONE CENTRAL CTC,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
 KEYSTONE CENTRAL SD,Algebra I,All Students,28,25,39.3,25,10.7,2016
 KEYSTONE CENTRAL SD,Algebra I,Historically Underperforming,20,25,30,30,15,2016
 KEYSTONE CENTRAL SD,Biology,All Students,29,10.3,44.8,31,13.8,2016
@@ -1469,11 +1469,11 @@ SOUTHERN COLUMBIA AREA SD,Biology,Historically Underperforming,23,13,39.1,26.1,2
 SOUTHERN COLUMBIA AREA SD,Literature,All Students,87,4.6,83.9,5.7,5.7,2016
 SOUTHERN COLUMBIA AREA SD,Literature,Historically Underperforming,23,0,60.9,17.4,21.7,2016
 SUSQ-CYBER CS,Algebra I,All Students,20,0,40,45,15,2016
-SUSQ-CYBER CS,Algebra I,Historically Underperforming,10,,,,,2016
+SUSQ-CYBER CS,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 SUSQ-CYBER CS,Biology,All Students,19,10.5,15.8,47.4,26.3,2016
-SUSQ-CYBER CS,Biology,Historically Underperforming,9,,,,,2016
+SUSQ-CYBER CS,Biology,Historically Underperforming,9,NULL,NULL,NULL,NULL,2016
 SUSQ-CYBER CS,Literature,All Students,19,0,63.2,31.6,5.3,2016
-SUSQ-CYBER CS,Literature,Historically Underperforming,9,,,,,2016
+SUSQ-CYBER CS,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2016
 CONNEAUT SD,Algebra I,All Students,160,9.4,62.5,23.8,4.4,2016
 CONNEAUT SD,Algebra I,Historically Underperforming,68,4.4,47.1,38.2,10.3,2016
 CONNEAUT SD,Biology,All Students,162,18.5,43.8,27.2,10.5,2016
@@ -1534,12 +1534,12 @@ CUMBERLAND VALLEY SD,Biology,All Students,619,42.3,38.4,14.2,5,2016
 CUMBERLAND VALLEY SD,Biology,Historically Underperforming,136,16.9,32.4,30.9,19.9,2016
 CUMBERLAND VALLEY SD,Literature,All Students,623,21.5,68.1,7.9,2.6,2016
 CUMBERLAND VALLEY SD,Literature,Historically Underperforming,136,8.8,55.1,24.3,11.8,2016
-CUMBERLAND-PERRY AVTS,Algebra I,All Students,5,,,,,2016
-CUMBERLAND-PERRY AVTS,Algebra I,Historically Underperforming,2,,,,,2016
-CUMBERLAND-PERRY AVTS,Biology,All Students,4,,,,,2016
-CUMBERLAND-PERRY AVTS,Biology,Historically Underperforming,2,,,,,2016
-CUMBERLAND-PERRY AVTS,Literature,All Students,4,,,,,2016
-CUMBERLAND-PERRY AVTS,Literature,Historically Underperforming,2,,,,,2016
+CUMBERLAND-PERRY AVTS,Algebra I,All Students,5,NULL,NULL,NULL,NULL,2016
+CUMBERLAND-PERRY AVTS,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+CUMBERLAND-PERRY AVTS,Biology,All Students,4,NULL,NULL,NULL,NULL,2016
+CUMBERLAND-PERRY AVTS,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+CUMBERLAND-PERRY AVTS,Literature,All Students,4,NULL,NULL,NULL,NULL,2016
+CUMBERLAND-PERRY AVTS,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
 EAST PENNSBORO AREA SD,Algebra I,All Students,185,26.5,44.3,22.2,7,2016
 EAST PENNSBORO AREA SD,Algebra I,Historically Underperforming,63,9.5,36.5,33.3,20.6,2016
 EAST PENNSBORO AREA SD,Biology,All Students,184,28.8,40.2,20.1,10.9,2016
@@ -1672,18 +1672,18 @@ CHICHESTER SD,Biology,All Students,237,14.8,38.8,23.2,23.2,2016
 CHICHESTER SD,Biology,Historically Underperforming,134,6.7,32.1,28.4,32.8,2016
 CHICHESTER SD,Literature,All Students,239,8.8,65.7,18.8,6.7,2016
 CHICHESTER SD,Literature,Historically Underperforming,135,3.7,60.7,25.2,10.4,2016
-DELAWARE COUNTY TECHNICAL HS,Algebra I,All Students,10,,,,,2016
-DELAWARE COUNTY TECHNICAL HS,Algebra I,Historically Underperforming,5,,,,,2016
+DELAWARE COUNTY TECHNICAL HS,Algebra I,All Students,10,NULL,NULL,NULL,NULL,2016
+DELAWARE COUNTY TECHNICAL HS,Algebra I,Historically Underperforming,5,NULL,NULL,NULL,NULL,2016
 DELAWARE COUNTY TECHNICAL HS,Biology,All Students,11,0,18.2,9.1,72.7,2016
-DELAWARE COUNTY TECHNICAL HS,Biology,Historically Underperforming,4,,,,,2016
+DELAWARE COUNTY TECHNICAL HS,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
 DELAWARE COUNTY TECHNICAL HS,Literature,All Students,12,0,25,41.7,33.3,2016
-DELAWARE COUNTY TECHNICAL HS,Literature,Historically Underperforming,4,,,,,2016
+DELAWARE COUNTY TECHNICAL HS,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
 DELAWARE COUNTY TECHNICAL HS,Algebra I,All Students,11,0,18.2,72.7,9.1,2016
-DELAWARE COUNTY TECHNICAL HS,Algebra I,Historically Underperforming,4,,,,,2016
+DELAWARE COUNTY TECHNICAL HS,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
 DELAWARE COUNTY TECHNICAL HS,Biology,All Students,11,0,0,54.5,45.5,2016
-DELAWARE COUNTY TECHNICAL HS,Biology,Historically Underperforming,4,,,,,2016
+DELAWARE COUNTY TECHNICAL HS,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
 DELAWARE COUNTY TECHNICAL HS,Literature,All Students,11,0,18.2,72.7,9.1,2016
-DELAWARE COUNTY TECHNICAL HS,Literature,Historically Underperforming,4,,,,,2016
+DELAWARE COUNTY TECHNICAL HS,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
 GARNET VALLEY SD,Algebra I,All Students,392,33.7,54.8,9.4,2,2016
 GARNET VALLEY SD,Algebra I,Historically Underperforming,96,10.4,50,32.3,7.3,2016
 GARNET VALLEY SD,Biology,All Students,394,47.7,37.3,9.6,5.3,2016
@@ -1937,11 +1937,11 @@ FOREST AREA SD,Biology,Historically Underperforming,12,16.7,33.3,33.3,16.7,2016
 FOREST AREA SD,Literature,All Students,21,0,61.9,33.3,4.8,2016
 FOREST AREA SD,Literature,Historically Underperforming,12,0,50,41.7,8.3,2016
 FOREST AREA SD,Algebra I,All Students,20,0,75,5,20,2016
-FOREST AREA SD,Algebra I,Historically Underperforming,10,,,,,2016
+FOREST AREA SD,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 FOREST AREA SD,Biology,All Students,19,15.8,57.9,10.5,15.8,2016
-FOREST AREA SD,Biology,Historically Underperforming,10,,,,,2016
+FOREST AREA SD,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 FOREST AREA SD,Literature,All Students,20,0,80,10,10,2016
-FOREST AREA SD,Literature,Historically Underperforming,10,,,,,2016
+FOREST AREA SD,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 CHAMBERSBURG AREA SD,Algebra I,All Students,178,12.4,44.9,36.5,6.2,2016
 CHAMBERSBURG AREA SD,Algebra I,Historically Underperforming,93,6.5,37.6,45.2,10.8,2016
 CHAMBERSBURG AREA SD,Biology,All Students,173,22,41,24.3,12.7,2016
@@ -1955,15 +1955,15 @@ CHAMBERSBURG AREA SD,Biology,Historically Underperforming,213,10.8,39,25.4,24.9,
 CHAMBERSBURG AREA SD,Literature,All Students,440,10.5,67.3,16.6,5.7,2016
 CHAMBERSBURG AREA SD,Literature,Historically Underperforming,214,4.7,57,27.1,11.2,2016
 FANNETT-METAL SD,Algebra I,All Students,32,6.3,62.5,28.1,3.1,2016
-FANNETT-METAL SD,Algebra I,Historically Underperforming,10,,,,,2016
+FANNETT-METAL SD,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 FANNETT-METAL SD,Biology,All Students,33,15.2,60.6,18.2,6.1,2016
 FANNETT-METAL SD,Biology,Historically Underperforming,11,9.1,54.5,27.3,9.1,2016
 FANNETT-METAL SD,Literature,All Students,33,0,84.8,12.1,3,2016
 FANNETT-METAL SD,Literature,Historically Underperforming,11,0,81.8,18.2,0,2016
-FRANKLIN COUNTY CTC,Algebra I,All Students,1,,,,,2016
-FRANKLIN COUNTY CTC,Algebra I,Historically Underperforming,1,,,,,2016
-FRANKLIN COUNTY CTC,Literature,All Students,1,,,,,2016
-FRANKLIN COUNTY CTC,Literature,Historically Underperforming,1,,,,,2016
+FRANKLIN COUNTY CTC,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2016
+FRANKLIN COUNTY CTC,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+FRANKLIN COUNTY CTC,Literature,All Students,1,NULL,NULL,NULL,NULL,2016
+FRANKLIN COUNTY CTC,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
 GREENCASTLE-ANTRIM SD,Algebra I,All Students,226,24.8,52.2,18.1,4.9,2016
 GREENCASTLE-ANTRIM SD,Algebra I,Historically Underperforming,73,13.7,42.5,30.1,13.7,2016
 GREENCASTLE-ANTRIM SD,Biology,All Students,226,30.1,44.2,16.8,8.8,2016
@@ -1989,17 +1989,17 @@ CENTRAL FULTON SD,Biology,Historically Underperforming,22,9.1,40.9,40.9,9.1,2016
 CENTRAL FULTON SD,Literature,All Students,64,1.6,84.4,12.5,1.6,2016
 CENTRAL FULTON SD,Literature,Historically Underperforming,22,0,81.8,13.6,4.5,2016
 FORBES ROAD SD,Algebra I,All Students,25,16,56,24,4,2016
-FORBES ROAD SD,Algebra I,Historically Underperforming,9,,,,,2016
+FORBES ROAD SD,Algebra I,Historically Underperforming,9,NULL,NULL,NULL,NULL,2016
 FORBES ROAD SD,Biology,All Students,25,28,44,8,20,2016
-FORBES ROAD SD,Biology,Historically Underperforming,9,,,,,2016
+FORBES ROAD SD,Biology,Historically Underperforming,9,NULL,NULL,NULL,NULL,2016
 FORBES ROAD SD,Literature,All Students,25,8,76,8,8,2016
-FORBES ROAD SD,Literature,Historically Underperforming,9,,,,,2016
-FULTON CO AVTS,Algebra I,All Students,5,,,,,2016
-FULTON CO AVTS,Algebra I,Historically Underperforming,3,,,,,2016
-FULTON CO AVTS,Biology,All Students,5,,,,,2016
-FULTON CO AVTS,Biology,Historically Underperforming,3,,,,,2016
-FULTON CO AVTS,Literature,All Students,5,,,,,2016
-FULTON CO AVTS,Literature,Historically Underperforming,3,,,,,2016
+FORBES ROAD SD,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2016
+FULTON CO AVTS,Algebra I,All Students,5,NULL,NULL,NULL,NULL,2016
+FULTON CO AVTS,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
+FULTON CO AVTS,Biology,All Students,5,NULL,NULL,NULL,NULL,2016
+FULTON CO AVTS,Biology,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
+FULTON CO AVTS,Literature,All Students,5,NULL,NULL,NULL,NULL,2016
+FULTON CO AVTS,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
 SOUTHERN FULTON SD,Algebra I,All Students,63,19,58.7,22.2,0,2016
 SOUTHERN FULTON SD,Algebra I,Historically Underperforming,28,0,60.7,39.3,0,2016
 SOUTHERN FULTON SD,Biology,All Students,62,27.4,58.1,6.5,8.1,2016
@@ -2018,12 +2018,12 @@ CENTRAL GREENE SD,Biology,All Students,123,28.5,44.7,17.9,8.9,2016
 CENTRAL GREENE SD,Biology,Historically Underperforming,48,16.7,35.4,25,22.9,2016
 CENTRAL GREENE SD,Literature,All Students,123,2.4,74.8,12.2,10.6,2016
 CENTRAL GREENE SD,Literature,Historically Underperforming,48,0,52.1,20.8,27.1,2016
-GREENE CO AVTS,Algebra I,All Students,6,,,,,2016
-GREENE CO AVTS,Algebra I,Historically Underperforming,4,,,,,2016
-GREENE CO AVTS,Biology,All Students,6,,,,,2016
-GREENE CO AVTS,Biology,Historically Underperforming,4,,,,,2016
-GREENE CO AVTS,Literature,All Students,6,,,,,2016
-GREENE CO AVTS,Literature,Historically Underperforming,4,,,,,2016
+GREENE CO AVTS,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2016
+GREENE CO AVTS,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
+GREENE CO AVTS,Biology,All Students,6,NULL,NULL,NULL,NULL,2016
+GREENE CO AVTS,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
+GREENE CO AVTS,Literature,All Students,6,NULL,NULL,NULL,NULL,2016
+GREENE CO AVTS,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
 JEFFERSON-MORGAN SD,Algebra I,All Students,51,9.8,51,33.3,5.9,2016
 JEFFERSON-MORGAN SD,Algebra I,Historically Underperforming,20,5,35,45,15,2016
 JEFFERSON-MORGAN SD,Biology,All Students,51,19.6,41.2,25.5,13.7,2016
@@ -2048,12 +2048,12 @@ HUNTINGDON AREA SD,Biology,All Students,149,27.5,38.3,27.5,6.7,2016
 HUNTINGDON AREA SD,Biology,Historically Underperforming,79,17.7,34.2,36.7,11.4,2016
 HUNTINGDON AREA SD,Literature,All Students,152,1.3,76.3,18.4,3.9,2016
 HUNTINGDON AREA SD,Literature,Historically Underperforming,81,1.2,67.9,24.7,6.2,2016
-HUNTINGDON CO CTC,Algebra I,All Students,2,,,,,2016
-HUNTINGDON CO CTC,Algebra I,Historically Underperforming,2,,,,,2016
-HUNTINGDON CO CTC,Biology,All Students,2,,,,,2016
-HUNTINGDON CO CTC,Biology,Historically Underperforming,2,,,,,2016
-HUNTINGDON CO CTC,Literature,All Students,2,,,,,2016
-HUNTINGDON CO CTC,Literature,Historically Underperforming,2,,,,,2016
+HUNTINGDON CO CTC,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2016
+HUNTINGDON CO CTC,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+HUNTINGDON CO CTC,Biology,All Students,2,NULL,NULL,NULL,NULL,2016
+HUNTINGDON CO CTC,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+HUNTINGDON CO CTC,Literature,All Students,2,NULL,NULL,NULL,NULL,2016
+HUNTINGDON CO CTC,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
 JUNIATA VALLEY SD,Algebra I,All Students,41,7.3,53.7,22,17.1,2016
 JUNIATA VALLEY SD,Algebra I,Historically Underperforming,18,0,33.3,33.3,33.3,2016
 JUNIATA VALLEY SD,Biology,All Students,42,11.9,54.8,21.4,11.9,2016
@@ -2067,11 +2067,11 @@ MOUNT UNION AREA SD,Biology,Historically Underperforming,53,5.7,41.5,26.4,26.4,2
 MOUNT UNION AREA SD,Literature,All Students,87,0,66.7,23,10.3,2016
 MOUNT UNION AREA SD,Literature,Historically Underperforming,53,0,50.9,32.1,17,2016
 NEW DAY CHARTER SCHOOL,Algebra I,All Students,16,6.3,50,31.3,12.5,2016
-NEW DAY CHARTER SCHOOL,Algebra I,Historically Underperforming,8,,,,,2016
+NEW DAY CHARTER SCHOOL,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
 NEW DAY CHARTER SCHOOL,Biology,All Students,16,0,37.5,37.5,25,2016
-NEW DAY CHARTER SCHOOL,Biology,Historically Underperforming,8,,,,,2016
+NEW DAY CHARTER SCHOOL,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
 NEW DAY CHARTER SCHOOL,Literature,All Students,16,0,50,31.3,18.8,2016
-NEW DAY CHARTER SCHOOL,Literature,Historically Underperforming,8,,,,,2016
+NEW DAY CHARTER SCHOOL,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
 SOUTHERN HUNTINGDON COUNTY SD,Algebra I,All Students,102,9.8,41.2,38.2,10.8,2016
 SOUTHERN HUNTINGDON COUNTY SD,Algebra I,Historically Underperforming,49,4.1,22.4,53.1,20.4,2016
 SOUTHERN HUNTINGDON COUNTY SD,Biology,All Students,99,13.1,41.4,26.3,19.2,2016
@@ -2102,12 +2102,12 @@ INDIANA AREA SD,Biology,All Students,187,37.4,47.6,8.6,6.4,2016
 INDIANA AREA SD,Biology,Historically Underperforming,69,26.1,39.1,18.8,15.9,2016
 INDIANA AREA SD,Literature,All Students,189,15.3,73.5,8.5,2.6,2016
 INDIANA AREA SD,Literature,Historically Underperforming,71,4.2,69,19.7,7,2016
-INDIANA CO TECH CENTER,Algebra I,All Students,2,,,,,2016
-INDIANA CO TECH CENTER,Algebra I,Historically Underperforming,1,,,,,2016
-INDIANA CO TECH CENTER,Biology,All Students,2,,,,,2016
-INDIANA CO TECH CENTER,Biology,Historically Underperforming,1,,,,,2016
-INDIANA CO TECH CENTER,Literature,All Students,2,,,,,2016
-INDIANA CO TECH CENTER,Literature,Historically Underperforming,1,,,,,2016
+INDIANA CO TECH CENTER,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2016
+INDIANA CO TECH CENTER,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+INDIANA CO TECH CENTER,Biology,All Students,2,NULL,NULL,NULL,NULL,2016
+INDIANA CO TECH CENTER,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+INDIANA CO TECH CENTER,Literature,All Students,2,NULL,NULL,NULL,NULL,2016
+INDIANA CO TECH CENTER,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
 MARION CENTER AREA SD,Algebra I,All Students,101,3,74.3,20.8,2,2016
 MARION CENTER AREA SD,Algebra I,Historically Underperforming,52,0,65.4,30.8,3.8,2016
 MARION CENTER AREA SD,Biology,All Students,103,33,42.7,16.5,7.8,2016
@@ -2180,12 +2180,12 @@ CARBONDALE AREA SD,Biology,All Students,119,21.8,42,21.8,14.3,2016
 CARBONDALE AREA SD,Biology,Historically Underperforming,68,16.2,36.8,26.5,20.6,2016
 CARBONDALE AREA SD,Literature,All Students,119,8.4,69.7,18.5,3.4,2016
 CARBONDALE AREA SD,Literature,Historically Underperforming,68,4.4,63.2,26.5,5.9,2016
-CTC OF LACKAWANNA COUNTY,Algebra I,All Students,2,,,,,2016
-CTC OF LACKAWANNA COUNTY,Algebra I,Historically Underperforming,2,,,,,2016
-CTC OF LACKAWANNA COUNTY,Biology,All Students,2,,,,,2016
-CTC OF LACKAWANNA COUNTY,Biology,Historically Underperforming,2,,,,,2016
-CTC OF LACKAWANNA COUNTY,Literature,All Students,2,,,,,2016
-CTC OF LACKAWANNA COUNTY,Literature,Historically Underperforming,2,,,,,2016
+CTC OF LACKAWANNA COUNTY,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2016
+CTC OF LACKAWANNA COUNTY,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+CTC OF LACKAWANNA COUNTY,Biology,All Students,2,NULL,NULL,NULL,NULL,2016
+CTC OF LACKAWANNA COUNTY,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+CTC OF LACKAWANNA COUNTY,Literature,All Students,2,NULL,NULL,NULL,NULL,2016
+CTC OF LACKAWANNA COUNTY,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
 DUNMORE SD,Algebra I,All Students,116,19,52.6,21.6,6.9,2016
 DUNMORE SD,Algebra I,Historically Underperforming,45,13.3,37.8,35.6,13.3,2016
 DUNMORE SD,Biology,All Students,116,20.7,48.3,18.1,12.9,2016
@@ -2420,12 +2420,12 @@ EASTERN LEBANON CO SD,Biology,All Students,151,19.2,49.7,19.9,11.3,2016
 EASTERN LEBANON CO SD,Biology,Historically Underperforming,49,8.2,42.9,18.4,30.6,2016
 EASTERN LEBANON CO SD,Literature,All Students,152,9.2,69.1,14.5,7.2,2016
 EASTERN LEBANON CO SD,Literature,Historically Underperforming,50,0,54,24,22,2016
-LEBANON CO AVTS,Algebra I,All Students,7,,,,,2016
-LEBANON CO AVTS,Algebra I,Historically Underperforming,4,,,,,2016
-LEBANON CO AVTS,Biology,All Students,6,,,,,2016
-LEBANON CO AVTS,Biology,Historically Underperforming,4,,,,,2016
-LEBANON CO AVTS,Literature,All Students,7,,,,,2016
-LEBANON CO AVTS,Literature,Historically Underperforming,4,,,,,2016
+LEBANON CO AVTS,Algebra I,All Students,7,NULL,NULL,NULL,NULL,2016
+LEBANON CO AVTS,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
+LEBANON CO AVTS,Biology,All Students,6,NULL,NULL,NULL,NULL,2016
+LEBANON CO AVTS,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
+LEBANON CO AVTS,Literature,All Students,7,NULL,NULL,NULL,NULL,2016
+LEBANON CO AVTS,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
 LEBANON SD,Algebra I,All Students,253,2.8,37.5,49,10.7,2016
 LEBANON SD,Algebra I,Historically Underperforming,188,1.6,30.9,53.7,13.8,2016
 LEBANON SD,Biology,All Students,251,4.8,31.9,32.3,31.1,2016
@@ -2588,12 +2588,12 @@ WEST SIDE CTC,Biology,All Students,108,0,33.3,33.3,33.3,2016
 WEST SIDE CTC,Biology,Historically Underperforming,81,0,25.9,37,37,2016
 WEST SIDE CTC,Literature,All Students,108,0.9,44.4,41.7,13,2016
 WEST SIDE CTC,Literature,Historically Underperforming,81,0,43.2,40.7,16,2016
-WILKES-BARRE AREA CTC,Algebra I,All Students,8,,,,,2016
-WILKES-BARRE AREA CTC,Algebra I,Historically Underperforming,4,,,,,2016
-WILKES-BARRE AREA CTC,Biology,All Students,9,,,,,2016
-WILKES-BARRE AREA CTC,Biology,Historically Underperforming,4,,,,,2016
-WILKES-BARRE AREA CTC,Literature,All Students,7,,,,,2016
-WILKES-BARRE AREA CTC,Literature,Historically Underperforming,4,,,,,2016
+WILKES-BARRE AREA CTC,Algebra I,All Students,8,NULL,NULL,NULL,NULL,2016
+WILKES-BARRE AREA CTC,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
+WILKES-BARRE AREA CTC,Biology,All Students,9,NULL,NULL,NULL,NULL,2016
+WILKES-BARRE AREA CTC,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
+WILKES-BARRE AREA CTC,Literature,All Students,7,NULL,NULL,NULL,NULL,2016
+WILKES-BARRE AREA CTC,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
 WILKES-BARRE AREA SD,Algebra I,All Students,125,7.2,24.8,45.6,22.4,2016
 WILKES-BARRE AREA SD,Algebra I,Historically Underperforming,89,4.5,18,46.1,31.5,2016
 WILKES-BARRE AREA SD,Biology,All Students,119,6.7,22.7,27.7,42.9,2016
@@ -2696,12 +2696,12 @@ PORT ALLEGANY SD,Biology,All Students,60,16.7,63.3,11.7,8.3,2016
 PORT ALLEGANY SD,Biology,Historically Underperforming,25,12,56,12,20,2016
 PORT ALLEGANY SD,Literature,All Students,60,8.3,68.3,20,3.3,2016
 PORT ALLEGANY SD,Literature,Historically Underperforming,25,0,60,36,4,2016
-SENECA HIGHLANDS AVTS,Algebra I,All Students,3,,,,,2016
-SENECA HIGHLANDS AVTS,Algebra I,Historically Underperforming,2,,,,,2016
-SENECA HIGHLANDS AVTS,Biology,All Students,3,,,,,2016
-SENECA HIGHLANDS AVTS,Biology,Historically Underperforming,2,,,,,2016
-SENECA HIGHLANDS AVTS,Literature,All Students,3,,,,,2016
-SENECA HIGHLANDS AVTS,Literature,Historically Underperforming,2,,,,,2016
+SENECA HIGHLANDS AVTS,Algebra I,All Students,3,NULL,NULL,NULL,NULL,2016
+SENECA HIGHLANDS AVTS,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+SENECA HIGHLANDS AVTS,Biology,All Students,3,NULL,NULL,NULL,NULL,2016
+SENECA HIGHLANDS AVTS,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+SENECA HIGHLANDS AVTS,Literature,All Students,3,NULL,NULL,NULL,NULL,2016
+SENECA HIGHLANDS AVTS,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
 SMETHPORT AREA SD,Algebra I,All Students,64,23.4,50,17.2,9.4,2016
 SMETHPORT AREA SD,Algebra I,Historically Underperforming,20,10,30,30,30,2016
 SMETHPORT AREA SD,Biology,All Students,64,31.3,37.5,21.9,9.4,2016
@@ -2792,12 +2792,12 @@ WEST MIDDLESEX AREA SD,Biology,All Students,82,45.1,40.2,12.2,2.4,2016
 WEST MIDDLESEX AREA SD,Biology,Historically Underperforming,30,33.3,36.7,23.3,6.7,2016
 WEST MIDDLESEX AREA SD,Literature,All Students,81,2.5,90.1,4.9,2.5,2016
 WEST MIDDLESEX AREA SD,Literature,Historically Underperforming,29,0,79.3,13.8,6.9,2016
-MIFFLIN COUNTY ACADEMY OF SCIENCE,Algebra I,All Students,6,,,,,2016
-MIFFLIN COUNTY ACADEMY OF SCIENCE,Algebra I,Historically Underperforming,3,,,,,2016
-MIFFLIN COUNTY ACADEMY OF SCIENCE,Biology,All Students,9,,,,,2016
-MIFFLIN COUNTY ACADEMY OF SCIENCE,Biology,Historically Underperforming,5,,,,,2016
-MIFFLIN COUNTY ACADEMY OF SCIENCE,Literature,All Students,8,,,,,2016
-MIFFLIN COUNTY ACADEMY OF SCIENCE,Literature,Historically Underperforming,4,,,,,2016
+MIFFLIN COUNTY ACADEMY OF SCIENCE,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2016
+MIFFLIN COUNTY ACADEMY OF SCIENCE,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
+MIFFLIN COUNTY ACADEMY OF SCIENCE,Biology,All Students,9,NULL,NULL,NULL,NULL,2016
+MIFFLIN COUNTY ACADEMY OF SCIENCE,Biology,Historically Underperforming,5,NULL,NULL,NULL,NULL,2016
+MIFFLIN COUNTY ACADEMY OF SCIENCE,Literature,All Students,8,NULL,NULL,NULL,NULL,2016
+MIFFLIN COUNTY ACADEMY OF SCIENCE,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
 MIFFLIN COUNTY SD,Algebra I,All Students,339,29.2,33,28.6,9.1,2016
 MIFFLIN COUNTY SD,Algebra I,Historically Underperforming,157,17.8,29.3,36.3,16.6,2016
 MIFFLIN COUNTY SD,Biology,All Students,337,29.7,40.7,19.3,10.4,2016
@@ -2817,17 +2817,17 @@ EAST STROUDSBURG AREA SD,Biology,Historically Underperforming,117,11.1,41,32.5,1
 EAST STROUDSBURG AREA SD,Literature,All Students,219,11,66.7,18.7,3.7,2016
 EAST STROUDSBURG AREA SD,Literature,Historically Underperforming,118,4.2,62.7,26.3,6.8,2016
 EVERGREEN COMMUNITY CS,Algebra I,All Students,14,14.3,64.3,21.4,0,2016
-EVERGREEN COMMUNITY CS,Algebra I,Historically Underperforming,2,,,,,2016
+EVERGREEN COMMUNITY CS,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
 EVERGREEN COMMUNITY CS,Biology,All Students,14,42.9,35.7,21.4,0,2016
-EVERGREEN COMMUNITY CS,Biology,Historically Underperforming,2,,,,,2016
+EVERGREEN COMMUNITY CS,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
 EVERGREEN COMMUNITY CS,Literature,All Students,14,28.6,71.4,0,0,2016
-EVERGREEN COMMUNITY CS,Literature,Historically Underperforming,2,,,,,2016
-MONROE CAREER & TECH INST,Algebra I,All Students,6,,,,,2016
-MONROE CAREER & TECH INST,Algebra I,Historically Underperforming,4,,,,,2016
-MONROE CAREER & TECH INST,Biology,All Students,6,,,,,2016
-MONROE CAREER & TECH INST,Biology,Historically Underperforming,3,,,,,2016
-MONROE CAREER & TECH INST,Literature,All Students,7,,,,,2016
-MONROE CAREER & TECH INST,Literature,Historically Underperforming,4,,,,,2016
+EVERGREEN COMMUNITY CS,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2016
+MONROE CAREER & TECH INST,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2016
+MONROE CAREER & TECH INST,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
+MONROE CAREER & TECH INST,Biology,All Students,6,NULL,NULL,NULL,NULL,2016
+MONROE CAREER & TECH INST,Biology,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
+MONROE CAREER & TECH INST,Literature,All Students,7,NULL,NULL,NULL,NULL,2016
+MONROE CAREER & TECH INST,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
 PLEASANT VALLEY SD,Algebra I,All Students,413,22.8,50.4,22.8,4.1,2016
 PLEASANT VALLEY SD,Algebra I,Historically Underperforming,189,13.8,44.4,33.9,7.9,2016
 PLEASANT VALLEY SD,Biology,All Students,412,25.2,44.4,19.9,10.4,2016
@@ -2871,17 +2871,17 @@ COLONIAL SD,Biology,Historically Underperforming,106,20.8,38.7,27.4,13.2,2016
 COLONIAL SD,Literature,All Students,357,14,73.9,9.8,2.2,2016
 COLONIAL SD,Literature,Historically Underperforming,105,1,62.9,28.6,7.6,2016
 CTR FOR TECH STUDIES MONT CO,Algebra I,All Students,15,0,33.3,53.3,13.3,2016
-CTR FOR TECH STUDIES MONT CO,Algebra I,Historically Underperforming,7,,,,,2016
+CTR FOR TECH STUDIES MONT CO,Algebra I,Historically Underperforming,7,NULL,NULL,NULL,NULL,2016
 CTR FOR TECH STUDIES MONT CO,Biology,All Students,13,0,30.8,38.5,30.8,2016
-CTR FOR TECH STUDIES MONT CO,Biology,Historically Underperforming,6,,,,,2016
+CTR FOR TECH STUDIES MONT CO,Biology,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
 CTR FOR TECH STUDIES MONT CO,Literature,All Students,15,0,40,33.3,26.7,2016
-CTR FOR TECH STUDIES MONT CO,Literature,Historically Underperforming,7,,,,,2016
-EASTERN CTR FOR ARTS & TECHNOLOG,Algebra I,All Students,8,,,,,2016
-EASTERN CTR FOR ARTS & TECHNOLOG,Algebra I,Historically Underperforming,7,,,,,2016
-EASTERN CTR FOR ARTS & TECHNOLOG,Biology,All Students,7,,,,,2016
-EASTERN CTR FOR ARTS & TECHNOLOG,Biology,Historically Underperforming,7,,,,,2016
-EASTERN CTR FOR ARTS & TECHNOLOG,Literature,All Students,6,,,,,2016
-EASTERN CTR FOR ARTS & TECHNOLOG,Literature,Historically Underperforming,5,,,,,2016
+CTR FOR TECH STUDIES MONT CO,Literature,Historically Underperforming,7,NULL,NULL,NULL,NULL,2016
+EASTERN CTR FOR ARTS & TECHNOLOG,Algebra I,All Students,8,NULL,NULL,NULL,NULL,2016
+EASTERN CTR FOR ARTS & TECHNOLOG,Algebra I,Historically Underperforming,7,NULL,NULL,NULL,NULL,2016
+EASTERN CTR FOR ARTS & TECHNOLOG,Biology,All Students,7,NULL,NULL,NULL,NULL,2016
+EASTERN CTR FOR ARTS & TECHNOLOG,Biology,Historically Underperforming,7,NULL,NULL,NULL,NULL,2016
+EASTERN CTR FOR ARTS & TECHNOLOG,Literature,All Students,6,NULL,NULL,NULL,NULL,2016
+EASTERN CTR FOR ARTS & TECHNOLOG,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2016
 HATBORO-HORSHAM SD,Algebra I,All Students,389,35.7,49.1,14.1,1,2016
 HATBORO-HORSHAM SD,Algebra I,Historically Underperforming,104,15.4,44.2,36.5,3.8,2016
 HATBORO-HORSHAM SD,Biology,All Students,386,44,38.3,13.7,3.9,2016
@@ -3008,12 +3008,12 @@ UPPER PERKIOMEN SD,Biology,All Students,195,41.5,33.3,19.5,5.6,2016
 UPPER PERKIOMEN SD,Biology,Historically Underperforming,76,21.1,28.9,35.5,14.5,2016
 UPPER PERKIOMEN SD,Literature,All Students,194,9.3,75.8,12.9,2.1,2016
 UPPER PERKIOMEN SD,Literature,Historically Underperforming,74,2.7,68.9,23,5.4,2016
-WESTERN MONTGOMERY CTC,Algebra I,All Students,10,,,,,2016
-WESTERN MONTGOMERY CTC,Algebra I,Historically Underperforming,8,,,,,2016
-WESTERN MONTGOMERY CTC,Biology,All Students,8,,,,,2016
-WESTERN MONTGOMERY CTC,Biology,Historically Underperforming,6,,,,,2016
-WESTERN MONTGOMERY CTC,Literature,All Students,9,,,,,2016
-WESTERN MONTGOMERY CTC,Literature,Historically Underperforming,7,,,,,2016
+WESTERN MONTGOMERY CTC,Algebra I,All Students,10,NULL,NULL,NULL,NULL,2016
+WESTERN MONTGOMERY CTC,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
+WESTERN MONTGOMERY CTC,Biology,All Students,8,NULL,NULL,NULL,NULL,2016
+WESTERN MONTGOMERY CTC,Biology,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
+WESTERN MONTGOMERY CTC,Literature,All Students,9,NULL,NULL,NULL,NULL,2016
+WESTERN MONTGOMERY CTC,Literature,Historically Underperforming,7,NULL,NULL,NULL,NULL,2016
 WISSAHICKON SD,Algebra I,All Students,305,46.6,46.2,3.6,3.6,2016
 WISSAHICKON SD,Algebra I,Historically Underperforming,90,22.2,54.4,11.1,12.2,2016
 WISSAHICKON SD,Biology,All Students,304,47.4,38.2,9.2,5.3,2016
@@ -3044,18 +3044,18 @@ BETHLEHEM AREA SD,Biology,All Students,578,18.9,31.7,27.2,22.3,2016
 BETHLEHEM AREA SD,Biology,Historically Underperforming,331,8.8,26,32,33.2,2016
 BETHLEHEM AREA SD,Literature,All Students,579,12.8,56.3,24.4,6.6,2016
 BETHLEHEM AREA SD,Literature,Historically Underperforming,327,6.7,47.1,34.6,11.6,2016
-BETHLEHEM AVTS,Algebra I,All Students,10,,,,,2016
-BETHLEHEM AVTS,Algebra I,Historically Underperforming,8,,,,,2016
-BETHLEHEM AVTS,Biology,All Students,10,,,,,2016
-BETHLEHEM AVTS,Biology,Historically Underperforming,8,,,,,2016
-BETHLEHEM AVTS,Literature,All Students,9,,,,,2016
-BETHLEHEM AVTS,Literature,Historically Underperforming,7,,,,,2016
-CAREER INSTITUTE OF TECH,Algebra I,All Students,9,,,,,2016
-CAREER INSTITUTE OF TECH,Algebra I,Historically Underperforming,9,,,,,2016
-CAREER INSTITUTE OF TECH,Biology,All Students,8,,,,,2016
-CAREER INSTITUTE OF TECH,Biology,Historically Underperforming,8,,,,,2016
-CAREER INSTITUTE OF TECH,Literature,All Students,8,,,,,2016
-CAREER INSTITUTE OF TECH,Literature,Historically Underperforming,8,,,,,2016
+BETHLEHEM AVTS,Algebra I,All Students,10,NULL,NULL,NULL,NULL,2016
+BETHLEHEM AVTS,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
+BETHLEHEM AVTS,Biology,All Students,10,NULL,NULL,NULL,NULL,2016
+BETHLEHEM AVTS,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
+BETHLEHEM AVTS,Literature,All Students,9,NULL,NULL,NULL,NULL,2016
+BETHLEHEM AVTS,Literature,Historically Underperforming,7,NULL,NULL,NULL,NULL,2016
+CAREER INSTITUTE OF TECH,Algebra I,All Students,9,NULL,NULL,NULL,NULL,2016
+CAREER INSTITUTE OF TECH,Algebra I,Historically Underperforming,9,NULL,NULL,NULL,NULL,2016
+CAREER INSTITUTE OF TECH,Biology,All Students,8,NULL,NULL,NULL,NULL,2016
+CAREER INSTITUTE OF TECH,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
+CAREER INSTITUTE OF TECH,Literature,All Students,8,NULL,NULL,NULL,NULL,2016
+CAREER INSTITUTE OF TECH,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
 EASTON AREA SD,Algebra I,All Students,649,13.3,50.2,27.3,9.2,2016
 EASTON AREA SD,Algebra I,Historically Underperforming,309,7.8,34,41.7,16.5,2016
 EASTON AREA SD,Biology,All Students,642,24.6,36.8,22.6,16,2016
@@ -3122,10 +3122,10 @@ MOUNT CARMEL AREA SD,Biology,All Students,109,3.7,49.5,33,13.8,2016
 MOUNT CARMEL AREA SD,Biology,Historically Underperforming,61,3.3,42.6,31.1,23,2016
 MOUNT CARMEL AREA SD,Literature,All Students,106,0.9,72.6,17.9,8.5,2016
 MOUNT CARMEL AREA SD,Literature,Historically Underperforming,58,1.7,63.8,19,15.5,2016
-NORTHUMBERLAND COUNTY AVTS,Algebra I,All Students,1,,,,,2016
-NORTHUMBERLAND COUNTY AVTS,Algebra I,Historically Underperforming,0,,,,,2016
-NORTHUMBERLAND COUNTY AVTS,Biology,All Students,1,,,,,2016
-NORTHUMBERLAND COUNTY AVTS,Biology,Historically Underperforming,0,,,,,2016
+NORTHUMBERLAND COUNTY AVTS,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2016
+NORTHUMBERLAND COUNTY AVTS,Algebra I,Historically Underperforming,0,NULL,NULL,NULL,NULL,2016
+NORTHUMBERLAND COUNTY AVTS,Biology,All Students,1,NULL,NULL,NULL,NULL,2016
+NORTHUMBERLAND COUNTY AVTS,Biology,Historically Underperforming,0,NULL,NULL,NULL,NULL,2016
 SHAMOKIN AREA SD,Algebra I,All Students,153,2,61.4,29.4,7.2,2016
 SHAMOKIN AREA SD,Algebra I,Historically Underperforming,93,2.2,49.5,36.6,11.8,2016
 SHAMOKIN AREA SD,Biology,All Students,150,16,39.3,27.3,17.3,2016
@@ -3210,12 +3210,12 @@ EASTERN UNIVERSITY ACAD CS,Biology,All Students,55,5.5,36.4,45.5,12.7,2016
 EASTERN UNIVERSITY ACAD CS,Biology,Historically Underperforming,55,5.5,36.4,45.5,12.7,2016
 EASTERN UNIVERSITY ACAD CS,Literature,All Students,55,1.8,61.8,30.9,5.5,2016
 EASTERN UNIVERSITY ACAD CS,Literature,Historically Underperforming,55,1.8,61.8,30.9,5.5,2016
-ESPERANZA CYBER CS,Algebra I,All Students,10,,,,,2016
-ESPERANZA CYBER CS,Algebra I,Historically Underperforming,9,,,,,2016
-ESPERANZA CYBER CS,Biology,All Students,9,,,,,2016
-ESPERANZA CYBER CS,Biology,Historically Underperforming,8,,,,,2016
-ESPERANZA CYBER CS,Literature,All Students,10,,,,,2016
-ESPERANZA CYBER CS,Literature,Historically Underperforming,9,,,,,2016
+ESPERANZA CYBER CS,Algebra I,All Students,10,NULL,NULL,NULL,NULL,2016
+ESPERANZA CYBER CS,Algebra I,Historically Underperforming,9,NULL,NULL,NULL,NULL,2016
+ESPERANZA CYBER CS,Biology,All Students,9,NULL,NULL,NULL,NULL,2016
+ESPERANZA CYBER CS,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
+ESPERANZA CYBER CS,Literature,All Students,10,NULL,NULL,NULL,NULL,2016
+ESPERANZA CYBER CS,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2016
 FIRST PHILA CS FOR LITERACY,Algebra I,All Students,95,0,23.2,57.9,18.9,2016
 FIRST PHILA CS FOR LITERACY,Algebra I,Historically Underperforming,89,0,22.5,58.4,19.1,2016
 FIRST PHILA CS FOR LITERACY,Biology,All Students,93,0,19.4,33.3,47.3,2016
@@ -3638,8 +3638,8 @@ PHILADELPHIA CITY SD,Literature,All Students,48,4.2,37.5,45.8,12.5,2016
 PHILADELPHIA CITY SD,Literature,Historically Underperforming,28,3.6,28.6,50,17.9,2016
 PHILADELPHIA CITY SD,Algebra I,All Students,43,0,9.3,55.8,34.9,2016
 PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,37,0,8.1,54.1,37.8,2016
-PHILADELPHIA CITY SD,Biology,All Students,1,,,,,2016
-PHILADELPHIA CITY SD,Biology,Historically Underperforming,1,,,,,2016
+PHILADELPHIA CITY SD,Biology,All Students,1,NULL,NULL,NULL,NULL,2016
+PHILADELPHIA CITY SD,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
 PHILADELPHIA CITY SD,Literature,All Students,42,0,31,47.6,21.4,2016
 PHILADELPHIA CITY SD,Literature,Historically Underperforming,36,0,22.2,52.8,25,2016
 PHILADELPHIA CITY SD,Algebra I,All Students,83,0,15.7,53,31.3,2016
@@ -3648,12 +3648,12 @@ PHILADELPHIA CITY SD,Biology,All Students,83,0,4.8,22.9,72.3,2016
 PHILADELPHIA CITY SD,Biology,Historically Underperforming,80,0,3.8,23.8,72.5,2016
 PHILADELPHIA CITY SD,Literature,All Students,82,1.2,32.9,50,15.9,2016
 PHILADELPHIA CITY SD,Literature,Historically Underperforming,79,1.3,32.9,49.4,16.5,2016
-PHILADELPHIA CITY SD,Algebra I,All Students,6,,,,,2016
-PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,6,,,,,2016
-PHILADELPHIA CITY SD,Biology,All Students,6,,,,,2016
-PHILADELPHIA CITY SD,Biology,Historically Underperforming,6,,,,,2016
-PHILADELPHIA CITY SD,Literature,All Students,6,,,,,2016
-PHILADELPHIA CITY SD,Literature,Historically Underperforming,6,,,,,2016
+PHILADELPHIA CITY SD,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2016
+PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
+PHILADELPHIA CITY SD,Biology,All Students,6,NULL,NULL,NULL,NULL,2016
+PHILADELPHIA CITY SD,Biology,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
+PHILADELPHIA CITY SD,Literature,All Students,6,NULL,NULL,NULL,NULL,2016
+PHILADELPHIA CITY SD,Literature,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
 PHILADELPHIA PERF ARTS CS,Algebra I,All Students,194,4.6,34,47.4,13.9,2016
 PHILADELPHIA PERF ARTS CS,Algebra I,Historically Underperforming,133,3.8,30.8,47.4,18,2016
 PHILADELPHIA PERF ARTS CS,Biology,All Students,194,5.7,37.1,41.8,15.5,2016
@@ -3715,11 +3715,11 @@ COUDERSPORT AREA SD,Biology,Historically Underperforming,25,24,40,20,16,2016
 COUDERSPORT AREA SD,Literature,All Students,64,6.3,73.4,15.6,4.7,2016
 COUDERSPORT AREA SD,Literature,Historically Underperforming,26,3.8,61.5,23.1,11.5,2016
 GALETON AREA SD,Algebra I,All Students,16,0,68.8,31.3,0,2016
-GALETON AREA SD,Algebra I,Historically Underperforming,10,,,,,2016
+GALETON AREA SD,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 GALETON AREA SD,Biology,All Students,16,25,50,25,0,2016
-GALETON AREA SD,Biology,Historically Underperforming,10,,,,,2016
+GALETON AREA SD,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 GALETON AREA SD,Literature,All Students,16,0,81.3,18.8,0,2016
-GALETON AREA SD,Literature,Historically Underperforming,10,,,,,2016
+GALETON AREA SD,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 NORTHERN POTTER SD,Algebra I,All Students,39,10.3,46.2,33.3,10.3,2016
 NORTHERN POTTER SD,Algebra I,Historically Underperforming,19,5.3,31.6,47.4,15.8,2016
 NORTHERN POTTER SD,Biology,All Students,40,5,35,40,20,2016
@@ -3738,12 +3738,12 @@ BLUE MOUNTAIN SD,Biology,All Students,188,39.4,38.3,13.8,8.5,2016
 BLUE MOUNTAIN SD,Biology,Historically Underperforming,68,11.8,47.1,19.1,22.1,2016
 BLUE MOUNTAIN SD,Literature,All Students,188,9,74.5,13.3,3.2,2016
 BLUE MOUNTAIN SD,Literature,Historically Underperforming,68,4.4,60.3,26.5,8.8,2016
-GILLINGHAM CS,Algebra I,All Students,9,,,,,2016
-GILLINGHAM CS,Algebra I,Historically Underperforming,8,,,,,2016
-GILLINGHAM CS,Biology,All Students,9,,,,,2016
-GILLINGHAM CS,Biology,Historically Underperforming,8,,,,,2016
-GILLINGHAM CS,Literature,All Students,9,,,,,2016
-GILLINGHAM CS,Literature,Historically Underperforming,8,,,,,2016
+GILLINGHAM CS,Algebra I,All Students,9,NULL,NULL,NULL,NULL,2016
+GILLINGHAM CS,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
+GILLINGHAM CS,Biology,All Students,9,NULL,NULL,NULL,NULL,2016
+GILLINGHAM CS,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
+GILLINGHAM CS,Literature,All Students,9,NULL,NULL,NULL,NULL,2016
+GILLINGHAM CS,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2016
 MAHANOY AREA SD,Algebra I,All Students,53,7.5,60.4,28.3,3.8,2016
 MAHANOY AREA SD,Algebra I,Historically Underperforming,30,0,53.3,40,6.7,2016
 MAHANOY AREA SD,Biology,All Students,52,19.2,36.5,32.7,11.5,2016
@@ -3780,18 +3780,18 @@ SCHUYLKILL HAVEN AREA SD,Biology,All Students,87,20.7,54,19.5,5.7,2016
 SCHUYLKILL HAVEN AREA SD,Biology,Historically Underperforming,32,9.4,46.9,31.3,12.5,2016
 SCHUYLKILL HAVEN AREA SD,Literature,All Students,88,6.8,77.3,13.6,2.3,2016
 SCHUYLKILL HAVEN AREA SD,Literature,Historically Underperforming,33,6.1,57.6,30.3,6.1,2016
-SCHUYLKILL TECHNOLOGY CENTER,Algebra I,All Students,1,,,,,2016
-SCHUYLKILL TECHNOLOGY CENTER,Algebra I,Historically Underperforming,0,,,,,2016
-SCHUYLKILL TECHNOLOGY CENTER,Biology,All Students,1,,,,,2016
-SCHUYLKILL TECHNOLOGY CENTER,Biology,Historically Underperforming,0,,,,,2016
-SCHUYLKILL TECHNOLOGY CENTER,Literature,All Students,1,,,,,2016
-SCHUYLKILL TECHNOLOGY CENTER,Literature,Historically Underperforming,0,,,,,2016
-SCHUYLKILL TECHNOLOGY CENTER,Algebra I,All Students,4,,,,,2016
-SCHUYLKILL TECHNOLOGY CENTER,Algebra I,Historically Underperforming,4,,,,,2016
-SCHUYLKILL TECHNOLOGY CENTER,Biology,All Students,4,,,,,2016
-SCHUYLKILL TECHNOLOGY CENTER,Biology,Historically Underperforming,4,,,,,2016
-SCHUYLKILL TECHNOLOGY CENTER,Literature,All Students,4,,,,,2016
-SCHUYLKILL TECHNOLOGY CENTER,Literature,Historically Underperforming,4,,,,,2016
+SCHUYLKILL TECHNOLOGY CENTER,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2016
+SCHUYLKILL TECHNOLOGY CENTER,Algebra I,Historically Underperforming,0,NULL,NULL,NULL,NULL,2016
+SCHUYLKILL TECHNOLOGY CENTER,Biology,All Students,1,NULL,NULL,NULL,NULL,2016
+SCHUYLKILL TECHNOLOGY CENTER,Biology,Historically Underperforming,0,NULL,NULL,NULL,NULL,2016
+SCHUYLKILL TECHNOLOGY CENTER,Literature,All Students,1,NULL,NULL,NULL,NULL,2016
+SCHUYLKILL TECHNOLOGY CENTER,Literature,Historically Underperforming,0,NULL,NULL,NULL,NULL,2016
+SCHUYLKILL TECHNOLOGY CENTER,Algebra I,All Students,4,NULL,NULL,NULL,NULL,2016
+SCHUYLKILL TECHNOLOGY CENTER,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
+SCHUYLKILL TECHNOLOGY CENTER,Biology,All Students,4,NULL,NULL,NULL,NULL,2016
+SCHUYLKILL TECHNOLOGY CENTER,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
+SCHUYLKILL TECHNOLOGY CENTER,Literature,All Students,4,NULL,NULL,NULL,NULL,2016
+SCHUYLKILL TECHNOLOGY CENTER,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2016
 SHENANDOAH VALLEY SD,Algebra I,All Students,69,1.4,40.6,50.7,7.2,2016
 SHENANDOAH VALLEY SD,Algebra I,Historically Underperforming,41,2.4,34.1,53.7,9.8,2016
 SHENANDOAH VALLEY SD,Biology,All Students,69,1.4,40.6,39.1,18.8,2016
@@ -3859,11 +3859,11 @@ ROCKWOOD AREA SD,Biology,Historically Underperforming,16,6.3,37.5,43.8,12.5,2016
 ROCKWOOD AREA SD,Literature,All Students,61,18,68.9,11.5,1.6,2016
 ROCKWOOD AREA SD,Literature,Historically Underperforming,16,18.8,56.3,18.8,6.3,2016
 SALISBURY-ELK LICK SD,Algebra I,All Students,20,10,65,25,0,2016
-SALISBURY-ELK LICK SD,Algebra I,Historically Underperforming,10,,,,,2016
+SALISBURY-ELK LICK SD,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 SALISBURY-ELK LICK SD,Biology,All Students,20,5,55,40,0,2016
-SALISBURY-ELK LICK SD,Biology,Historically Underperforming,10,,,,,2016
+SALISBURY-ELK LICK SD,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 SALISBURY-ELK LICK SD,Literature,All Students,19,0,94.7,5.3,0,2016
-SALISBURY-ELK LICK SD,Literature,Historically Underperforming,10,,,,,2016
+SALISBURY-ELK LICK SD,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 SHADE-CENTRAL CITY SD,Algebra I,All Students,40,17.5,57.5,22.5,2.5,2016
 SHADE-CENTRAL CITY SD,Algebra I,Historically Underperforming,21,9.5,47.6,38.1,4.8,2016
 SHADE-CENTRAL CITY SD,Biology,All Students,41,4.9,36.6,46.3,12.2,2016
@@ -3882,12 +3882,12 @@ SOMERSET AREA SD,Biology,All Students,170,35.9,36.5,14.1,13.5,2016
 SOMERSET AREA SD,Biology,Historically Underperforming,74,24.3,29.7,17.6,28.4,2016
 SOMERSET AREA SD,Literature,All Students,172,5.8,68.6,15.1,10.5,2016
 SOMERSET AREA SD,Literature,Historically Underperforming,75,1.3,52,24,22.7,2016
-SOMERSET CO TECHNOLOGY CENTER,Algebra I,All Students,4,,,,,2016
-SOMERSET CO TECHNOLOGY CENTER,Algebra I,Historically Underperforming,3,,,,,2016
-SOMERSET CO TECHNOLOGY CENTER,Biology,All Students,4,,,,,2016
-SOMERSET CO TECHNOLOGY CENTER,Biology,Historically Underperforming,3,,,,,2016
-SOMERSET CO TECHNOLOGY CENTER,Literature,All Students,4,,,,,2016
-SOMERSET CO TECHNOLOGY CENTER,Literature,Historically Underperforming,3,,,,,2016
+SOMERSET CO TECHNOLOGY CENTER,Algebra I,All Students,4,NULL,NULL,NULL,NULL,2016
+SOMERSET CO TECHNOLOGY CENTER,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
+SOMERSET CO TECHNOLOGY CENTER,Biology,All Students,4,NULL,NULL,NULL,NULL,2016
+SOMERSET CO TECHNOLOGY CENTER,Biology,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
+SOMERSET CO TECHNOLOGY CENTER,Literature,All Students,4,NULL,NULL,NULL,NULL,2016
+SOMERSET CO TECHNOLOGY CENTER,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
 TURKEYFOOT VALLEY AREA SD,Algebra I,All Students,25,12,40,36,12,2016
 TURKEYFOOT VALLEY AREA SD,Algebra I,Historically Underperforming,13,7.7,30.8,38.5,23.1,2016
 TURKEYFOOT VALLEY AREA SD,Biology,All Students,25,8,36,36,20,2016
@@ -3942,12 +3942,12 @@ SUSQUEHANNA COMM SD,Biology,All Students,46,26.1,45.7,19.6,8.7,2016
 SUSQUEHANNA COMM SD,Biology,Historically Underperforming,28,10.7,53.6,25,10.7,2016
 SUSQUEHANNA COMM SD,Literature,All Students,46,15.2,73.9,8.7,2.2,2016
 SUSQUEHANNA COMM SD,Literature,Historically Underperforming,28,14.3,67.9,14.3,3.6,2016
-SUSQUEHANNA COUNTY CTC,Algebra I,All Students,1,,,,,2016
-SUSQUEHANNA COUNTY CTC,Algebra I,Historically Underperforming,1,,,,,2016
-SUSQUEHANNA COUNTY CTC,Biology,All Students,4,,,,,2016
-SUSQUEHANNA COUNTY CTC,Biology,Historically Underperforming,3,,,,,2016
-SUSQUEHANNA COUNTY CTC,Literature,All Students,4,,,,,2016
-SUSQUEHANNA COUNTY CTC,Literature,Historically Underperforming,3,,,,,2016
+SUSQUEHANNA COUNTY CTC,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2016
+SUSQUEHANNA COUNTY CTC,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+SUSQUEHANNA COUNTY CTC,Biology,All Students,4,NULL,NULL,NULL,NULL,2016
+SUSQUEHANNA COUNTY CTC,Biology,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
+SUSQUEHANNA COUNTY CTC,Literature,All Students,4,NULL,NULL,NULL,NULL,2016
+SUSQUEHANNA COUNTY CTC,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
 NORTHERN TIOGA SD,Algebra I,All Students,61,8.2,67.2,19.7,4.9,2016
 NORTHERN TIOGA SD,Algebra I,Historically Underperforming,31,3.2,58.1,29,9.7,2016
 NORTHERN TIOGA SD,Biology,All Students,61,37.7,45.9,13.1,3.3,2016
@@ -3990,12 +3990,12 @@ MIFFLINBURG AREA SD,Biology,All Students,152,23.7,49.3,19.1,7.9,2016
 MIFFLINBURG AREA SD,Biology,Historically Underperforming,64,12.5,43.8,29.7,14.1,2016
 MIFFLINBURG AREA SD,Literature,All Students,153,5.2,73.9,15,5.9,2016
 MIFFLINBURG AREA SD,Literature,Historically Underperforming,65,3.1,63.1,20,13.8,2016
-SUN AREA CTC,Algebra I,All Students,1,,,,,2016
-SUN AREA CTC,Algebra I,Historically Underperforming,1,,,,,2016
-SUN AREA CTC,Biology,All Students,1,,,,,2016
-SUN AREA CTC,Biology,Historically Underperforming,1,,,,,2016
-SUN AREA CTC,Literature,All Students,1,,,,,2016
-SUN AREA CTC,Literature,Historically Underperforming,1,,,,,2016
+SUN AREA CTC,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2016
+SUN AREA CTC,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+SUN AREA CTC,Biology,All Students,1,NULL,NULL,NULL,NULL,2016
+SUN AREA CTC,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+SUN AREA CTC,Literature,All Students,1,NULL,NULL,NULL,NULL,2016
+SUN AREA CTC,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
 CRANBERRY AREA SD,Algebra I,All Students,79,7.6,55.7,27.8,8.9,2016
 CRANBERRY AREA SD,Algebra I,Historically Underperforming,31,6.5,32.3,38.7,22.6,2016
 CRANBERRY AREA SD,Biology,All Students,79,21.5,46.8,22.8,8.9,2016
@@ -4026,12 +4026,12 @@ VALLEY GROVE SD,Biology,All Students,70,17.1,60,18.6,4.3,2016
 VALLEY GROVE SD,Biology,Historically Underperforming,32,12.5,56.3,25,6.3,2016
 VALLEY GROVE SD,Literature,All Students,70,1.4,70,28.6,0,2016
 VALLEY GROVE SD,Literature,Historically Underperforming,32,0,62.5,37.5,0,2016
-VENANGO TECHNOLOGY CENTER,Algebra I,All Students,3,,,,,2016
-VENANGO TECHNOLOGY CENTER,Algebra I,Historically Underperforming,3,,,,,2016
-VENANGO TECHNOLOGY CENTER,Biology,All Students,1,,,,,2016
-VENANGO TECHNOLOGY CENTER,Biology,Historically Underperforming,1,,,,,2016
-VENANGO TECHNOLOGY CENTER,Literature,All Students,3,,,,,2016
-VENANGO TECHNOLOGY CENTER,Literature,Historically Underperforming,3,,,,,2016
+VENANGO TECHNOLOGY CENTER,Algebra I,All Students,3,NULL,NULL,NULL,NULL,2016
+VENANGO TECHNOLOGY CENTER,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
+VENANGO TECHNOLOGY CENTER,Biology,All Students,1,NULL,NULL,NULL,NULL,2016
+VENANGO TECHNOLOGY CENTER,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+VENANGO TECHNOLOGY CENTER,Literature,All Students,3,NULL,NULL,NULL,NULL,2016
+VENANGO TECHNOLOGY CENTER,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2016
 TIDIOUTE COMMUNITY CS,Algebra I,All Students,19,10.5,31.6,47.4,10.5,2016
 TIDIOUTE COMMUNITY CS,Algebra I,Historically Underperforming,19,10.5,31.6,47.4,10.5,2016
 TIDIOUTE COMMUNITY CS,Biology,All Students,19,10.5,42.1,36.8,10.5,2016
@@ -4063,11 +4063,11 @@ WARREN COUNTY SD,Biology,Historically Underperforming,41,7.3,34.1,43.9,14.6,2016
 WARREN COUNTY SD,Literature,All Students,76,0,71.1,22.4,6.6,2016
 WARREN COUNTY SD,Literature,Historically Underperforming,41,0,58.5,31.7,9.8,2016
 AVELLA AREA SD,Algebra I,All Students,36,5.6,75,11.1,8.3,2016
-AVELLA AREA SD,Algebra I,Historically Underperforming,10,,,,,2016
+AVELLA AREA SD,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 AVELLA AREA SD,Biology,All Students,36,25,52.8,8.3,13.9,2016
-AVELLA AREA SD,Biology,Historically Underperforming,10,,,,,2016
+AVELLA AREA SD,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 AVELLA AREA SD,Literature,All Students,36,2.8,72.2,13.9,11.1,2016
-AVELLA AREA SD,Literature,Historically Underperforming,10,,,,,2016
+AVELLA AREA SD,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2016
 BENTWORTH SD,Algebra I,All Students,66,18.2,65.2,13.6,3,2016
 BENTWORTH SD,Algebra I,Historically Underperforming,26,11.5,61.5,19.2,7.7,2016
 BENTWORTH SD,Biology,All Students,67,17.9,47.8,31.3,3,2016
@@ -4122,12 +4122,12 @@ MCGUFFEY SD,Biology,All Students,141,8.5,61.7,22.7,7.1,2016
 MCGUFFEY SD,Biology,Historically Underperforming,60,5,51.7,28.3,15,2016
 MCGUFFEY SD,Literature,All Students,141,4.3,73,20.6,2.1,2016
 MCGUFFEY SD,Literature,Historically Underperforming,60,3.3,60,31.7,5,2016
-MON VALLEY CTC,Algebra I,All Students,2,,,,,2016
-MON VALLEY CTC,Algebra I,Historically Underperforming,0,,,,,2016
-MON VALLEY CTC,Biology,All Students,2,,,,,2016
-MON VALLEY CTC,Biology,Historically Underperforming,0,,,,,2016
-MON VALLEY CTC,Literature,All Students,2,,,,,2016
-MON VALLEY CTC,Literature,Historically Underperforming,0,,,,,2016
+MON VALLEY CTC,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2016
+MON VALLEY CTC,Algebra I,Historically Underperforming,0,NULL,NULL,NULL,NULL,2016
+MON VALLEY CTC,Biology,All Students,2,NULL,NULL,NULL,NULL,2016
+MON VALLEY CTC,Biology,Historically Underperforming,0,NULL,NULL,NULL,NULL,2016
+MON VALLEY CTC,Literature,All Students,2,NULL,NULL,NULL,NULL,2016
+MON VALLEY CTC,Literature,Historically Underperforming,0,NULL,NULL,NULL,NULL,2016
 PETERS TOWNSHIP SD,Algebra I,All Students,326,40.5,51.8,7.7,0,2016
 PETERS TOWNSHIP SD,Algebra I,Historically Underperforming,38,18.4,44.7,36.8,0,2016
 PETERS TOWNSHIP SD,Biology,All Students,328,52.4,38.4,8.5,0.6,2016
@@ -4152,12 +4152,12 @@ WASHINGTON SD,Biology,All Students,85,12.9,41.2,32.9,12.9,2016
 WASHINGTON SD,Biology,Historically Underperforming,55,7.3,32.7,40,20,2016
 WASHINGTON SD,Literature,All Students,85,0,71.8,18.8,9.4,2016
 WASHINGTON SD,Literature,Historically Underperforming,55,0,61.8,23.6,14.5,2016
-WESTERN AREA CTC,Algebra I,All Students,1,,,,,2016
-WESTERN AREA CTC,Algebra I,Historically Underperforming,1,,,,,2016
-WESTERN AREA CTC,Biology,All Students,1,,,,,2016
-WESTERN AREA CTC,Biology,Historically Underperforming,1,,,,,2016
-WESTERN AREA CTC,Literature,All Students,1,,,,,2016
-WESTERN AREA CTC,Literature,Historically Underperforming,1,,,,,2016
+WESTERN AREA CTC,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2016
+WESTERN AREA CTC,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+WESTERN AREA CTC,Biology,All Students,1,NULL,NULL,NULL,NULL,2016
+WESTERN AREA CTC,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+WESTERN AREA CTC,Literature,All Students,1,NULL,NULL,NULL,NULL,2016
+WESTERN AREA CTC,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
 WAYNE HIGHLANDS SD,Algebra I,All Students,193,29.5,55.4,11.9,3.1,2016
 WAYNE HIGHLANDS SD,Algebra I,Historically Underperforming,85,11.8,56.5,24.7,7.1,2016
 WAYNE HIGHLANDS SD,Biology,All Students,195,44.6,42.6,9.7,3.1,2016
@@ -4194,18 +4194,18 @@ DERRY AREA SD,Biology,All Students,167,20.4,42.5,24.6,12.6,2016
 DERRY AREA SD,Biology,Historically Underperforming,76,14.5,42.1,27.6,15.8,2016
 DERRY AREA SD,Literature,All Students,168,11.9,72,14.3,1.8,2016
 DERRY AREA SD,Literature,Historically Underperforming,76,6.6,71.1,18.4,3.9,2016
-DR ROBERT KETTERER CS,Algebra I,All Students,7,,,,,2016
-DR ROBERT KETTERER CS,Algebra I,Historically Underperforming,7,,,,,2016
-DR ROBERT KETTERER CS,Biology,All Students,7,,,,,2016
-DR ROBERT KETTERER CS,Biology,Historically Underperforming,7,,,,,2016
-DR ROBERT KETTERER CS,Literature,All Students,7,,,,,2016
-DR ROBERT KETTERER CS,Literature,Historically Underperforming,7,,,,,2016
-EASTERN WESTMORELAND CTC,Algebra I,All Students,4,,,,,2016
-EASTERN WESTMORELAND CTC,Algebra I,Historically Underperforming,1,,,,,2016
-EASTERN WESTMORELAND CTC,Biology,All Students,4,,,,,2016
-EASTERN WESTMORELAND CTC,Biology,Historically Underperforming,1,,,,,2016
-EASTERN WESTMORELAND CTC,Literature,All Students,4,,,,,2016
-EASTERN WESTMORELAND CTC,Literature,Historically Underperforming,1,,,,,2016
+DR ROBERT KETTERER CS,Algebra I,All Students,7,NULL,NULL,NULL,NULL,2016
+DR ROBERT KETTERER CS,Algebra I,Historically Underperforming,7,NULL,NULL,NULL,NULL,2016
+DR ROBERT KETTERER CS,Biology,All Students,7,NULL,NULL,NULL,NULL,2016
+DR ROBERT KETTERER CS,Biology,Historically Underperforming,7,NULL,NULL,NULL,NULL,2016
+DR ROBERT KETTERER CS,Literature,All Students,7,NULL,NULL,NULL,NULL,2016
+DR ROBERT KETTERER CS,Literature,Historically Underperforming,7,NULL,NULL,NULL,NULL,2016
+EASTERN WESTMORELAND CTC,Algebra I,All Students,4,NULL,NULL,NULL,NULL,2016
+EASTERN WESTMORELAND CTC,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+EASTERN WESTMORELAND CTC,Biology,All Students,4,NULL,NULL,NULL,NULL,2016
+EASTERN WESTMORELAND CTC,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
+EASTERN WESTMORELAND CTC,Literature,All Students,4,NULL,NULL,NULL,NULL,2016
+EASTERN WESTMORELAND CTC,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2016
 FRANKLIN REGIONAL SD,Algebra I,All Students,292,33.2,55.8,9.2,1.7,2016
 FRANKLIN REGIONAL SD,Algebra I,Historically Underperforming,66,7.6,53,31.8,7.6,2016
 FRANKLIN REGIONAL SD,Biology,All Students,291,51.5,41.6,4.8,2.1,2016
@@ -4266,12 +4266,12 @@ NEW KENSINGTON-ARNOLD SD,Biology,All Students,104,9.6,33.7,29.8,26.9,2016
 NEW KENSINGTON-ARNOLD SD,Biology,Historically Underperforming,104,9.6,33.7,29.8,26.9,2016
 NEW KENSINGTON-ARNOLD SD,Literature,All Students,108,0.9,47.2,32.4,19.4,2016
 NEW KENSINGTON-ARNOLD SD,Literature,Historically Underperforming,108,0.9,47.2,32.4,19.4,2016
-NORTHERN WESTMORELAND CTC,Algebra I,All Students,6,,,,,2016
-NORTHERN WESTMORELAND CTC,Algebra I,Historically Underperforming,6,,,,,2016
-NORTHERN WESTMORELAND CTC,Biology,All Students,6,,,,,2016
-NORTHERN WESTMORELAND CTC,Biology,Historically Underperforming,6,,,,,2016
-NORTHERN WESTMORELAND CTC,Literature,All Students,5,,,,,2016
-NORTHERN WESTMORELAND CTC,Literature,Historically Underperforming,5,,,,,2016
+NORTHERN WESTMORELAND CTC,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2016
+NORTHERN WESTMORELAND CTC,Algebra I,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
+NORTHERN WESTMORELAND CTC,Biology,All Students,6,NULL,NULL,NULL,NULL,2016
+NORTHERN WESTMORELAND CTC,Biology,Historically Underperforming,6,NULL,NULL,NULL,NULL,2016
+NORTHERN WESTMORELAND CTC,Literature,All Students,5,NULL,NULL,NULL,NULL,2016
+NORTHERN WESTMORELAND CTC,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2016
 NORWIN SD,Algebra I,All Students,413,21.5,58.1,19.6,0.7,2016
 NORWIN SD,Algebra I,Historically Underperforming,118,13.6,48.3,36.4,1.7,2016
 NORWIN SD,Biology,All Students,414,43,36.7,16.7,3.6,2016

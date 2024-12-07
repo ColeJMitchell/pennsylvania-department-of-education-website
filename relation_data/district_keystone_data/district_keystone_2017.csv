@@ -267,7 +267,7 @@ PITTSBURGH SD,Algebra I,Historically Underperforming,11,0,9.1,54.5,36.4,2017
 PITTSBURGH SD,Biology,All Students,24,8.3,12.5,37.5,41.7,2017
 PITTSBURGH SD,Biology,Historically Underperforming,11,0,0,27.3,72.7,2017
 PITTSBURGH SD,Literature,All Students,22,0,54.5,31.8,13.6,2017
-PITTSBURGH SD,Literature,Historically Underperforming,10,,,,,2017
+PITTSBURGH SD,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2017
 PITTSBURGH SD,Algebra I,All Students,70,20,70,10,0,2017
 PITTSBURGH SD,Algebra I,Historically Underperforming,34,14.7,76.5,8.8,0,2017
 PITTSBURGH SD,Biology,All Students,70,42.9,51.4,5.7,0,2017
@@ -328,12 +328,12 @@ SOUTH PARK SD,Biology,All Students,173,38.2,36.4,14.5,11,2017
 SOUTH PARK SD,Biology,Historically Underperforming,50,24,36,22,18,2017
 SOUTH PARK SD,Literature,All Students,174,5.7,70.7,19,4.6,2017
 SOUTH PARK SD,Literature,Historically Underperforming,50,0,66,24,10,2017
-SPECTRUM CS,Algebra I,All Students,3,,,,,2017
-SPECTRUM CS,Algebra I,Historically Underperforming,2,,,,,2017
-SPECTRUM CS,Biology,All Students,3,,,,,2017
-SPECTRUM CS,Biology,Historically Underperforming,2,,,,,2017
-SPECTRUM CS,Literature,All Students,3,,,,,2017
-SPECTRUM CS,Literature,Historically Underperforming,2,,,,,2017
+SPECTRUM CS,Algebra I,All Students,3,NULL,NULL,NULL,NULL,2017
+SPECTRUM CS,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2017
+SPECTRUM CS,Biology,All Students,3,NULL,NULL,NULL,NULL,2017
+SPECTRUM CS,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2017
+SPECTRUM CS,Literature,All Students,3,NULL,NULL,NULL,NULL,2017
+SPECTRUM CS,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2017
 STEEL VALLEY SD,Algebra I,All Students,120,18.3,31.7,35.8,14.2,2017
 STEEL VALLEY SD,Algebra I,Historically Underperforming,80,11.3,22.5,46.3,20,2017
 STEEL VALLEY SD,Biology,All Students,121,14,27.3,25.6,33.1,2017
@@ -628,12 +628,12 @@ OLEY VALLEY SD,Biology,All Students,142,27.5,47.9,15.5,9.2,2017
 OLEY VALLEY SD,Biology,Historically Underperforming,53,7.5,49.1,26.4,17,2017
 OLEY VALLEY SD,Literature,All Students,141,9.2,69.5,16.3,5,2017
 OLEY VALLEY SD,Literature,Historically Underperforming,52,5.8,51.9,28.8,13.5,2017
-READING SD,Algebra I,All Students,2,,,,,2017
-READING SD,Algebra I,Historically Underperforming,2,,,,,2017
-READING SD,Biology,All Students,2,,,,,2017
-READING SD,Biology,Historically Underperforming,2,,,,,2017
-READING SD,Literature,All Students,2,,,,,2017
-READING SD,Literature,Historically Underperforming,2,,,,,2017
+READING SD,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2017
+READING SD,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2017
+READING SD,Biology,All Students,2,NULL,NULL,NULL,NULL,2017
+READING SD,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2017
+READING SD,Literature,All Students,2,NULL,NULL,NULL,NULL,2017
+READING SD,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2017
 READING SD,Algebra I,All Students,730,2.6,43.3,38.4,15.8,2017
 READING SD,Algebra I,Historically Underperforming,696,2.6,42.2,38.8,16.4,2017
 READING SD,Biology,All Students,708,4.2,30.9,32.2,32.6,2017
@@ -676,12 +676,12 @@ ALTOONA AREA SD,Biology,All Students,534,22.1,37.1,30.7,10.1,2017
 ALTOONA AREA SD,Biology,Historically Underperforming,297,11.8,30.6,40.7,16.8,2017
 ALTOONA AREA SD,Literature,All Students,530,8.5,63.4,22.3,5.8,2017
 ALTOONA AREA SD,Literature,Historically Underperforming,295,2.7,53.2,34.6,9.5,2017
-ALTOONA AREA SD,Algebra I,All Students,4,,,,,2017
-ALTOONA AREA SD,Algebra I,Historically Underperforming,4,,,,,2017
-ALTOONA AREA SD,Biology,All Students,4,,,,,2017
-ALTOONA AREA SD,Biology,Historically Underperforming,4,,,,,2017
-ALTOONA AREA SD,Literature,All Students,4,,,,,2017
-ALTOONA AREA SD,Literature,Historically Underperforming,4,,,,,2017
+ALTOONA AREA SD,Algebra I,All Students,4,NULL,NULL,NULL,NULL,2017
+ALTOONA AREA SD,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2017
+ALTOONA AREA SD,Biology,All Students,4,NULL,NULL,NULL,NULL,2017
+ALTOONA AREA SD,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2017
+ALTOONA AREA SD,Literature,All Students,4,NULL,NULL,NULL,NULL,2017
+ALTOONA AREA SD,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2017
 BELLWOOD-ANTIS SD,Algebra I,All Students,90,14.4,43.3,30,12.2,2017
 BELLWOOD-ANTIS SD,Algebra I,Historically Underperforming,35,11.4,28.6,37.1,22.9,2017
 BELLWOOD-ANTIS SD,Biology,All Students,89,18,37.1,24.7,20.2,2017
@@ -689,11 +689,11 @@ BELLWOOD-ANTIS SD,Biology,Historically Underperforming,34,11.8,17.6,26.5,44.1,20
 BELLWOOD-ANTIS SD,Literature,All Students,88,3.4,67,22.7,6.8,2017
 BELLWOOD-ANTIS SD,Literature,Historically Underperforming,33,3,48.5,30.3,18.2,2017
 CENTRAL PENN DIGITAL LEARNING FN,Algebra I,All Students,11,9.1,0,45.5,45.5,2017
-CENTRAL PENN DIGITAL LEARNING FN,Algebra I,Historically Underperforming,9,,,,,2017
+CENTRAL PENN DIGITAL LEARNING FN,Algebra I,Historically Underperforming,9,NULL,NULL,NULL,NULL,2017
 CENTRAL PENN DIGITAL LEARNING FN,Biology,All Students,12,0,16.7,41.7,41.7,2017
-CENTRAL PENN DIGITAL LEARNING FN,Biology,Historically Underperforming,10,,,,,2017
-CENTRAL PENN DIGITAL LEARNING FN,Literature,All Students,10,,,,,2017
-CENTRAL PENN DIGITAL LEARNING FN,Literature,Historically Underperforming,8,,,,,2017
+CENTRAL PENN DIGITAL LEARNING FN,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2017
+CENTRAL PENN DIGITAL LEARNING FN,Literature,All Students,10,NULL,NULL,NULL,NULL,2017
+CENTRAL PENN DIGITAL LEARNING FN,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2017
 CLAYSBURG-KIMMEL SD,Algebra I,All Students,46,8.7,58.7,28.3,4.3,2017
 CLAYSBURG-KIMMEL SD,Algebra I,Historically Underperforming,24,4.2,62.5,25,8.3,2017
 CLAYSBURG-KIMMEL SD,Biology,All Students,49,6.1,46.9,34.7,12.2,2017
@@ -964,12 +964,12 @@ GREATER JOHNSTOWN SD,Biology,All Students,173,2.3,20.2,45.7,31.8,2017
 GREATER JOHNSTOWN SD,Biology,Historically Underperforming,166,2.4,19.9,45.8,31.9,2017
 GREATER JOHNSTOWN SD,Literature,All Students,175,0.6,52,35.4,12,2017
 GREATER JOHNSTOWN SD,Literature,Historically Underperforming,166,0.6,51.8,35.5,12,2017
-GREATER JOHNSTOWN SD,Algebra I,All Students,8,,,,,2017
-GREATER JOHNSTOWN SD,Algebra I,Historically Underperforming,7,,,,,2017
-GREATER JOHNSTOWN SD,Biology,All Students,5,,,,,2017
-GREATER JOHNSTOWN SD,Biology,Historically Underperforming,4,,,,,2017
-GREATER JOHNSTOWN SD,Literature,All Students,8,,,,,2017
-GREATER JOHNSTOWN SD,Literature,Historically Underperforming,6,,,,,2017
+GREATER JOHNSTOWN SD,Algebra I,All Students,8,NULL,NULL,NULL,NULL,2017
+GREATER JOHNSTOWN SD,Algebra I,Historically Underperforming,7,NULL,NULL,NULL,NULL,2017
+GREATER JOHNSTOWN SD,Biology,All Students,5,NULL,NULL,NULL,NULL,2017
+GREATER JOHNSTOWN SD,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2017
+GREATER JOHNSTOWN SD,Literature,All Students,8,NULL,NULL,NULL,NULL,2017
+GREATER JOHNSTOWN SD,Literature,Historically Underperforming,6,NULL,NULL,NULL,NULL,2017
 NORTHERN CAMBRIA SD,Algebra I,All Students,78,11.5,53.8,29.5,5.1,2017
 NORTHERN CAMBRIA SD,Algebra I,Historically Underperforming,39,2.6,59,28.2,10.3,2017
 NORTHERN CAMBRIA SD,Biology,All Students,77,26,45.5,23.4,5.2,2017
@@ -1271,11 +1271,11 @@ GLENDALE SD,Biology,Historically Underperforming,33,15.2,48.5,18.2,18.2,2017
 GLENDALE SD,Literature,All Students,51,0,68.6,23.5,7.8,2017
 GLENDALE SD,Literature,Historically Underperforming,33,0,60.6,30.3,9.1,2017
 HARMONY AREA SD,Algebra I,All Students,18,5.6,55.6,27.8,11.1,2017
-HARMONY AREA SD,Algebra I,Historically Underperforming,8,,,,,2017
+HARMONY AREA SD,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2017
 HARMONY AREA SD,Biology,All Students,18,5.6,72.2,22.2,0,2017
-HARMONY AREA SD,Biology,Historically Underperforming,8,,,,,2017
+HARMONY AREA SD,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2017
 HARMONY AREA SD,Literature,All Students,18,11.1,88.9,0,0,2017
-HARMONY AREA SD,Literature,Historically Underperforming,8,,,,,2017
+HARMONY AREA SD,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2017
 MOSHANNON VALLEY SD,Algebra I,All Students,75,8,52,30.7,9.3,2017
 MOSHANNON VALLEY SD,Algebra I,Historically Underperforming,36,2.8,41.7,36.1,19.4,2017
 MOSHANNON VALLEY SD,Biology,All Students,75,13.3,42.7,24,20,2017
@@ -1355,11 +1355,11 @@ SOUTHERN COLUMBIA AREA SD,Biology,Historically Underperforming,26,7.7,46.2,30.8,
 SOUTHERN COLUMBIA AREA SD,Literature,All Students,93,4.3,83.9,9.7,2.2,2017
 SOUTHERN COLUMBIA AREA SD,Literature,Historically Underperforming,26,0,61.5,30.8,7.7,2017
 SUSQ-CYBER CS,Algebra I,All Students,14,0,28.6,57.1,14.3,2017
-SUSQ-CYBER CS,Algebra I,Historically Underperforming,9,,,,,2017
+SUSQ-CYBER CS,Algebra I,Historically Underperforming,9,NULL,NULL,NULL,NULL,2017
 SUSQ-CYBER CS,Biology,All Students,14,0,35.7,21.4,42.9,2017
-SUSQ-CYBER CS,Biology,Historically Underperforming,9,,,,,2017
+SUSQ-CYBER CS,Biology,Historically Underperforming,9,NULL,NULL,NULL,NULL,2017
 SUSQ-CYBER CS,Literature,All Students,14,0,50,35.7,14.3,2017
-SUSQ-CYBER CS,Literature,Historically Underperforming,9,,,,,2017
+SUSQ-CYBER CS,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2017
 CONNEAUT SD,Algebra I,All Students,165,10.3,50.3,21.8,17.6,2017
 CONNEAUT SD,Algebra I,Historically Underperforming,86,5.8,39.5,25.6,29.1,2017
 CONNEAUT SD,Biology,All Students,166,13.9,32.5,28.3,25.3,2017
@@ -1445,11 +1445,11 @@ SOUTH MIDDLETON SD,Biology,Historically Underperforming,32,18.8,28.1,25,28.1,201
 SOUTH MIDDLETON SD,Literature,All Students,158,10.8,72.8,14.6,1.9,2017
 SOUTH MIDDLETON SD,Literature,Historically Underperforming,32,0,53.1,40.6,6.3,2017
 CAPITAL AREA SCHOOL FOR THE ARTS,Algebra I,All Students,46,23.9,54.3,19.6,2.2,2017
-CAPITAL AREA SCHOOL FOR THE ARTS,Algebra I,Historically Underperforming,5,,,,,2017
+CAPITAL AREA SCHOOL FOR THE ARTS,Algebra I,Historically Underperforming,5,NULL,NULL,NULL,NULL,2017
 CAPITAL AREA SCHOOL FOR THE ARTS,Biology,All Students,47,19.1,68.1,8.5,4.3,2017
-CAPITAL AREA SCHOOL FOR THE ARTS,Biology,Historically Underperforming,5,,,,,2017
+CAPITAL AREA SCHOOL FOR THE ARTS,Biology,Historically Underperforming,5,NULL,NULL,NULL,NULL,2017
 CAPITAL AREA SCHOOL FOR THE ARTS,Literature,All Students,47,19.1,74.5,4.3,2.1,2017
-CAPITAL AREA SCHOOL FOR THE ARTS,Literature,Historically Underperforming,5,,,,,2017
+CAPITAL AREA SCHOOL FOR THE ARTS,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2017
 CENTRAL DAUPHIN SD,Algebra I,All Students,280,7.1,32.5,35.7,24.6,2017
 CENTRAL DAUPHIN SD,Algebra I,Historically Underperforming,178,5.6,24.7,36,33.7,2017
 CENTRAL DAUPHIN SD,Biology,All Students,282,10.6,19.1,30.5,39.7,2017
@@ -1486,12 +1486,12 @@ HALIFAX AREA SD,Biology,All Students,77,15.6,40.3,29.9,14.3,2017
 HALIFAX AREA SD,Biology,Historically Underperforming,24,8.3,12.5,45.8,33.3,2017
 HALIFAX AREA SD,Literature,All Students,77,3.9,67.5,22.1,6.5,2017
 HALIFAX AREA SD,Literature,Historically Underperforming,24,4.2,29.2,50,16.7,2017
-HARRISBURG CITY SD,Algebra I,All Students,9,,,,,2017
-HARRISBURG CITY SD,Algebra I,Historically Underperforming,8,,,,,2017
-HARRISBURG CITY SD,Biology,All Students,9,,,,,2017
-HARRISBURG CITY SD,Biology,Historically Underperforming,8,,,,,2017
-HARRISBURG CITY SD,Literature,All Students,9,,,,,2017
-HARRISBURG CITY SD,Literature,Historically Underperforming,8,,,,,2017
+HARRISBURG CITY SD,Algebra I,All Students,9,NULL,NULL,NULL,NULL,2017
+HARRISBURG CITY SD,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2017
+HARRISBURG CITY SD,Biology,All Students,9,NULL,NULL,NULL,NULL,2017
+HARRISBURG CITY SD,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2017
+HARRISBURG CITY SD,Literature,All Students,9,NULL,NULL,NULL,NULL,2017
+HARRISBURG CITY SD,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2017
 HARRISBURG CITY SD,Algebra I,All Students,99,0,8.1,53.5,38.4,2017
 HARRISBURG CITY SD,Algebra I,Historically Underperforming,87,0,6.9,51.7,41.4,2017
 HARRISBURG CITY SD,Biology,All Students,95,0,12.6,21.1,66.3,2017
@@ -1637,11 +1637,11 @@ WILLIAM PENN SD,Biology,Historically Underperforming,221,7.7,14.9,22.6,54.8,2017
 WILLIAM PENN SD,Literature,All Students,300,2.3,44.7,33.3,19.7,2017
 WILLIAM PENN SD,Literature,Historically Underperforming,219,2.3,37.4,36.1,24.2,2017
 JOHNSONBURG AREA SD,Algebra I,All Students,32,12.5,71.9,9.4,6.3,2017
-JOHNSONBURG AREA SD,Algebra I,Historically Underperforming,10,,,,,2017
+JOHNSONBURG AREA SD,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2017
 JOHNSONBURG AREA SD,Biology,All Students,32,28.1,53.1,18.8,0,2017
-JOHNSONBURG AREA SD,Biology,Historically Underperforming,10,,,,,2017
+JOHNSONBURG AREA SD,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2017
 JOHNSONBURG AREA SD,Literature,All Students,32,0,68.8,28.1,3.1,2017
-JOHNSONBURG AREA SD,Literature,Historically Underperforming,10,,,,,2017
+JOHNSONBURG AREA SD,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2017
 RIDGWAY AREA SD,Algebra I,All Students,53,45.3,39.6,7.5,7.5,2017
 RIDGWAY AREA SD,Algebra I,Historically Underperforming,13,30.8,30.8,23.1,15.4,2017
 RIDGWAY AREA SD,Biology,All Students,53,30.2,43.4,17,9.4,2017
@@ -1805,11 +1805,11 @@ FOREST AREA SD,Biology,Historically Underperforming,11,18.2,45.5,36.4,0,2017
 FOREST AREA SD,Literature,All Students,14,7.1,64.3,28.6,0,2017
 FOREST AREA SD,Literature,Historically Underperforming,11,9.1,54.5,36.4,0,2017
 FOREST AREA SD,Algebra I,All Students,21,0,52.4,47.6,0,2017
-FOREST AREA SD,Algebra I,Historically Underperforming,9,,,,,2017
+FOREST AREA SD,Algebra I,Historically Underperforming,9,NULL,NULL,NULL,NULL,2017
 FOREST AREA SD,Biology,All Students,21,9.5,66.7,23.8,0,2017
-FOREST AREA SD,Biology,Historically Underperforming,9,,,,,2017
+FOREST AREA SD,Biology,Historically Underperforming,9,NULL,NULL,NULL,NULL,2017
 FOREST AREA SD,Literature,All Students,20,0,80,20,0,2017
-FOREST AREA SD,Literature,Historically Underperforming,8,,,,,2017
+FOREST AREA SD,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2017
 CHAMBERSBURG AREA SD,Algebra I,All Students,184,12,58.7,25,4.3,2017
 CHAMBERSBURG AREA SD,Algebra I,Historically Underperforming,84,9.5,44,36.9,9.5,2017
 CHAMBERSBURG AREA SD,Biology,All Students,183,29,44.8,18,8.2,2017
@@ -1913,11 +1913,11 @@ MOUNT UNION AREA SD,Biology,Historically Underperforming,38,2.6,31.6,52.6,13.2,2
 MOUNT UNION AREA SD,Literature,All Students,103,0,68.9,26.2,4.9,2017
 MOUNT UNION AREA SD,Literature,Historically Underperforming,39,0,46.2,41,12.8,2017
 NEW DAY CHARTER SCHOOL,Algebra I,All Students,19,0,21.1,52.6,26.3,2017
-NEW DAY CHARTER SCHOOL,Algebra I,Historically Underperforming,9,,,,,2017
+NEW DAY CHARTER SCHOOL,Algebra I,Historically Underperforming,9,NULL,NULL,NULL,NULL,2017
 NEW DAY CHARTER SCHOOL,Biology,All Students,19,0,10.5,52.6,36.8,2017
-NEW DAY CHARTER SCHOOL,Biology,Historically Underperforming,9,,,,,2017
+NEW DAY CHARTER SCHOOL,Biology,Historically Underperforming,9,NULL,NULL,NULL,NULL,2017
 NEW DAY CHARTER SCHOOL,Literature,All Students,19,0,36.8,52.6,10.5,2017
-NEW DAY CHARTER SCHOOL,Literature,Historically Underperforming,9,,,,,2017
+NEW DAY CHARTER SCHOOL,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2017
 SOUTHERN HUNTINGDON COUNTY SD,Algebra I,All Students,80,1.3,41.3,41.3,16.3,2017
 SOUTHERN HUNTINGDON COUNTY SD,Algebra I,Historically Underperforming,38,2.6,21.1,55.3,21.1,2017
 SOUTHERN HUNTINGDON COUNTY SD,Biology,All Students,83,8.4,32.5,31.3,27.7,2017
@@ -2666,11 +2666,11 @@ HATBORO-HORSHAM SD,Biology,Historically Underperforming,118,15.3,30.5,30.5,23.7,
 HATBORO-HORSHAM SD,Literature,All Students,374,8.8,60.2,24.3,6.7,2017
 HATBORO-HORSHAM SD,Literature,Historically Underperforming,124,4.8,38.7,38.7,17.7,2017
 JENKINTOWN SD,Algebra I,All Students,38,31.6,42.1,18.4,7.9,2017
-JENKINTOWN SD,Algebra I,Historically Underperforming,8,,,,,2017
+JENKINTOWN SD,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2017
 JENKINTOWN SD,Biology,All Students,38,42.1,34.2,15.8,7.9,2017
-JENKINTOWN SD,Biology,Historically Underperforming,8,,,,,2017
+JENKINTOWN SD,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2017
 JENKINTOWN SD,Literature,All Students,38,31.6,65.8,2.6,0,2017
-JENKINTOWN SD,Literature,Historically Underperforming,8,,,,,2017
+JENKINTOWN SD,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2017
 LOWER MERION SD,Algebra I,All Students,289,40.8,40.5,15.9,2.8,2017
 LOWER MERION SD,Algebra I,Historically Underperforming,63,14.3,30.2,44.4,11.1,2017
 LOWER MERION SD,Biology,All Students,282,59.9,23.8,12.8,3.5,2017
@@ -3315,16 +3315,16 @@ PHILADELPHIA CITY SD,Literature,All Students,64,0,45.3,51.6,3.1,2017
 PHILADELPHIA CITY SD,Literature,Historically Underperforming,64,0,45.3,51.6,3.1,2017
 PHILADELPHIA CITY SD,Algebra I,All Students,11,0,0,54.5,45.5,2017
 PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,11,0,0,54.5,45.5,2017
-PHILADELPHIA CITY SD,Biology,All Students,7,,,,,2017
-PHILADELPHIA CITY SD,Biology,Historically Underperforming,7,,,,,2017
-PHILADELPHIA CITY SD,Literature,All Students,9,,,,,2017
-PHILADELPHIA CITY SD,Literature,Historically Underperforming,9,,,,,2017
-PHILADELPHIA CITY SD,Algebra I,All Students,9,,,,,2017
-PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,9,,,,,2017
-PHILADELPHIA CITY SD,Biology,All Students,10,,,,,2017
-PHILADELPHIA CITY SD,Biology,Historically Underperforming,10,,,,,2017
-PHILADELPHIA CITY SD,Literature,All Students,9,,,,,2017
-PHILADELPHIA CITY SD,Literature,Historically Underperforming,9,,,,,2017
+PHILADELPHIA CITY SD,Biology,All Students,7,NULL,NULL,NULL,NULL,2017
+PHILADELPHIA CITY SD,Biology,Historically Underperforming,7,NULL,NULL,NULL,NULL,2017
+PHILADELPHIA CITY SD,Literature,All Students,9,NULL,NULL,NULL,NULL,2017
+PHILADELPHIA CITY SD,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2017
+PHILADELPHIA CITY SD,Algebra I,All Students,9,NULL,NULL,NULL,NULL,2017
+PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,9,NULL,NULL,NULL,NULL,2017
+PHILADELPHIA CITY SD,Biology,All Students,10,NULL,NULL,NULL,NULL,2017
+PHILADELPHIA CITY SD,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2017
+PHILADELPHIA CITY SD,Literature,All Students,9,NULL,NULL,NULL,NULL,2017
+PHILADELPHIA CITY SD,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2017
 PHILADELPHIA CITY SD,Algebra I,All Students,125,0.8,9.6,46.4,43.2,2017
 PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,125,0.8,9.6,46.4,43.2,2017
 PHILADELPHIA CITY SD,Biology,All Students,116,0,2.6,15.5,81.9,2017
@@ -3405,8 +3405,8 @@ PHILADELPHIA CITY SD,Literature,All Students,44,0,11.4,43.2,45.5,2017
 PHILADELPHIA CITY SD,Literature,Historically Underperforming,44,0,11.4,43.2,45.5,2017
 PHILADELPHIA CITY SD,Algebra I,All Students,52,3.8,7.7,57.7,30.8,2017
 PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,52,3.8,7.7,57.7,30.8,2017
-PHILADELPHIA CITY SD,Biology,All Students,1,,,,,2017
-PHILADELPHIA CITY SD,Biology,Historically Underperforming,1,,,,,2017
+PHILADELPHIA CITY SD,Biology,All Students,1,NULL,NULL,NULL,NULL,2017
+PHILADELPHIA CITY SD,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2017
 PHILADELPHIA CITY SD,Literature,All Students,50,0,30,52,18,2017
 PHILADELPHIA CITY SD,Literature,Historically Underperforming,50,0,30,52,18,2017
 PHILADELPHIA CITY SD,Algebra I,All Students,67,1.5,19.4,50.7,28.4,2017
@@ -3463,12 +3463,12 @@ WALLENPAUPACK AREA SD,Biology,All Students,246,37,38.2,17.5,7.3,2017
 WALLENPAUPACK AREA SD,Biology,Historically Underperforming,134,23.1,43.3,20.9,12.7,2017
 WALLENPAUPACK AREA SD,Literature,All Students,245,10.6,72.7,13.1,3.7,2017
 WALLENPAUPACK AREA SD,Literature,Historically Underperforming,133,6,68.4,19.5,6,2017
-AUSTIN AREA SD,Algebra I,All Students,9,,,,,2017
-AUSTIN AREA SD,Algebra I,Historically Underperforming,7,,,,,2017
-AUSTIN AREA SD,Biology,All Students,9,,,,,2017
-AUSTIN AREA SD,Biology,Historically Underperforming,7,,,,,2017
-AUSTIN AREA SD,Literature,All Students,10,,,,,2017
-AUSTIN AREA SD,Literature,Historically Underperforming,7,,,,,2017
+AUSTIN AREA SD,Algebra I,All Students,9,NULL,NULL,NULL,NULL,2017
+AUSTIN AREA SD,Algebra I,Historically Underperforming,7,NULL,NULL,NULL,NULL,2017
+AUSTIN AREA SD,Biology,All Students,9,NULL,NULL,NULL,NULL,2017
+AUSTIN AREA SD,Biology,Historically Underperforming,7,NULL,NULL,NULL,NULL,2017
+AUSTIN AREA SD,Literature,All Students,10,NULL,NULL,NULL,NULL,2017
+AUSTIN AREA SD,Literature,Historically Underperforming,7,NULL,NULL,NULL,NULL,2017
 COUDERSPORT AREA SD,Algebra I,All Students,59,18.6,54.2,25.4,1.7,2017
 COUDERSPORT AREA SD,Algebra I,Historically Underperforming,25,4,44,48,4,2017
 COUDERSPORT AREA SD,Biology,All Students,60,33.3,48.3,15,3.3,2017
@@ -3476,11 +3476,11 @@ COUDERSPORT AREA SD,Biology,Historically Underperforming,25,12,48,32,8,2017
 COUDERSPORT AREA SD,Literature,All Students,60,3.3,75,18.3,3.3,2017
 COUDERSPORT AREA SD,Literature,Historically Underperforming,25,0,56,36,8,2017
 GALETON AREA SD,Algebra I,All Students,13,15.4,38.5,46.2,0,2017
-GALETON AREA SD,Algebra I,Historically Underperforming,6,,,,,2017
+GALETON AREA SD,Algebra I,Historically Underperforming,6,NULL,NULL,NULL,NULL,2017
 GALETON AREA SD,Biology,All Students,13,7.7,61.5,30.8,0,2017
-GALETON AREA SD,Biology,Historically Underperforming,6,,,,,2017
+GALETON AREA SD,Biology,Historically Underperforming,6,NULL,NULL,NULL,NULL,2017
 GALETON AREA SD,Literature,All Students,13,0,84.6,15.4,0,2017
-GALETON AREA SD,Literature,Historically Underperforming,6,,,,,2017
+GALETON AREA SD,Literature,Historically Underperforming,6,NULL,NULL,NULL,NULL,2017
 NORTHERN POTTER SD,Algebra I,All Students,34,5.9,47.1,38.2,8.8,2017
 NORTHERN POTTER SD,Algebra I,Historically Underperforming,22,4.5,50,31.8,13.6,2017
 NORTHERN POTTER SD,Biology,All Students,37,5.4,29.7,43.2,21.6,2017
@@ -3500,9 +3500,9 @@ BLUE MOUNTAIN SD,Biology,Historically Underperforming,69,11.6,37.7,27.5,23.2,201
 BLUE MOUNTAIN SD,Literature,All Students,217,6.5,74.7,15.2,3.7,2017
 BLUE MOUNTAIN SD,Literature,Historically Underperforming,69,0,53.6,34.8,11.6,2017
 GILLINGHAM CS,Algebra I,All Students,12,0,16.7,41.7,41.7,2017
-GILLINGHAM CS,Algebra I,Historically Underperforming,10,,,,,2017
+GILLINGHAM CS,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2017
 GILLINGHAM CS,Biology,All Students,12,0,33.3,33.3,33.3,2017
-GILLINGHAM CS,Biology,Historically Underperforming,10,,,,,2017
+GILLINGHAM CS,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2017
 GILLINGHAM CS,Literature,All Students,12,0,33.3,58.3,8.3,2017
 GILLINGHAM CS,Literature,Historically Underperforming,11,0,36.4,54.5,9.1,2017
 MAHANOY AREA SD,Algebra I,All Students,85,12.9,27.1,41.2,18.8,2017
@@ -3632,11 +3632,11 @@ SOMERSET AREA SD,Biology,Historically Underperforming,79,22.8,32.9,24.1,20.3,201
 SOMERSET AREA SD,Literature,All Students,173,5.2,75.1,14.5,5.2,2017
 SOMERSET AREA SD,Literature,Historically Underperforming,79,3.8,64.6,21.5,10.1,2017
 TURKEYFOOT VALLEY AREA SD,Algebra I,All Students,24,16.7,25,41.7,16.7,2017
-TURKEYFOOT VALLEY AREA SD,Algebra I,Historically Underperforming,10,,,,,2017
+TURKEYFOOT VALLEY AREA SD,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2017
 TURKEYFOOT VALLEY AREA SD,Biology,All Students,24,12.5,12.5,29.2,45.8,2017
-TURKEYFOOT VALLEY AREA SD,Biology,Historically Underperforming,10,,,,,2017
+TURKEYFOOT VALLEY AREA SD,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2017
 TURKEYFOOT VALLEY AREA SD,Literature,All Students,24,0,41.7,50,8.3,2017
-TURKEYFOOT VALLEY AREA SD,Literature,Historically Underperforming,10,,,,,2017
+TURKEYFOOT VALLEY AREA SD,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2017
 WINDBER AREA SD,Algebra I,All Students,87,37.9,44.8,11.5,5.7,2017
 WINDBER AREA SD,Algebra I,Historically Underperforming,43,27.9,44.2,16.3,11.6,2017
 WINDBER AREA SD,Biology,All Students,87,24.1,42.5,27.6,5.7,2017
@@ -3895,8 +3895,8 @@ BURRELL SD,Biology,All Students,125,25.6,42.4,22.4,9.6,2017
 BURRELL SD,Biology,Historically Underperforming,42,9.5,40.5,28.6,21.4,2017
 BURRELL SD,Literature,All Students,128,6.3,57.8,26.6,9.4,2017
 BURRELL SD,Literature,Historically Underperforming,45,8.9,33.3,37.8,20,2017
-CENTRAL WESTMORELAND CTC,Algebra I,All Students,1,,,,,2017
-CENTRAL WESTMORELAND CTC,Algebra I,Historically Underperforming,1,,,,,2017
+CENTRAL WESTMORELAND CTC,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2017
+CENTRAL WESTMORELAND CTC,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2017
 DERRY AREA SD,Algebra I,All Students,146,19.2,49.3,25.3,6.2,2017
 DERRY AREA SD,Algebra I,Historically Underperforming,64,9.4,46.9,29.7,14.1,2017
 DERRY AREA SD,Biology,All Students,146,29.5,35.6,25.3,9.6,2017

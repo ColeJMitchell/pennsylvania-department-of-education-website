@@ -34,12 +34,12 @@ UPPER ADAMS SD,Biology,All Students,132,45.5,31.8,19.7,3,2019
 UPPER ADAMS SD,Biology,Historically Underperforming,56,32.1,28.6,33.9,5.4,2019
 UPPER ADAMS SD,Literature,All Students,133,9.8,67.7,18,4.5,2019
 UPPER ADAMS SD,Literature,Historically Underperforming,57,3.5,54.4,31.6,10.5,2019
-A W BEATTIE CAREER CENTER,Algebra I,All Students,6,,,,,2019
-A W BEATTIE CAREER CENTER,Algebra I,Historically Underperforming,4,,,,,2019
-A W BEATTIE CAREER CENTER,Biology,All Students,5,,,,,2019
-A W BEATTIE CAREER CENTER,Biology,Historically Underperforming,4,,,,,2019
-A W BEATTIE CAREER CENTER,Literature,All Students,6,,,,,2019
-A W BEATTIE CAREER CENTER,Literature,Historically Underperforming,5,,,,,2019
+A W BEATTIE CAREER CENTER,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2019
+A W BEATTIE CAREER CENTER,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+A W BEATTIE CAREER CENTER,Biology,All Students,5,NULL,NULL,NULL,NULL,2019
+A W BEATTIE CAREER CENTER,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+A W BEATTIE CAREER CENTER,Literature,All Students,6,NULL,NULL,NULL,NULL,2019
+A W BEATTIE CAREER CENTER,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
 ALLEGHENY VALLEY SD,Algebra I,All Students,56,8.9,58.9,26.8,5.4,2019
 ALLEGHENY VALLEY SD,Algebra I,Historically Underperforming,30,3.3,53.3,33.3,10,2019
 ALLEGHENY VALLEY SD,Biology,All Students,53,22.6,49.1,17,11.3,2019
@@ -119,11 +119,11 @@ ELIZABETH FORWARD SD,Biology,Historically Underperforming,56,19.6,42.9,26.8,10.7
 ELIZABETH FORWARD SD,Literature,All Students,138,19.6,58.7,15.9,5.8,2019
 ELIZABETH FORWARD SD,Literature,Historically Underperforming,48,8.3,47.9,29.2,14.6,2019
 FORBES ROAD CTC,Algebra I,All Students,11,0,27.3,36.4,36.4,2019
-FORBES ROAD CTC,Algebra I,Historically Underperforming,8,,,,,2019
+FORBES ROAD CTC,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 FORBES ROAD CTC,Biology,All Students,11,0,27.3,18.2,54.5,2019
-FORBES ROAD CTC,Biology,Historically Underperforming,8,,,,,2019
-FORBES ROAD CTC,Literature,All Students,8,,,,,2019
-FORBES ROAD CTC,Literature,Historically Underperforming,6,,,,,2019
+FORBES ROAD CTC,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
+FORBES ROAD CTC,Literature,All Students,8,NULL,NULL,NULL,NULL,2019
+FORBES ROAD CTC,Literature,Historically Underperforming,6,NULL,NULL,NULL,NULL,2019
 FOX CHAPEL AREA SD,Algebra I,All Students,336,54.8,34.8,6.5,3.9,2019
 FOX CHAPEL AREA SD,Algebra I,Historically Underperforming,109,27.5,45,16.5,11,2019
 FOX CHAPEL AREA SD,Biology,All Students,335,54,36.1,6.9,3,2019
@@ -166,12 +166,12 @@ MCKEESPORT AREA SD,Biology,All Students,206,9.2,23.8,23.3,43.7,2019
 MCKEESPORT AREA SD,Biology,Historically Underperforming,125,3.2,20,19.2,57.6,2019
 MCKEESPORT AREA SD,Literature,All Students,215,4.2,45.1,32.6,18.1,2019
 MCKEESPORT AREA SD,Literature,Historically Underperforming,135,0.7,34.1,38.5,26.7,2019
-MCKEESPORT AREA TECH CTR,Algebra I,All Students,6,,,,,2019
-MCKEESPORT AREA TECH CTR,Algebra I,Historically Underperforming,4,,,,,2019
-MCKEESPORT AREA TECH CTR,Biology,All Students,6,,,,,2019
-MCKEESPORT AREA TECH CTR,Biology,Historically Underperforming,4,,,,,2019
-MCKEESPORT AREA TECH CTR,Literature,All Students,6,,,,,2019
-MCKEESPORT AREA TECH CTR,Literature,Historically Underperforming,4,,,,,2019
+MCKEESPORT AREA TECH CTR,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2019
+MCKEESPORT AREA TECH CTR,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+MCKEESPORT AREA TECH CTR,Biology,All Students,6,NULL,NULL,NULL,NULL,2019
+MCKEESPORT AREA TECH CTR,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+MCKEESPORT AREA TECH CTR,Literature,All Students,6,NULL,NULL,NULL,NULL,2019
+MCKEESPORT AREA TECH CTR,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
 MONTOUR SD,Algebra I,All Students,237,24.5,48.5,20.7,6.3,2019
 MONTOUR SD,Algebra I,Historically Underperforming,79,13.9,36.7,31.6,17.7,2019
 MONTOUR SD,Biology,All Students,238,29.8,38.7,23.1,8.4,2019
@@ -208,12 +208,12 @@ NORTHGATE SD,Biology,All Students,64,12.5,50,32.8,4.7,2019
 NORTHGATE SD,Biology,Historically Underperforming,31,6.5,41.9,41.9,9.7,2019
 NORTHGATE SD,Literature,All Students,63,14.3,54,23.8,7.9,2019
 NORTHGATE SD,Literature,Historically Underperforming,31,3.2,41.9,38.7,16.1,2019
-PARKWAY WEST CTC,Algebra I,All Students,3,,,,,2019
-PARKWAY WEST CTC,Algebra I,Historically Underperforming,2,,,,,2019
-PARKWAY WEST CTC,Biology,All Students,3,,,,,2019
-PARKWAY WEST CTC,Biology,Historically Underperforming,2,,,,,2019
-PARKWAY WEST CTC,Literature,All Students,3,,,,,2019
-PARKWAY WEST CTC,Literature,Historically Underperforming,2,,,,,2019
+PARKWAY WEST CTC,Algebra I,All Students,3,NULL,NULL,NULL,NULL,2019
+PARKWAY WEST CTC,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+PARKWAY WEST CTC,Biology,All Students,3,NULL,NULL,NULL,NULL,2019
+PARKWAY WEST CTC,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+PARKWAY WEST CTC,Literature,All Students,3,NULL,NULL,NULL,NULL,2019
+PARKWAY WEST CTC,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
 PENN HILLS SD,Algebra I,All Students,256,3.9,24.2,41.8,30.1,2019
 PENN HILLS SD,Algebra I,Historically Underperforming,166,3,16.9,39.2,41,2019
 PENN HILLS SD,Biology,All Students,256,8.2,30.5,25,36.3,2019
@@ -274,18 +274,18 @@ PITTSBURGH SD,Biology,All Students,119,14.3,40.3,35.3,10.1,2019
 PITTSBURGH SD,Biology,Historically Underperforming,50,4,26,58,12,2019
 PITTSBURGH SD,Literature,All Students,119,14.3,66.4,18.5,0.8,2019
 PITTSBURGH SD,Literature,Historically Underperforming,50,6,68,24,2,2019
-PITTSBURGH SD,Algebra I,All Students,3,,,,,2019
-PITTSBURGH SD,Algebra I,Historically Underperforming,3,,,,,2019
-PITTSBURGH SD,Biology,All Students,3,,,,,2019
-PITTSBURGH SD,Biology,Historically Underperforming,3,,,,,2019
-PITTSBURGH SD,Literature,All Students,4,,,,,2019
-PITTSBURGH SD,Literature,Historically Underperforming,4,,,,,2019
+PITTSBURGH SD,Algebra I,All Students,3,NULL,NULL,NULL,NULL,2019
+PITTSBURGH SD,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+PITTSBURGH SD,Biology,All Students,3,NULL,NULL,NULL,NULL,2019
+PITTSBURGH SD,Biology,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+PITTSBURGH SD,Literature,All Students,4,NULL,NULL,NULL,NULL,2019
+PITTSBURGH SD,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
 PITTSBURGH SD,Algebra I,All Students,16,6.3,31.3,50,12.5,2019
-PITTSBURGH SD,Algebra I,Historically Underperforming,5,,,,,2019
+PITTSBURGH SD,Algebra I,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
 PITTSBURGH SD,Biology,All Students,16,0,31.3,37.5,31.3,2019
-PITTSBURGH SD,Biology,Historically Underperforming,5,,,,,2019
+PITTSBURGH SD,Biology,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
 PITTSBURGH SD,Literature,All Students,16,0,62.5,31.3,6.3,2019
-PITTSBURGH SD,Literature,Historically Underperforming,5,,,,,2019
+PITTSBURGH SD,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
 PITTSBURGH SD,Algebra I,All Students,80,1.3,20,45,33.8,2019
 PITTSBURGH SD,Algebra I,Historically Underperforming,70,1.4,17.1,42.9,38.6,2019
 PITTSBURGH SD,Biology,All Students,76,2.6,9.2,26.3,61.8,2019
@@ -317,11 +317,11 @@ PROPEL CS-HOMESTEAD,Biology,Historically Underperforming,23,0,34.8,13,52.2,2019
 PROPEL CS-HOMESTEAD,Literature,All Students,31,0,29,45.2,25.8,2019
 PROPEL CS-HOMESTEAD,Literature,Historically Underperforming,24,0,25,45.8,29.2,2019
 PROPEL CS-MONTOUR,Algebra I,All Students,11,18.2,18.2,45.5,18.2,2019
-PROPEL CS-MONTOUR,Algebra I,Historically Underperforming,8,,,,,2019
+PROPEL CS-MONTOUR,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 PROPEL CS-MONTOUR,Biology,All Students,11,9.1,9.1,45.5,36.4,2019
-PROPEL CS-MONTOUR,Biology,Historically Underperforming,8,,,,,2019
+PROPEL CS-MONTOUR,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 PROPEL CS-MONTOUR,Literature,All Students,11,9.1,27.3,36.4,27.3,2019
-PROPEL CS-MONTOUR,Literature,Historically Underperforming,8,,,,,2019
+PROPEL CS-MONTOUR,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 QUAKER VALLEY SD,Algebra I,All Students,140,49.3,32.1,13.6,5,2019
 QUAKER VALLEY SD,Algebra I,Historically Underperforming,33,27.3,21.2,33.3,18.2,2019
 QUAKER VALLEY SD,Biology,All Students,139,39.6,43.9,12.2,4.3,2019
@@ -358,18 +358,18 @@ SOUTH PARK SD,Biology,All Students,146,38.4,31.5,23.3,6.8,2019
 SOUTH PARK SD,Biology,Historically Underperforming,44,15.9,25,40.9,18.2,2019
 SOUTH PARK SD,Literature,All Students,146,17.1,63,17.8,2.1,2019
 SOUTH PARK SD,Literature,Historically Underperforming,44,6.8,50,36.4,6.8,2019
-SPECTRUM CS,Algebra I,All Students,2,,,,,2019
-SPECTRUM CS,Algebra I,Historically Underperforming,1,,,,,2019
-SPECTRUM CS,Biology,All Students,2,,,,,2019
-SPECTRUM CS,Biology,Historically Underperforming,1,,,,,2019
-SPECTRUM CS,Literature,All Students,2,,,,,2019
-SPECTRUM CS,Literature,Historically Underperforming,1,,,,,2019
-STEEL CENTER FOR CAREER AND TECHNICAL EDUCATION,Algebra I,All Students,5,,,,,2019
-STEEL CENTER FOR CAREER AND TECHNICAL EDUCATION,Algebra I,Historically Underperforming,5,,,,,2019
-STEEL CENTER FOR CAREER AND TECHNICAL EDUCATION,Biology,All Students,4,,,,,2019
-STEEL CENTER FOR CAREER AND TECHNICAL EDUCATION,Biology,Historically Underperforming,4,,,,,2019
-STEEL CENTER FOR CAREER AND TECHNICAL EDUCATION,Literature,All Students,3,,,,,2019
-STEEL CENTER FOR CAREER AND TECHNICAL EDUCATION,Literature,Historically Underperforming,3,,,,,2019
+SPECTRUM CS,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2019
+SPECTRUM CS,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+SPECTRUM CS,Biology,All Students,2,NULL,NULL,NULL,NULL,2019
+SPECTRUM CS,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+SPECTRUM CS,Literature,All Students,2,NULL,NULL,NULL,NULL,2019
+SPECTRUM CS,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+STEEL CENTER FOR CAREER AND TECHNICAL EDUCATION,Algebra I,All Students,5,NULL,NULL,NULL,NULL,2019
+STEEL CENTER FOR CAREER AND TECHNICAL EDUCATION,Algebra I,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
+STEEL CENTER FOR CAREER AND TECHNICAL EDUCATION,Biology,All Students,4,NULL,NULL,NULL,NULL,2019
+STEEL CENTER FOR CAREER AND TECHNICAL EDUCATION,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+STEEL CENTER FOR CAREER AND TECHNICAL EDUCATION,Literature,All Students,3,NULL,NULL,NULL,NULL,2019
+STEEL CENTER FOR CAREER AND TECHNICAL EDUCATION,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
 STEEL VALLEY SD,Algebra I,All Students,105,13.3,32.4,41.9,12.4,2019
 STEEL VALLEY SD,Algebra I,Historically Underperforming,68,14.7,17.6,48.5,19.1,2019
 STEEL VALLEY SD,Biology,All Students,102,7.8,36.3,25.5,30.4,2019
@@ -419,11 +419,11 @@ WEST MIFFLIN AREA SD,Biology,Historically Underperforming,107,11.2,20.6,32.7,35.
 WEST MIFFLIN AREA SD,Literature,All Students,208,5.8,59.6,20.7,13.9,2019
 WEST MIFFLIN AREA SD,Literature,Historically Underperforming,111,5.4,47.7,23.4,23.4,2019
 WESTINGHOUSE ARTS ACADEMY CS,Algebra I,All Students,25,16,40,32,12,2019
-WESTINGHOUSE ARTS ACADEMY CS,Algebra I,Historically Underperforming,9,,,,,2019
+WESTINGHOUSE ARTS ACADEMY CS,Algebra I,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
 WESTINGHOUSE ARTS ACADEMY CS,Biology,All Students,26,15.4,46.2,26.9,11.5,2019
-WESTINGHOUSE ARTS ACADEMY CS,Biology,Historically Underperforming,10,,,,,2019
+WESTINGHOUSE ARTS ACADEMY CS,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 WESTINGHOUSE ARTS ACADEMY CS,Literature,All Students,25,16,56,24,4,2019
-WESTINGHOUSE ARTS ACADEMY CS,Literature,Historically Underperforming,9,,,,,2019
+WESTINGHOUSE ARTS ACADEMY CS,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
 WOODLAND HILLS SD,Algebra I,All Students,219,7.3,27.9,35.2,29.7,2019
 WOODLAND HILLS SD,Algebra I,Historically Underperforming,123,5.7,17.9,39,37.4,2019
 WOODLAND HILLS SD,Biology,All Students,196,12.8,31.1,26,30.1,2019
@@ -484,12 +484,12 @@ BEAVER AREA SD,Biology,All Students,139,33.8,43.2,15.1,7.9,2019
 BEAVER AREA SD,Biology,Historically Underperforming,30,23.3,33.3,13.3,30,2019
 BEAVER AREA SD,Literature,All Students,138,10.9,69.6,14.5,5.1,2019
 BEAVER AREA SD,Literature,Historically Underperforming,30,0,56.7,26.7,16.7,2019
-BEAVER COUNTY CTC,Algebra I,All Students,8,,,,,2019
-BEAVER COUNTY CTC,Algebra I,Historically Underperforming,4,,,,,2019
-BEAVER COUNTY CTC,Biology,All Students,8,,,,,2019
-BEAVER COUNTY CTC,Biology,Historically Underperforming,4,,,,,2019
-BEAVER COUNTY CTC,Literature,All Students,8,,,,,2019
-BEAVER COUNTY CTC,Literature,Historically Underperforming,4,,,,,2019
+BEAVER COUNTY CTC,Algebra I,All Students,8,NULL,NULL,NULL,NULL,2019
+BEAVER COUNTY CTC,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+BEAVER COUNTY CTC,Biology,All Students,8,NULL,NULL,NULL,NULL,2019
+BEAVER COUNTY CTC,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+BEAVER COUNTY CTC,Literature,All Students,8,NULL,NULL,NULL,NULL,2019
+BEAVER COUNTY CTC,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
 BIG BEAVER FALLS AREA SD,Algebra I,All Students,103,9.7,28.2,48.5,13.6,2019
 BIG BEAVER FALLS AREA SD,Algebra I,Historically Underperforming,83,7.2,24.1,53,15.7,2019
 BIG BEAVER FALLS AREA SD,Biology,All Students,100,9,33,20,38,2019
@@ -568,12 +568,12 @@ BEDFORD AREA SD,Biology,All Students,139,22.3,43.9,23,10.8,2019
 BEDFORD AREA SD,Biology,Historically Underperforming,58,12.1,39.7,29.3,19,2019
 BEDFORD AREA SD,Literature,All Students,140,12.1,56.4,22.1,9.3,2019
 BEDFORD AREA SD,Literature,Historically Underperforming,58,6.9,43.1,29.3,20.7,2019
-BEDFORD COUNTY TECHNICAL CENTER,Algebra I,All Students,1,,,,,2019
-BEDFORD COUNTY TECHNICAL CENTER,Algebra I,Historically Underperforming,0,,,,,2019
-BEDFORD COUNTY TECHNICAL CENTER,Biology,All Students,1,,,,,2019
-BEDFORD COUNTY TECHNICAL CENTER,Biology,Historically Underperforming,0,,,,,2019
-BEDFORD COUNTY TECHNICAL CENTER,Literature,All Students,1,,,,,2019
-BEDFORD COUNTY TECHNICAL CENTER,Literature,Historically Underperforming,0,,,,,2019
+BEDFORD COUNTY TECHNICAL CENTER,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2019
+BEDFORD COUNTY TECHNICAL CENTER,Algebra I,Historically Underperforming,0,NULL,NULL,NULL,NULL,2019
+BEDFORD COUNTY TECHNICAL CENTER,Biology,All Students,1,NULL,NULL,NULL,NULL,2019
+BEDFORD COUNTY TECHNICAL CENTER,Biology,Historically Underperforming,0,NULL,NULL,NULL,NULL,2019
+BEDFORD COUNTY TECHNICAL CENTER,Literature,All Students,1,NULL,NULL,NULL,NULL,2019
+BEDFORD COUNTY TECHNICAL CENTER,Literature,Historically Underperforming,0,NULL,NULL,NULL,NULL,2019
 CHESTNUT RIDGE SD,Algebra I,All Students,106,20.8,62.3,16,0.9,2019
 CHESTNUT RIDGE SD,Algebra I,Historically Underperforming,50,14,58,26,2,2019
 CHESTNUT RIDGE SD,Biology,All Students,106,28.3,53.8,12.3,5.7,2019
@@ -611,11 +611,11 @@ ANTIETAM SD,Biology,Historically Underperforming,28,0,17.9,57.1,25,2019
 ANTIETAM SD,Literature,All Students,66,9.1,50,28.8,12.1,2019
 ANTIETAM SD,Literature,Historically Underperforming,27,3.7,25.9,40.7,29.6,2019
 BERKS CTC,Algebra I,All Students,12,0,25,50,25,2019
-BERKS CTC,Algebra I,Historically Underperforming,8,,,,,2019
+BERKS CTC,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 BERKS CTC,Biology,All Students,11,0,27.3,45.5,27.3,2019
-BERKS CTC,Biology,Historically Underperforming,7,,,,,2019
+BERKS CTC,Biology,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
 BERKS CTC,Literature,All Students,12,0,58.3,25,16.7,2019
-BERKS CTC,Literature,Historically Underperforming,8,,,,,2019
+BERKS CTC,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 BOYERTOWN AREA SD,Algebra I,All Students,492,40.9,43.1,13.8,2.2,2019
 BOYERTOWN AREA SD,Algebra I,Historically Underperforming,163,20.9,41.7,30.7,6.7,2019
 BOYERTOWN AREA SD,Biology,All Students,488,37.9,43.6,15,3.5,2019
@@ -692,8 +692,8 @@ READING MUHLENBERG CTC,Algebra I,All Students,17,0,0,47.1,52.9,2019
 READING MUHLENBERG CTC,Algebra I,Historically Underperforming,16,0,0,50,50,2019
 READING MUHLENBERG CTC,Biology,All Students,13,0,7.7,30.8,61.5,2019
 READING MUHLENBERG CTC,Biology,Historically Underperforming,13,0,7.7,30.8,61.5,2019
-READING MUHLENBERG CTC,Literature,All Students,10,,,,,2019
-READING MUHLENBERG CTC,Literature,Historically Underperforming,10,,,,,2019
+READING MUHLENBERG CTC,Literature,All Students,10,NULL,NULL,NULL,NULL,2019
+READING MUHLENBERG CTC,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 READING SD,Algebra I,All Students,761,2.8,32.1,42.2,23,2019
 READING SD,Algebra I,Historically Underperforming,724,2.8,30.2,43,24,2019
 READING SD,Biology,All Students,711,2.4,29,31.2,37.4,2019
@@ -754,12 +754,12 @@ CLAYSBURG-KIMMEL SD,Biology,All Students,53,1.9,37.7,43.4,17,2019
 CLAYSBURG-KIMMEL SD,Biology,Historically Underperforming,28,0,17.9,53.6,28.6,2019
 CLAYSBURG-KIMMEL SD,Literature,All Students,52,0,55.8,30.8,13.5,2019
 CLAYSBURG-KIMMEL SD,Literature,Historically Underperforming,28,0,42.9,35.7,21.4,2019
-GREATER ALTOONA CTC,Algebra I,All Students,4,,,,,2019
-GREATER ALTOONA CTC,Algebra I,Historically Underperforming,4,,,,,2019
-GREATER ALTOONA CTC,Biology,All Students,4,,,,,2019
-GREATER ALTOONA CTC,Biology,Historically Underperforming,4,,,,,2019
-GREATER ALTOONA CTC,Literature,All Students,3,,,,,2019
-GREATER ALTOONA CTC,Literature,Historically Underperforming,3,,,,,2019
+GREATER ALTOONA CTC,Algebra I,All Students,4,NULL,NULL,NULL,NULL,2019
+GREATER ALTOONA CTC,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+GREATER ALTOONA CTC,Biology,All Students,4,NULL,NULL,NULL,NULL,2019
+GREATER ALTOONA CTC,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+GREATER ALTOONA CTC,Literature,All Students,3,NULL,NULL,NULL,NULL,2019
+GREATER ALTOONA CTC,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
 HOLLIDAYSBURG AREA SD,Algebra I,All Students,263,28.9,47.9,19,4.2,2019
 HOLLIDAYSBURG AREA SD,Algebra I,Historically Underperforming,84,8.3,41.7,38.1,11.9,2019
 HOLLIDAYSBURG AREA SD,Biology,All Students,261,20.3,55.9,14.2,9.6,2019
@@ -802,12 +802,12 @@ NORTHEAST BRADFORD SD,Biology,All Students,62,12.9,62.9,19.4,4.8,2019
 NORTHEAST BRADFORD SD,Biology,Historically Underperforming,36,13.9,52.8,25,8.3,2019
 NORTHEAST BRADFORD SD,Literature,All Students,62,11.3,66.1,21,1.6,2019
 NORTHEAST BRADFORD SD,Literature,Historically Underperforming,36,11.1,55.6,30.6,2.8,2019
-NORTHERN TIER CAREER CENTER,Algebra I,All Students,8,,,,,2019
-NORTHERN TIER CAREER CENTER,Algebra I,Historically Underperforming,6,,,,,2019
-NORTHERN TIER CAREER CENTER,Biology,All Students,10,,,,,2019
-NORTHERN TIER CAREER CENTER,Biology,Historically Underperforming,8,,,,,2019
+NORTHERN TIER CAREER CENTER,Algebra I,All Students,8,NULL,NULL,NULL,NULL,2019
+NORTHERN TIER CAREER CENTER,Algebra I,Historically Underperforming,6,NULL,NULL,NULL,NULL,2019
+NORTHERN TIER CAREER CENTER,Biology,All Students,10,NULL,NULL,NULL,NULL,2019
+NORTHERN TIER CAREER CENTER,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 NORTHERN TIER CAREER CENTER,Literature,All Students,11,0,27.3,54.5,18.2,2019
-NORTHERN TIER CAREER CENTER,Literature,Historically Underperforming,9,,,,,2019
+NORTHERN TIER CAREER CENTER,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
 SAYRE AREA SD,Algebra I,All Students,65,6.2,43.1,35.4,15.4,2019
 SAYRE AREA SD,Algebra I,Historically Underperforming,32,3.1,15.6,53.1,28.1,2019
 SAYRE AREA SD,Biology,All Students,64,15.6,35.9,25,23.4,2019
@@ -898,12 +898,12 @@ COUNCIL ROCK SD,Biology,All Students,469,37.3,44.6,13.9,4.3,2019
 COUNCIL ROCK SD,Biology,Historically Underperforming,108,23.1,39.8,22.2,14.8,2019
 COUNCIL ROCK SD,Literature,All Students,471,17.2,68.4,10.4,4,2019
 COUNCIL ROCK SD,Literature,Historically Underperforming,108,6.5,58.3,20.4,14.8,2019
-MIDDLE BUCKS INSTITUTE OF TECHNOLOGY,Algebra I,All Students,3,,,,,2019
-MIDDLE BUCKS INSTITUTE OF TECHNOLOGY,Algebra I,Historically Underperforming,3,,,,,2019
-MIDDLE BUCKS INSTITUTE OF TECHNOLOGY,Biology,All Students,2,,,,,2019
-MIDDLE BUCKS INSTITUTE OF TECHNOLOGY,Biology,Historically Underperforming,2,,,,,2019
-MIDDLE BUCKS INSTITUTE OF TECHNOLOGY,Literature,All Students,3,,,,,2019
-MIDDLE BUCKS INSTITUTE OF TECHNOLOGY,Literature,Historically Underperforming,3,,,,,2019
+MIDDLE BUCKS INSTITUTE OF TECHNOLOGY,Algebra I,All Students,3,NULL,NULL,NULL,NULL,2019
+MIDDLE BUCKS INSTITUTE OF TECHNOLOGY,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+MIDDLE BUCKS INSTITUTE OF TECHNOLOGY,Biology,All Students,2,NULL,NULL,NULL,NULL,2019
+MIDDLE BUCKS INSTITUTE OF TECHNOLOGY,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+MIDDLE BUCKS INSTITUTE OF TECHNOLOGY,Literature,All Students,3,NULL,NULL,NULL,NULL,2019
+MIDDLE BUCKS INSTITUTE OF TECHNOLOGY,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
 MORRISVILLE BOROUGH SD,Algebra I,All Students,39,5.1,38.5,38.5,17.9,2019
 MORRISVILLE BOROUGH SD,Algebra I,Historically Underperforming,23,0,39.1,30.4,30.4,2019
 MORRISVILLE BOROUGH SD,Biology,All Students,44,4.5,25,25,45.5,2019
@@ -952,12 +952,12 @@ SCHOOL LANE CS,Biology,All Students,68,17.6,44.1,29.4,8.8,2019
 SCHOOL LANE CS,Biology,Historically Underperforming,37,13.5,40.5,29.7,16.2,2019
 SCHOOL LANE CS,Literature,All Students,67,13.4,59.7,14.9,11.9,2019
 SCHOOL LANE CS,Literature,Historically Underperforming,36,11.1,55.6,13.9,19.4,2019
-UPPER BUCKS COUNTY TECHNICAL SCHOOL,Algebra I,All Students,9,,,,,2019
-UPPER BUCKS COUNTY TECHNICAL SCHOOL,Algebra I,Historically Underperforming,7,,,,,2019
-UPPER BUCKS COUNTY TECHNICAL SCHOOL,Biology,All Students,9,,,,,2019
-UPPER BUCKS COUNTY TECHNICAL SCHOOL,Biology,Historically Underperforming,7,,,,,2019
-UPPER BUCKS COUNTY TECHNICAL SCHOOL,Literature,All Students,9,,,,,2019
-UPPER BUCKS COUNTY TECHNICAL SCHOOL,Literature,Historically Underperforming,7,,,,,2019
+UPPER BUCKS COUNTY TECHNICAL SCHOOL,Algebra I,All Students,9,NULL,NULL,NULL,NULL,2019
+UPPER BUCKS COUNTY TECHNICAL SCHOOL,Algebra I,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
+UPPER BUCKS COUNTY TECHNICAL SCHOOL,Biology,All Students,9,NULL,NULL,NULL,NULL,2019
+UPPER BUCKS COUNTY TECHNICAL SCHOOL,Biology,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
+UPPER BUCKS COUNTY TECHNICAL SCHOOL,Literature,All Students,9,NULL,NULL,NULL,NULL,2019
+UPPER BUCKS COUNTY TECHNICAL SCHOOL,Literature,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
 BUTLER AREA SD,Algebra I,All Students,441,28.3,51,16.6,4.1,2019
 BUTLER AREA SD,Algebra I,Historically Underperforming,169,15.4,45.6,29.6,9.5,2019
 BUTLER AREA SD,Biology,All Students,442,23.3,54.1,13.8,8.8,2019
@@ -965,11 +965,11 @@ BUTLER AREA SD,Biology,Historically Underperforming,171,11.7,49.1,21.1,18.1,2019
 BUTLER AREA SD,Literature,All Students,443,13.8,66.6,14,5.6,2019
 BUTLER AREA SD,Literature,Historically Underperforming,172,5.2,58.1,24.4,12.2,2019
 BUTLER COUNTY AVTS,Algebra I,All Students,11,0,27.3,63.6,9.1,2019
-BUTLER COUNTY AVTS,Algebra I,Historically Underperforming,8,,,,,2019
-BUTLER COUNTY AVTS,Biology,All Students,10,,,,,2019
-BUTLER COUNTY AVTS,Biology,Historically Underperforming,8,,,,,2019
+BUTLER COUNTY AVTS,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
+BUTLER COUNTY AVTS,Biology,All Students,10,NULL,NULL,NULL,NULL,2019
+BUTLER COUNTY AVTS,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 BUTLER COUNTY AVTS,Literature,All Students,11,0,0,81.8,18.2,2019
-BUTLER COUNTY AVTS,Literature,Historically Underperforming,9,,,,,2019
+BUTLER COUNTY AVTS,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
 KARNS CITY AREA SD,Algebra I,All Students,83,22.9,60.2,14.5,2.4,2019
 KARNS CITY AREA SD,Algebra I,Historically Underperforming,32,12.5,53.1,28.1,6.3,2019
 KARNS CITY AREA SD,Biology,All Students,83,18.1,57.8,21.7,2.4,2019
@@ -1006,12 +1006,12 @@ SOUTH BUTLER COUNTY SD,Biology,All Students,206,35.9,41.7,17.5,4.9,2019
 SOUTH BUTLER COUNTY SD,Biology,Historically Underperforming,69,20.3,42,27.5,10.1,2019
 SOUTH BUTLER COUNTY SD,Literature,All Students,205,13.2,65.9,15.1,5.9,2019
 SOUTH BUTLER COUNTY SD,Literature,Historically Underperforming,68,5.9,61.8,23.5,8.8,2019
-ADMIRAL PEARY AVTS,Algebra I,All Students,2,,,,,2019
-ADMIRAL PEARY AVTS,Algebra I,Historically Underperforming,2,,,,,2019
-ADMIRAL PEARY AVTS,Biology,All Students,2,,,,,2019
-ADMIRAL PEARY AVTS,Biology,Historically Underperforming,2,,,,,2019
-ADMIRAL PEARY AVTS,Literature,All Students,2,,,,,2019
-ADMIRAL PEARY AVTS,Literature,Historically Underperforming,2,,,,,2019
+ADMIRAL PEARY AVTS,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2019
+ADMIRAL PEARY AVTS,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+ADMIRAL PEARY AVTS,Biology,All Students,2,NULL,NULL,NULL,NULL,2019
+ADMIRAL PEARY AVTS,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+ADMIRAL PEARY AVTS,Literature,All Students,2,NULL,NULL,NULL,NULL,2019
+ADMIRAL PEARY AVTS,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
 BLACKLICK VALLEY SD,Algebra I,All Students,48,4.2,56.3,18.8,20.8,2019
 BLACKLICK VALLEY SD,Algebra I,Historically Underperforming,27,3.7,44.4,18.5,33.3,2019
 BLACKLICK VALLEY SD,Biology,All Students,48,12.5,47.9,25,14.6,2019
@@ -1048,18 +1048,18 @@ FOREST HILLS SD,Biology,All Students,122,16.4,49.2,21.3,13.1,2019
 FOREST HILLS SD,Biology,Historically Underperforming,66,10.6,40.9,28.8,19.7,2019
 FOREST HILLS SD,Literature,All Students,123,13,65,13,8.9,2019
 FOREST HILLS SD,Literature,Historically Underperforming,67,1.5,62.7,19.4,16.4,2019
-GREATER JOHNSTOWN CTC,Algebra I,All Students,2,,,,,2019
-GREATER JOHNSTOWN CTC,Algebra I,Historically Underperforming,2,,,,,2019
-GREATER JOHNSTOWN CTC,Biology,All Students,2,,,,,2019
-GREATER JOHNSTOWN CTC,Biology,Historically Underperforming,2,,,,,2019
-GREATER JOHNSTOWN CTC,Literature,All Students,2,,,,,2019
-GREATER JOHNSTOWN CTC,Literature,Historically Underperforming,2,,,,,2019
-GREATER JOHNSTOWN SD,Algebra I,All Students,2,,,,,2019
-GREATER JOHNSTOWN SD,Algebra I,Historically Underperforming,2,,,,,2019
-GREATER JOHNSTOWN SD,Biology,All Students,2,,,,,2019
-GREATER JOHNSTOWN SD,Biology,Historically Underperforming,2,,,,,2019
-GREATER JOHNSTOWN SD,Literature,All Students,3,,,,,2019
-GREATER JOHNSTOWN SD,Literature,Historically Underperforming,3,,,,,2019
+GREATER JOHNSTOWN CTC,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2019
+GREATER JOHNSTOWN CTC,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+GREATER JOHNSTOWN CTC,Biology,All Students,2,NULL,NULL,NULL,NULL,2019
+GREATER JOHNSTOWN CTC,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+GREATER JOHNSTOWN CTC,Literature,All Students,2,NULL,NULL,NULL,NULL,2019
+GREATER JOHNSTOWN CTC,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+GREATER JOHNSTOWN SD,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2019
+GREATER JOHNSTOWN SD,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+GREATER JOHNSTOWN SD,Biology,All Students,2,NULL,NULL,NULL,NULL,2019
+GREATER JOHNSTOWN SD,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+GREATER JOHNSTOWN SD,Literature,All Students,3,NULL,NULL,NULL,NULL,2019
+GREATER JOHNSTOWN SD,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
 GREATER JOHNSTOWN SD,Algebra I,All Students,162,5.6,24.7,45.1,24.7,2019
 GREATER JOHNSTOWN SD,Algebra I,Historically Underperforming,141,5.7,25.5,42.6,26.2,2019
 GREATER JOHNSTOWN SD,Biology,All Students,169,4.1,20.7,39.6,35.5,2019
@@ -1150,8 +1150,8 @@ BELLEFONTE AREA SD,Biology,All Students,181,26,44.8,17.7,11.6,2019
 BELLEFONTE AREA SD,Biology,Historically Underperforming,71,16.9,39.4,23.9,19.7,2019
 BELLEFONTE AREA SD,Literature,All Students,183,7.7,60.1,24,8.2,2019
 BELLEFONTE AREA SD,Literature,Historically Underperforming,73,2.7,43.8,34.2,19.2,2019
-CENTRAL PA INSTITUTE OF SCIENCE & TECHNOLOGY,Literature,All Students,1,,,,,2019
-CENTRAL PA INSTITUTE OF SCIENCE & TECHNOLOGY,Literature,Historically Underperforming,1,,,,,2019
+CENTRAL PA INSTITUTE OF SCIENCE & TECHNOLOGY,Literature,All Students,1,NULL,NULL,NULL,NULL,2019
+CENTRAL PA INSTITUTE OF SCIENCE & TECHNOLOGY,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
 PENNS VALLEY AREA SD,Algebra I,All Students,92,23.9,56.5,17.4,2.2,2019
 PENNS VALLEY AREA SD,Algebra I,Historically Underperforming,35,14.3,57.1,22.9,5.7,2019
 PENNS VALLEY AREA SD,Biology,All Students,94,37.2,43.6,13.8,5.3,2019
@@ -1203,7 +1203,7 @@ CHESTER COUNTY TECHNICAL COLLEGE HIGH SCHOOL,Literature,Historically Underperfor
 COATESVILLE AREA SD,Algebra I,All Students,21,0,9.5,61.9,28.6,2019
 COATESVILLE AREA SD,Algebra I,Historically Underperforming,14,0,7.1,57.1,35.7,2019
 COATESVILLE AREA SD,Biology,All Students,14,0,7.1,35.7,57.1,2019
-COATESVILLE AREA SD,Biology,Historically Underperforming,9,,,,,2019
+COATESVILLE AREA SD,Biology,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
 COATESVILLE AREA SD,Literature,All Students,17,0,41.2,29.4,29.4,2019
 COATESVILLE AREA SD,Literature,Historically Underperforming,12,0,50,16.7,33.3,2019
 COATESVILLE AREA SD,Algebra I,All Students,438,10.5,31.5,39.7,18.3,2019
@@ -1332,12 +1332,12 @@ CLARION AREA SD,Biology,All Students,46,26.1,47.8,15.2,10.9,2019
 CLARION AREA SD,Biology,Historically Underperforming,14,7.1,42.9,28.6,21.4,2019
 CLARION AREA SD,Literature,All Students,48,16.7,58.3,14.6,10.4,2019
 CLARION AREA SD,Literature,Historically Underperforming,15,0,46.7,26.7,26.7,2019
-CLARION COUNTY CAREER CENTER,Algebra I,All Students,2,,,,,2019
-CLARION COUNTY CAREER CENTER,Algebra I,Historically Underperforming,1,,,,,2019
-CLARION COUNTY CAREER CENTER,Biology,All Students,1,,,,,2019
-CLARION COUNTY CAREER CENTER,Biology,Historically Underperforming,0,,,,,2019
-CLARION COUNTY CAREER CENTER,Literature,All Students,1,,,,,2019
-CLARION COUNTY CAREER CENTER,Literature,Historically Underperforming,0,,,,,2019
+CLARION COUNTY CAREER CENTER,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2019
+CLARION COUNTY CAREER CENTER,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+CLARION COUNTY CAREER CENTER,Biology,All Students,1,NULL,NULL,NULL,NULL,2019
+CLARION COUNTY CAREER CENTER,Biology,Historically Underperforming,0,NULL,NULL,NULL,NULL,2019
+CLARION COUNTY CAREER CENTER,Literature,All Students,1,NULL,NULL,NULL,NULL,2019
+CLARION COUNTY CAREER CENTER,Literature,Historically Underperforming,0,NULL,NULL,NULL,NULL,2019
 CLARION-LIMESTONE AREA SD,Algebra I,All Students,49,22.4,59.2,16.3,2,2019
 CLARION-LIMESTONE AREA SD,Algebra I,Historically Underperforming,19,0,57.9,36.8,5.3,2019
 CLARION-LIMESTONE AREA SD,Biology,All Students,48,31.3,56.3,8.3,4.2,2019
@@ -1374,12 +1374,12 @@ CLEARFIELD AREA SD,Biology,All Students,133,12.8,45.9,30.1,11.3,2019
 CLEARFIELD AREA SD,Biology,Historically Underperforming,46,6.5,23.9,43.5,26.1,2019
 CLEARFIELD AREA SD,Literature,All Students,141,14.9,59.6,17,8.5,2019
 CLEARFIELD AREA SD,Literature,Historically Underperforming,47,6.4,46.8,21.3,25.5,2019
-CLEARFIELD COUNTY CTC,Algebra I,All Students,4,,,,,2019
-CLEARFIELD COUNTY CTC,Algebra I,Historically Underperforming,1,,,,,2019
-CLEARFIELD COUNTY CTC,Biology,All Students,4,,,,,2019
-CLEARFIELD COUNTY CTC,Biology,Historically Underperforming,1,,,,,2019
-CLEARFIELD COUNTY CTC,Literature,All Students,4,,,,,2019
-CLEARFIELD COUNTY CTC,Literature,Historically Underperforming,1,,,,,2019
+CLEARFIELD COUNTY CTC,Algebra I,All Students,4,NULL,NULL,NULL,NULL,2019
+CLEARFIELD COUNTY CTC,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+CLEARFIELD COUNTY CTC,Biology,All Students,4,NULL,NULL,NULL,NULL,2019
+CLEARFIELD COUNTY CTC,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+CLEARFIELD COUNTY CTC,Literature,All Students,4,NULL,NULL,NULL,NULL,2019
+CLEARFIELD COUNTY CTC,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
 CURWENSVILLE AREA SD,Algebra I,All Students,68,8.8,41.2,35.3,14.7,2019
 CURWENSVILLE AREA SD,Algebra I,Historically Underperforming,39,5.1,33.3,38.5,23.1,2019
 CURWENSVILLE AREA SD,Biology,All Students,58,36.2,25.9,20.7,17.2,2019
@@ -1399,11 +1399,11 @@ GLENDALE SD,Biology,Historically Underperforming,31,25.8,41.9,16.1,16.1,2019
 GLENDALE SD,Literature,All Students,52,5.8,59.6,30.8,3.8,2019
 GLENDALE SD,Literature,Historically Underperforming,31,3.2,54.8,35.5,6.5,2019
 HARMONY AREA SD,Algebra I,All Students,22,22.7,36.4,36.4,4.5,2019
-HARMONY AREA SD,Algebra I,Historically Underperforming,7,,,,,2019
+HARMONY AREA SD,Algebra I,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
 HARMONY AREA SD,Biology,All Students,22,27.3,36.4,31.8,4.5,2019
-HARMONY AREA SD,Biology,Historically Underperforming,7,,,,,2019
+HARMONY AREA SD,Biology,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
 HARMONY AREA SD,Literature,All Students,22,4.5,77.3,18.2,0,2019
-HARMONY AREA SD,Literature,Historically Underperforming,7,,,,,2019
+HARMONY AREA SD,Literature,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
 MOSHANNON VALLEY SD,Algebra I,All Students,65,12.3,38.5,41.5,7.7,2019
 MOSHANNON VALLEY SD,Algebra I,Historically Underperforming,26,7.7,26.9,50,15.4,2019
 MOSHANNON VALLEY SD,Biology,All Students,65,16.9,33.8,38.5,10.8,2019
@@ -1422,12 +1422,12 @@ WEST BRANCH AREA SD,Biology,All Students,66,36.4,31.8,25.8,6.1,2019
 WEST BRANCH AREA SD,Biology,Historically Underperforming,37,27,35.1,29.7,8.1,2019
 WEST BRANCH AREA SD,Literature,All Students,65,9.2,56.9,23.1,10.8,2019
 WEST BRANCH AREA SD,Literature,Historically Underperforming,36,8.3,44.4,33.3,13.9,2019
-KEYSTONE CENTRAL CTC,Algebra I,All Students,1,,,,,2019
-KEYSTONE CENTRAL CTC,Algebra I,Historically Underperforming,0,,,,,2019
-KEYSTONE CENTRAL CTC,Biology,All Students,1,,,,,2019
-KEYSTONE CENTRAL CTC,Biology,Historically Underperforming,0,,,,,2019
-KEYSTONE CENTRAL CTC,Literature,All Students,1,,,,,2019
-KEYSTONE CENTRAL CTC,Literature,Historically Underperforming,0,,,,,2019
+KEYSTONE CENTRAL CTC,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2019
+KEYSTONE CENTRAL CTC,Algebra I,Historically Underperforming,0,NULL,NULL,NULL,NULL,2019
+KEYSTONE CENTRAL CTC,Biology,All Students,1,NULL,NULL,NULL,NULL,2019
+KEYSTONE CENTRAL CTC,Biology,Historically Underperforming,0,NULL,NULL,NULL,NULL,2019
+KEYSTONE CENTRAL CTC,Literature,All Students,1,NULL,NULL,NULL,NULL,2019
+KEYSTONE CENTRAL CTC,Literature,Historically Underperforming,0,NULL,NULL,NULL,NULL,2019
 KEYSTONE CENTRAL SD,Algebra I,All Students,26,3.8,50,42.3,3.8,2019
 KEYSTONE CENTRAL SD,Algebra I,Historically Underperforming,16,6.3,50,43.8,0,2019
 KEYSTONE CENTRAL SD,Biology,All Students,26,7.7,50,19.2,23.1,2019
@@ -1488,12 +1488,12 @@ SOUTHERN COLUMBIA AREA SD,Biology,All Students,103,24.3,65,6.8,3.9,2019
 SOUTHERN COLUMBIA AREA SD,Biology,Historically Underperforming,17,5.9,64.7,5.9,23.5,2019
 SOUTHERN COLUMBIA AREA SD,Literature,All Students,103,18.4,70.9,8.7,1.9,2019
 SOUTHERN COLUMBIA AREA SD,Literature,Historically Underperforming,17,0,64.7,23.5,11.8,2019
-SUSQ-CYBER CS,Algebra I,All Students,9,,,,,2019
-SUSQ-CYBER CS,Algebra I,Historically Underperforming,4,,,,,2019
+SUSQ-CYBER CS,Algebra I,All Students,9,NULL,NULL,NULL,NULL,2019
+SUSQ-CYBER CS,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
 SUSQ-CYBER CS,Biology,All Students,11,9.1,9.1,54.5,27.3,2019
-SUSQ-CYBER CS,Biology,Historically Underperforming,6,,,,,2019
-SUSQ-CYBER CS,Literature,All Students,10,,,,,2019
-SUSQ-CYBER CS,Literature,Historically Underperforming,5,,,,,2019
+SUSQ-CYBER CS,Biology,Historically Underperforming,6,NULL,NULL,NULL,NULL,2019
+SUSQ-CYBER CS,Literature,All Students,10,NULL,NULL,NULL,NULL,2019
+SUSQ-CYBER CS,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
 CONNEAUT SD,Algebra I,All Students,134,18.7,33.6,38.1,9.7,2019
 CONNEAUT SD,Algebra I,Historically Underperforming,76,13.2,28.9,42.1,15.8,2019
 CONNEAUT SD,Biology,All Students,134,20.1,33.6,32.1,14.2,2019
@@ -1512,12 +1512,12 @@ CRAWFORD CENTRAL SD,Biology,All Students,192,31.3,45.8,13,9.9,2019
 CRAWFORD CENTRAL SD,Biology,Historically Underperforming,92,17.4,42.4,20.7,19.6,2019
 CRAWFORD CENTRAL SD,Literature,All Students,191,16.8,62.3,14.1,6.8,2019
 CRAWFORD CENTRAL SD,Literature,Historically Underperforming,92,4.3,56.5,25,14.1,2019
-CRAWFORD COUNTY CTC,Algebra I,All Students,3,,,,,2019
-CRAWFORD COUNTY CTC,Algebra I,Historically Underperforming,3,,,,,2019
-CRAWFORD COUNTY CTC,Biology,All Students,3,,,,,2019
-CRAWFORD COUNTY CTC,Biology,Historically Underperforming,3,,,,,2019
-CRAWFORD COUNTY CTC,Literature,All Students,3,,,,,2019
-CRAWFORD COUNTY CTC,Literature,Historically Underperforming,3,,,,,2019
+CRAWFORD COUNTY CTC,Algebra I,All Students,3,NULL,NULL,NULL,NULL,2019
+CRAWFORD COUNTY CTC,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+CRAWFORD COUNTY CTC,Biology,All Students,3,NULL,NULL,NULL,NULL,2019
+CRAWFORD COUNTY CTC,Biology,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+CRAWFORD COUNTY CTC,Literature,All Students,3,NULL,NULL,NULL,NULL,2019
+CRAWFORD COUNTY CTC,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
 PENNCREST SD,Algebra I,All Students,64,20.3,50,25,4.7,2019
 PENNCREST SD,Algebra I,Historically Underperforming,26,7.7,38.5,42.3,11.5,2019
 PENNCREST SD,Biology,All Students,64,26.6,40.6,20.3,12.5,2019
@@ -1554,12 +1554,12 @@ CARLISLE AREA SD,Biology,All Students,345,30.4,36.2,23.8,9.6,2019
 CARLISLE AREA SD,Biology,Historically Underperforming,120,10.8,35,32.5,21.7,2019
 CARLISLE AREA SD,Literature,All Students,351,13.7,68.7,13.7,4,2019
 CARLISLE AREA SD,Literature,Historically Underperforming,122,3.3,63.1,23,10.7,2019
-CUMBERLAND PERRY AVTS,Algebra I,All Students,8,,,,,2019
-CUMBERLAND PERRY AVTS,Algebra I,Historically Underperforming,3,,,,,2019
-CUMBERLAND PERRY AVTS,Biology,All Students,8,,,,,2019
-CUMBERLAND PERRY AVTS,Biology,Historically Underperforming,3,,,,,2019
-CUMBERLAND PERRY AVTS,Literature,All Students,8,,,,,2019
-CUMBERLAND PERRY AVTS,Literature,Historically Underperforming,3,,,,,2019
+CUMBERLAND PERRY AVTS,Algebra I,All Students,8,NULL,NULL,NULL,NULL,2019
+CUMBERLAND PERRY AVTS,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+CUMBERLAND PERRY AVTS,Biology,All Students,8,NULL,NULL,NULL,NULL,2019
+CUMBERLAND PERRY AVTS,Biology,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+CUMBERLAND PERRY AVTS,Literature,All Students,8,NULL,NULL,NULL,NULL,2019
+CUMBERLAND PERRY AVTS,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
 CUMBERLAND VALLEY SD,Algebra I,All Students,617,39.2,29.2,25.8,5.8,2019
 CUMBERLAND VALLEY SD,Algebra I,Historically Underperforming,147,14.3,21.8,43.5,20.4,2019
 CUMBERLAND VALLEY SD,Biology,All Students,613,46.8,33.4,13.1,6.7,2019
@@ -1656,12 +1656,12 @@ LOWER DAUPHIN SD,Biology,All Students,260,37.3,41.5,11.5,9.6,2019
 LOWER DAUPHIN SD,Biology,Historically Underperforming,80,15,43.8,20,21.3,2019
 LOWER DAUPHIN SD,Literature,All Students,260,18.5,61.9,14.2,5.4,2019
 LOWER DAUPHIN SD,Literature,Historically Underperforming,80,3.8,58.8,23.8,13.8,2019
-LOWER DAUPHIN SD,Algebra I,All Students,2,,,,,2019
-LOWER DAUPHIN SD,Algebra I,Historically Underperforming,2,,,,,2019
-LOWER DAUPHIN SD,Biology,All Students,3,,,,,2019
-LOWER DAUPHIN SD,Biology,Historically Underperforming,3,,,,,2019
-LOWER DAUPHIN SD,Literature,All Students,3,,,,,2019
-LOWER DAUPHIN SD,Literature,Historically Underperforming,3,,,,,2019
+LOWER DAUPHIN SD,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2019
+LOWER DAUPHIN SD,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+LOWER DAUPHIN SD,Biology,All Students,3,NULL,NULL,NULL,NULL,2019
+LOWER DAUPHIN SD,Biology,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+LOWER DAUPHIN SD,Literature,All Students,3,NULL,NULL,NULL,NULL,2019
+LOWER DAUPHIN SD,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
 MIDDLETOWN AREA SD,Algebra I,All Students,161,23.6,37.9,28.6,9.9,2019
 MIDDLETOWN AREA SD,Algebra I,Historically Underperforming,68,10.3,33.8,36.8,19.1,2019
 MIDDLETOWN AREA SD,Biology,All Students,163,34.4,36.2,18.4,11,2019
@@ -1723,17 +1723,17 @@ CHICHESTER SD,Biology,Historically Underperforming,158,5.7,25.3,36.7,32.3,2019
 CHICHESTER SD,Literature,All Students,230,3,57,26.1,13.9,2019
 CHICHESTER SD,Literature,Historically Underperforming,159,1.3,50.3,29.6,18.9,2019
 DELAWARE COUNTY TECHNICAL HS,Algebra I,All Students,11,9.1,27.3,27.3,36.4,2019
-DELAWARE COUNTY TECHNICAL HS,Algebra I,Historically Underperforming,5,,,,,2019
-DELAWARE COUNTY TECHNICAL HS,Biology,All Students,9,,,,,2019
-DELAWARE COUNTY TECHNICAL HS,Biology,Historically Underperforming,5,,,,,2019
+DELAWARE COUNTY TECHNICAL HS,Algebra I,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
+DELAWARE COUNTY TECHNICAL HS,Biology,All Students,9,NULL,NULL,NULL,NULL,2019
+DELAWARE COUNTY TECHNICAL HS,Biology,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
 DELAWARE COUNTY TECHNICAL HS,Literature,All Students,11,0,27.3,72.7,0,2019
-DELAWARE COUNTY TECHNICAL HS,Literature,Historically Underperforming,5,,,,,2019
+DELAWARE COUNTY TECHNICAL HS,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
 DELAWARE COUNTY TECHNICAL HS,Algebra I,All Students,20,5,10,50,35,2019
 DELAWARE COUNTY TECHNICAL HS,Algebra I,Historically Underperforming,12,8.3,0,58.3,33.3,2019
 DELAWARE COUNTY TECHNICAL HS,Biology,All Students,18,5.6,11.1,27.8,55.6,2019
-DELAWARE COUNTY TECHNICAL HS,Biology,Historically Underperforming,10,,,,,2019
+DELAWARE COUNTY TECHNICAL HS,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 DELAWARE COUNTY TECHNICAL HS,Literature,All Students,18,0,33.3,38.9,27.8,2019
-DELAWARE COUNTY TECHNICAL HS,Literature,Historically Underperforming,10,,,,,2019
+DELAWARE COUNTY TECHNICAL HS,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 GARNET VALLEY SD,Algebra I,All Students,388,41,42.8,13.1,3.1,2019
 GARNET VALLEY SD,Algebra I,Historically Underperforming,99,13.1,41.4,34.3,11.1,2019
 GARNET VALLEY SD,Biology,All Students,386,41.5,37.8,12.4,8.3,2019
@@ -1848,12 +1848,12 @@ ERIE CITY SD,Biology,All Students,203,46.3,49.8,2.5,1.5,2019
 ERIE CITY SD,Biology,Historically Underperforming,72,40.3,54.2,2.8,2.8,2019
 ERIE CITY SD,Literature,All Students,204,18.1,78.4,3.4,0,2019
 ERIE CITY SD,Literature,Historically Underperforming,71,14.1,80.3,5.6,0,2019
-ERIE COUNTY TECHNICAL SCHOOL,Algebra I,All Students,5,,,,,2019
-ERIE COUNTY TECHNICAL SCHOOL,Algebra I,Historically Underperforming,5,,,,,2019
-ERIE COUNTY TECHNICAL SCHOOL,Biology,All Students,4,,,,,2019
-ERIE COUNTY TECHNICAL SCHOOL,Biology,Historically Underperforming,4,,,,,2019
-ERIE COUNTY TECHNICAL SCHOOL,Literature,All Students,5,,,,,2019
-ERIE COUNTY TECHNICAL SCHOOL,Literature,Historically Underperforming,5,,,,,2019
+ERIE COUNTY TECHNICAL SCHOOL,Algebra I,All Students,5,NULL,NULL,NULL,NULL,2019
+ERIE COUNTY TECHNICAL SCHOOL,Algebra I,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
+ERIE COUNTY TECHNICAL SCHOOL,Biology,All Students,4,NULL,NULL,NULL,NULL,2019
+ERIE COUNTY TECHNICAL SCHOOL,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+ERIE COUNTY TECHNICAL SCHOOL,Literature,All Students,5,NULL,NULL,NULL,NULL,2019
+ERIE COUNTY TECHNICAL SCHOOL,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
 FAIRVIEW SD,Algebra I,All Students,128,59.4,33.6,6.3,0.8,2019
 FAIRVIEW SD,Algebra I,Historically Underperforming,31,38.7,32.3,25.8,3.2,2019
 FAIRVIEW SD,Biology,All Students,129,60.5,31.8,3.1,4.7,2019
@@ -1950,12 +1950,12 @@ CONNELLSVILLE AREA SD,Biology,All Students,250,10.8,58,20.4,10.8,2019
 CONNELLSVILLE AREA SD,Biology,Historically Underperforming,145,6.9,51,25.5,16.6,2019
 CONNELLSVILLE AREA SD,Literature,All Students,246,6.1,65.4,19.9,8.5,2019
 CONNELLSVILLE AREA SD,Literature,Historically Underperforming,143,3.5,58,24.5,14,2019
-FAYETTE COUNTY CAREER & TECHNICAL INSTITUTE,Algebra I,All Students,4,,,,,2019
-FAYETTE COUNTY CAREER & TECHNICAL INSTITUTE,Algebra I,Historically Underperforming,3,,,,,2019
-FAYETTE COUNTY CAREER & TECHNICAL INSTITUTE,Biology,All Students,4,,,,,2019
-FAYETTE COUNTY CAREER & TECHNICAL INSTITUTE,Biology,Historically Underperforming,3,,,,,2019
-FAYETTE COUNTY CAREER & TECHNICAL INSTITUTE,Literature,All Students,4,,,,,2019
-FAYETTE COUNTY CAREER & TECHNICAL INSTITUTE,Literature,Historically Underperforming,3,,,,,2019
+FAYETTE COUNTY CAREER & TECHNICAL INSTITUTE,Algebra I,All Students,4,NULL,NULL,NULL,NULL,2019
+FAYETTE COUNTY CAREER & TECHNICAL INSTITUTE,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+FAYETTE COUNTY CAREER & TECHNICAL INSTITUTE,Biology,All Students,4,NULL,NULL,NULL,NULL,2019
+FAYETTE COUNTY CAREER & TECHNICAL INSTITUTE,Biology,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+FAYETTE COUNTY CAREER & TECHNICAL INSTITUTE,Literature,All Students,4,NULL,NULL,NULL,NULL,2019
+FAYETTE COUNTY CAREER & TECHNICAL INSTITUTE,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
 FRAZIER SD,Algebra I,All Students,87,27.6,35.6,29.9,6.9,2019
 FRAZIER SD,Algebra I,Historically Underperforming,35,17.1,37.1,31.4,14.3,2019
 FRAZIER SD,Biology,All Students,89,29.2,40.4,18,12.4,2019
@@ -1977,15 +1977,15 @@ UNIONTOWN AREA SD,Literature,Historically Underperforming,139,5,64,23.7,7.2,2019
 FOREST AREA SD,Algebra I,All Students,19,10.5,15.8,42.1,31.6,2019
 FOREST AREA SD,Algebra I,Historically Underperforming,11,0,18.2,27.3,54.5,2019
 FOREST AREA SD,Biology,All Students,17,17.6,47.1,17.6,17.6,2019
-FOREST AREA SD,Biology,Historically Underperforming,10,,,,,2019
+FOREST AREA SD,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 FOREST AREA SD,Literature,All Students,18,5.6,66.7,11.1,16.7,2019
-FOREST AREA SD,Literature,Historically Underperforming,10,,,,,2019
+FOREST AREA SD,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 FOREST AREA SD,Algebra I,All Students,17,0,58.8,23.5,17.6,2019
-FOREST AREA SD,Algebra I,Historically Underperforming,8,,,,,2019
+FOREST AREA SD,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 FOREST AREA SD,Biology,All Students,17,5.9,52.9,23.5,17.6,2019
-FOREST AREA SD,Biology,Historically Underperforming,8,,,,,2019
+FOREST AREA SD,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 FOREST AREA SD,Literature,All Students,17,11.8,52.9,17.6,17.6,2019
-FOREST AREA SD,Literature,Historically Underperforming,8,,,,,2019
+FOREST AREA SD,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 CHAMBERSBURG AREA SD,Algebra I,All Students,178,25.3,52.8,17.4,4.5,2019
 CHAMBERSBURG AREA SD,Algebra I,Historically Underperforming,73,17.8,46.6,24.7,11,2019
 CHAMBERSBURG AREA SD,Biology,All Students,176,29,46,14.8,10.2,2019
@@ -2004,12 +2004,12 @@ FANNETT-METAL SD,Biology,All Students,36,13.9,38.9,38.9,8.3,2019
 FANNETT-METAL SD,Biology,Historically Underperforming,16,0,37.5,43.8,18.8,2019
 FANNETT-METAL SD,Literature,All Students,36,0,80.6,16.7,2.8,2019
 FANNETT-METAL SD,Literature,Historically Underperforming,16,0,56.3,37.5,6.3,2019
-FRANKLIN COUNTY CTC,Algebra I,All Students,1,,,,,2019
-FRANKLIN COUNTY CTC,Algebra I,Historically Underperforming,0,,,,,2019
-FRANKLIN COUNTY CTC,Biology,All Students,1,,,,,2019
-FRANKLIN COUNTY CTC,Biology,Historically Underperforming,0,,,,,2019
-FRANKLIN COUNTY CTC,Literature,All Students,1,,,,,2019
-FRANKLIN COUNTY CTC,Literature,Historically Underperforming,0,,,,,2019
+FRANKLIN COUNTY CTC,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2019
+FRANKLIN COUNTY CTC,Algebra I,Historically Underperforming,0,NULL,NULL,NULL,NULL,2019
+FRANKLIN COUNTY CTC,Biology,All Students,1,NULL,NULL,NULL,NULL,2019
+FRANKLIN COUNTY CTC,Biology,Historically Underperforming,0,NULL,NULL,NULL,NULL,2019
+FRANKLIN COUNTY CTC,Literature,All Students,1,NULL,NULL,NULL,NULL,2019
+FRANKLIN COUNTY CTC,Literature,Historically Underperforming,0,NULL,NULL,NULL,NULL,2019
 GREENCASTLE-ANTRIM SD,Algebra I,All Students,194,27.3,54.1,13.9,4.6,2019
 GREENCASTLE-ANTRIM SD,Algebra I,Historically Underperforming,61,11.5,54.1,19.7,14.8,2019
 GREENCASTLE-ANTRIM SD,Biology,All Students,194,37.6,40.7,17,4.6,2019
@@ -2035,17 +2035,17 @@ CENTRAL FULTON SD,Biology,Historically Underperforming,35,14.3,45.7,25.7,14.3,20
 CENTRAL FULTON SD,Literature,All Students,67,9,76.1,11.9,3,2019
 CENTRAL FULTON SD,Literature,Historically Underperforming,35,8.6,65.7,20,5.7,2019
 FORBES ROAD SD,Algebra I,All Students,18,50,33.3,16.7,0,2019
-FORBES ROAD SD,Algebra I,Historically Underperforming,8,,,,,2019
+FORBES ROAD SD,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 FORBES ROAD SD,Biology,All Students,18,44.4,44.4,0,11.1,2019
-FORBES ROAD SD,Biology,Historically Underperforming,8,,,,,2019
+FORBES ROAD SD,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 FORBES ROAD SD,Literature,All Students,18,22.2,72.2,0,5.6,2019
-FORBES ROAD SD,Literature,Historically Underperforming,8,,,,,2019
-FULTON COUNTY AVTS,Algebra I,All Students,2,,,,,2019
-FULTON COUNTY AVTS,Algebra I,Historically Underperforming,1,,,,,2019
-FULTON COUNTY AVTS,Biology,All Students,2,,,,,2019
-FULTON COUNTY AVTS,Biology,Historically Underperforming,1,,,,,2019
-FULTON COUNTY AVTS,Literature,All Students,2,,,,,2019
-FULTON COUNTY AVTS,Literature,Historically Underperforming,1,,,,,2019
+FORBES ROAD SD,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
+FULTON COUNTY AVTS,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2019
+FULTON COUNTY AVTS,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+FULTON COUNTY AVTS,Biology,All Students,2,NULL,NULL,NULL,NULL,2019
+FULTON COUNTY AVTS,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+FULTON COUNTY AVTS,Literature,All Students,2,NULL,NULL,NULL,NULL,2019
+FULTON COUNTY AVTS,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
 SOUTHERN FULTON SD,Algebra I,All Students,57,38.6,45.6,12.3,3.5,2019
 SOUTHERN FULTON SD,Algebra I,Historically Underperforming,22,13.6,59.1,18.2,9.1,2019
 SOUTHERN FULTON SD,Biology,All Students,57,38.6,49.1,8.8,3.5,2019
@@ -2064,12 +2064,12 @@ CENTRAL GREENE SD,Biology,All Students,118,26.3,37.3,24.6,11.9,2019
 CENTRAL GREENE SD,Biology,Historically Underperforming,45,13.3,31.1,28.9,26.7,2019
 CENTRAL GREENE SD,Literature,All Students,118,3.4,71.2,17.8,7.6,2019
 CENTRAL GREENE SD,Literature,Historically Underperforming,45,2.2,51.1,28.9,17.8,2019
-GREENE COUNTY CTC,Algebra I,All Students,4,,,,,2019
-GREENE COUNTY CTC,Algebra I,Historically Underperforming,3,,,,,2019
-GREENE COUNTY CTC,Biology,All Students,5,,,,,2019
-GREENE COUNTY CTC,Biology,Historically Underperforming,3,,,,,2019
-GREENE COUNTY CTC,Literature,All Students,5,,,,,2019
-GREENE COUNTY CTC,Literature,Historically Underperforming,3,,,,,2019
+GREENE COUNTY CTC,Algebra I,All Students,4,NULL,NULL,NULL,NULL,2019
+GREENE COUNTY CTC,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+GREENE COUNTY CTC,Biology,All Students,5,NULL,NULL,NULL,NULL,2019
+GREENE COUNTY CTC,Biology,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+GREENE COUNTY CTC,Literature,All Students,5,NULL,NULL,NULL,NULL,2019
+GREENE COUNTY CTC,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
 JEFFERSON-MORGAN SD,Algebra I,All Students,45,24.4,42.2,28.9,4.4,2019
 JEFFERSON-MORGAN SD,Algebra I,Historically Underperforming,22,13.6,45.5,31.8,9.1,2019
 JEFFERSON-MORGAN SD,Biology,All Students,45,13.3,51.1,22.2,13.3,2019
@@ -2094,12 +2094,12 @@ HUNTINGDON AREA SD,Biology,All Students,148,18.2,34.5,27,20.3,2019
 HUNTINGDON AREA SD,Biology,Historically Underperforming,63,15.9,25.4,25.4,33.3,2019
 HUNTINGDON AREA SD,Literature,All Students,149,3.4,57,30.2,9.4,2019
 HUNTINGDON AREA SD,Literature,Historically Underperforming,63,0,42.9,39.7,17.5,2019
-HUNTINGDON COUNTY CTC,Algebra I,All Students,6,,,,,2019
-HUNTINGDON COUNTY CTC,Algebra I,Historically Underperforming,5,,,,,2019
-HUNTINGDON COUNTY CTC,Biology,All Students,5,,,,,2019
-HUNTINGDON COUNTY CTC,Biology,Historically Underperforming,5,,,,,2019
-HUNTINGDON COUNTY CTC,Literature,All Students,6,,,,,2019
-HUNTINGDON COUNTY CTC,Literature,Historically Underperforming,5,,,,,2019
+HUNTINGDON COUNTY CTC,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2019
+HUNTINGDON COUNTY CTC,Algebra I,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
+HUNTINGDON COUNTY CTC,Biology,All Students,5,NULL,NULL,NULL,NULL,2019
+HUNTINGDON COUNTY CTC,Biology,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
+HUNTINGDON COUNTY CTC,Literature,All Students,6,NULL,NULL,NULL,NULL,2019
+HUNTINGDON COUNTY CTC,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
 JUNIATA VALLEY SD,Algebra I,All Students,57,15.8,42.1,29.8,12.3,2019
 JUNIATA VALLEY SD,Algebra I,Historically Underperforming,26,7.7,34.6,34.6,23.1,2019
 JUNIATA VALLEY SD,Biology,All Students,57,12.3,43.9,22.8,21.1,2019
@@ -2113,7 +2113,7 @@ MOUNT UNION AREA SD,Biology,Historically Underperforming,41,4.9,31.7,39,24.4,201
 MOUNT UNION AREA SD,Literature,All Students,86,3.5,64,22.1,10.5,2019
 MOUNT UNION AREA SD,Literature,Historically Underperforming,41,2.4,56.1,22,19.5,2019
 NEW DAY CHARTER SCHOOL,Algebra I,All Students,21,4.8,14.3,33.3,47.6,2019
-NEW DAY CHARTER SCHOOL,Algebra I,Historically Underperforming,10,,,,,2019
+NEW DAY CHARTER SCHOOL,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 NEW DAY CHARTER SCHOOL,Biology,All Students,22,4.5,18.2,31.8,45.5,2019
 NEW DAY CHARTER SCHOOL,Biology,Historically Underperforming,11,0,27.3,9.1,63.6,2019
 NEW DAY CHARTER SCHOOL,Literature,All Students,22,0,36.4,36.4,27.3,2019
@@ -2148,12 +2148,12 @@ INDIANA AREA SD,Biology,All Students,207,49.8,33.3,11.6,5.3,2019
 INDIANA AREA SD,Biology,Historically Underperforming,77,26,39,22.1,13,2019
 INDIANA AREA SD,Literature,All Students,206,23.8,57.8,12.1,6.3,2019
 INDIANA AREA SD,Literature,Historically Underperforming,76,9.2,53.9,23.7,13.2,2019
-INDIANA COUNTY TECHNOLOGY CENTER,Algebra I,All Students,3,,,,,2019
-INDIANA COUNTY TECHNOLOGY CENTER,Algebra I,Historically Underperforming,2,,,,,2019
-INDIANA COUNTY TECHNOLOGY CENTER,Biology,All Students,3,,,,,2019
-INDIANA COUNTY TECHNOLOGY CENTER,Biology,Historically Underperforming,2,,,,,2019
-INDIANA COUNTY TECHNOLOGY CENTER,Literature,All Students,3,,,,,2019
-INDIANA COUNTY TECHNOLOGY CENTER,Literature,Historically Underperforming,2,,,,,2019
+INDIANA COUNTY TECHNOLOGY CENTER,Algebra I,All Students,3,NULL,NULL,NULL,NULL,2019
+INDIANA COUNTY TECHNOLOGY CENTER,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+INDIANA COUNTY TECHNOLOGY CENTER,Biology,All Students,3,NULL,NULL,NULL,NULL,2019
+INDIANA COUNTY TECHNOLOGY CENTER,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+INDIANA COUNTY TECHNOLOGY CENTER,Literature,All Students,3,NULL,NULL,NULL,NULL,2019
+INDIANA COUNTY TECHNOLOGY CENTER,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
 MARION CENTER AREA SD,Algebra I,All Students,94,17,50,23.4,9.6,2019
 MARION CENTER AREA SD,Algebra I,Historically Underperforming,50,12,32,38,18,2019
 MARION CENTER AREA SD,Biology,All Students,94,28.7,47.9,11.7,11.7,2019
@@ -2226,12 +2226,12 @@ CARBONDALE AREA SD,Biology,All Students,88,25,37.5,18.2,19.3,2019
 CARBONDALE AREA SD,Biology,Historically Underperforming,57,17.5,31.6,24.6,26.3,2019
 CARBONDALE AREA SD,Literature,All Students,89,6.7,58.4,25.8,9,2019
 CARBONDALE AREA SD,Literature,Historically Underperforming,58,0,55.2,31,13.8,2019
-CTC OF LACKAWANNA COUNTY,Algebra I,All Students,1,,,,,2019
-CTC OF LACKAWANNA COUNTY,Algebra I,Historically Underperforming,1,,,,,2019
-CTC OF LACKAWANNA COUNTY,Biology,All Students,1,,,,,2019
-CTC OF LACKAWANNA COUNTY,Biology,Historically Underperforming,1,,,,,2019
-CTC OF LACKAWANNA COUNTY,Literature,All Students,1,,,,,2019
-CTC OF LACKAWANNA COUNTY,Literature,Historically Underperforming,1,,,,,2019
+CTC OF LACKAWANNA COUNTY,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2019
+CTC OF LACKAWANNA COUNTY,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+CTC OF LACKAWANNA COUNTY,Biology,All Students,1,NULL,NULL,NULL,NULL,2019
+CTC OF LACKAWANNA COUNTY,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+CTC OF LACKAWANNA COUNTY,Literature,All Students,1,NULL,NULL,NULL,NULL,2019
+CTC OF LACKAWANNA COUNTY,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
 DUNMORE SD,Algebra I,All Students,113,31,45.1,18.6,5.3,2019
 DUNMORE SD,Algebra I,Historically Underperforming,34,14.7,41.2,29.4,14.7,2019
 DUNMORE SD,Biology,All Students,112,17,51.8,20.5,10.7,2019
@@ -2346,16 +2346,16 @@ LAMPETER-STRASBURG SD,Biology,All Students,241,38.2,45.6,11.6,4.6,2019
 LAMPETER-STRASBURG SD,Biology,Historically Underperforming,65,23.1,32.3,27.7,16.9,2019
 LAMPETER-STRASBURG SD,Literature,All Students,242,20.2,65.7,9.1,5,2019
 LAMPETER-STRASBURG SD,Literature,Historically Underperforming,65,12.3,46.2,23.1,18.5,2019
-LANCASTER COUNTY CTC,Algebra I,All Students,4,,,,,2019
-LANCASTER COUNTY CTC,Algebra I,Historically Underperforming,4,,,,,2019
-LANCASTER COUNTY CTC,Biology,All Students,4,,,,,2019
-LANCASTER COUNTY CTC,Biology,Historically Underperforming,4,,,,,2019
-LANCASTER COUNTY CTC,Literature,All Students,3,,,,,2019
-LANCASTER COUNTY CTC,Literature,Historically Underperforming,3,,,,,2019
-LANCASTER COUNTY CTC,Algebra I,All Students,1,,,,,2019
-LANCASTER COUNTY CTC,Algebra I,Historically Underperforming,1,,,,,2019
-LANCASTER COUNTY CTC,Literature,All Students,1,,,,,2019
-LANCASTER COUNTY CTC,Literature,Historically Underperforming,1,,,,,2019
+LANCASTER COUNTY CTC,Algebra I,All Students,4,NULL,NULL,NULL,NULL,2019
+LANCASTER COUNTY CTC,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+LANCASTER COUNTY CTC,Biology,All Students,4,NULL,NULL,NULL,NULL,2019
+LANCASTER COUNTY CTC,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+LANCASTER COUNTY CTC,Literature,All Students,3,NULL,NULL,NULL,NULL,2019
+LANCASTER COUNTY CTC,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+LANCASTER COUNTY CTC,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2019
+LANCASTER COUNTY CTC,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+LANCASTER COUNTY CTC,Literature,All Students,1,NULL,NULL,NULL,NULL,2019
+LANCASTER COUNTY CTC,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
 LANCASTER SD,Algebra I,All Students,426,11.5,35.7,31.7,21.1,2019
 LANCASTER SD,Algebra I,Historically Underperforming,365,7.9,34.8,33.4,23.8,2019
 LANCASTER SD,Biology,All Students,429,12.4,28.2,22.6,36.8,2019
@@ -2476,12 +2476,12 @@ EASTERN LEBANON CO SD,Biology,All Students,152,19.1,38.8,30.9,11.2,2019
 EASTERN LEBANON CO SD,Biology,Historically Underperforming,48,10.4,33.3,29.2,27.1,2019
 EASTERN LEBANON CO SD,Literature,All Students,150,8,60.7,23.3,8,2019
 EASTERN LEBANON CO SD,Literature,Historically Underperforming,48,4.2,41.7,33.3,20.8,2019
-LEBANON COUNTY CTC,Algebra I,All Students,9,,,,,2019
-LEBANON COUNTY CTC,Algebra I,Historically Underperforming,6,,,,,2019
-LEBANON COUNTY CTC,Biology,All Students,8,,,,,2019
-LEBANON COUNTY CTC,Biology,Historically Underperforming,5,,,,,2019
-LEBANON COUNTY CTC,Literature,All Students,7,,,,,2019
-LEBANON COUNTY CTC,Literature,Historically Underperforming,5,,,,,2019
+LEBANON COUNTY CTC,Algebra I,All Students,9,NULL,NULL,NULL,NULL,2019
+LEBANON COUNTY CTC,Algebra I,Historically Underperforming,6,NULL,NULL,NULL,NULL,2019
+LEBANON COUNTY CTC,Biology,All Students,8,NULL,NULL,NULL,NULL,2019
+LEBANON COUNTY CTC,Biology,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
+LEBANON COUNTY CTC,Literature,All Students,7,NULL,NULL,NULL,NULL,2019
+LEBANON COUNTY CTC,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
 LEBANON SD,Algebra I,All Students,263,7.2,24,50.6,18.3,2019
 LEBANON SD,Algebra I,Historically Underperforming,198,4.5,19.7,53,22.7,2019
 LEBANON SD,Biology,All Students,261,6.9,23.8,34.1,35.2,2019
@@ -2547,7 +2547,7 @@ LEHIGH CAREER & TECHNICAL INSTITUTE,Algebra I,Historically Underperforming,12,0,
 LEHIGH CAREER & TECHNICAL INSTITUTE,Biology,All Students,14,0,7.1,28.6,64.3,2019
 LEHIGH CAREER & TECHNICAL INSTITUTE,Biology,Historically Underperforming,11,0,0,27.3,72.7,2019
 LEHIGH CAREER & TECHNICAL INSTITUTE,Literature,All Students,13,0,23.1,38.5,38.5,2019
-LEHIGH CAREER & TECHNICAL INSTITUTE,Literature,Historically Underperforming,9,,,,,2019
+LEHIGH CAREER & TECHNICAL INSTITUTE,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
 LINCOLN LEADERSHIP ACADEMY CHARTER SCHOOL,Algebra I,All Students,43,7,27.9,48.8,16.3,2019
 LINCOLN LEADERSHIP ACADEMY CHARTER SCHOOL,Algebra I,Historically Underperforming,39,7.7,25.6,48.7,17.9,2019
 LINCOLN LEADERSHIP ACADEMY CHARTER SCHOOL,Biology,All Students,43,4.7,37.2,20.9,37.2,2019
@@ -2656,12 +2656,12 @@ WEST SIDE CTC,Biology,All Students,109,0,16.5,31.2,52.3,2019
 WEST SIDE CTC,Biology,Historically Underperforming,84,0,10.7,31,58.3,2019
 WEST SIDE CTC,Literature,All Students,108,0,20.4,39.8,39.8,2019
 WEST SIDE CTC,Literature,Historically Underperforming,83,0,10.8,44.6,44.6,2019
-WILKES-BARRE AREA CTC,Algebra I,All Students,7,,,,,2019
-WILKES-BARRE AREA CTC,Algebra I,Historically Underperforming,6,,,,,2019
-WILKES-BARRE AREA CTC,Biology,All Students,8,,,,,2019
-WILKES-BARRE AREA CTC,Biology,Historically Underperforming,6,,,,,2019
-WILKES-BARRE AREA CTC,Literature,All Students,7,,,,,2019
-WILKES-BARRE AREA CTC,Literature,Historically Underperforming,7,,,,,2019
+WILKES-BARRE AREA CTC,Algebra I,All Students,7,NULL,NULL,NULL,NULL,2019
+WILKES-BARRE AREA CTC,Algebra I,Historically Underperforming,6,NULL,NULL,NULL,NULL,2019
+WILKES-BARRE AREA CTC,Biology,All Students,8,NULL,NULL,NULL,NULL,2019
+WILKES-BARRE AREA CTC,Biology,Historically Underperforming,6,NULL,NULL,NULL,NULL,2019
+WILKES-BARRE AREA CTC,Literature,All Students,7,NULL,NULL,NULL,NULL,2019
+WILKES-BARRE AREA CTC,Literature,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
 WILKES-BARRE AREA SD,Algebra I,All Students,111,4.5,13.5,51.4,30.6,2019
 WILKES-BARRE AREA SD,Algebra I,Historically Underperforming,95,3.2,12.6,49.5,34.7,2019
 WILKES-BARRE AREA SD,Biology,All Students,114,6.1,16.7,35.1,42.1,2019
@@ -2681,11 +2681,11 @@ WILKES-BARRE AREA SD,Biology,Historically Underperforming,130,8.5,26.2,20,45.4,2
 WILKES-BARRE AREA SD,Literature,All Students,200,6.5,50.5,25,18,2019
 WILKES-BARRE AREA SD,Literature,Historically Underperforming,137,1.5,40.9,31.4,26.3,2019
 WILKES-BARRE AREA SD,Algebra I,All Students,11,54.5,45.5,0,0,2019
-WILKES-BARRE AREA SD,Algebra I,Historically Underperforming,7,,,,,2019
+WILKES-BARRE AREA SD,Algebra I,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
 WILKES-BARRE AREA SD,Biology,All Students,11,36.4,63.6,0,0,2019
-WILKES-BARRE AREA SD,Biology,Historically Underperforming,7,,,,,2019
+WILKES-BARRE AREA SD,Biology,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
 WILKES-BARRE AREA SD,Literature,All Students,11,27.3,72.7,0,0,2019
-WILKES-BARRE AREA SD,Literature,Historically Underperforming,7,,,,,2019
+WILKES-BARRE AREA SD,Literature,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
 WYOMING AREA SD,Algebra I,All Students,168,19,37.5,30.4,13.1,2019
 WYOMING AREA SD,Algebra I,Historically Underperforming,86,5.8,29.1,40.7,24.4,2019
 WYOMING AREA SD,Biology,All Students,170,17.1,34.7,22.4,25.9,2019
@@ -2716,12 +2716,12 @@ LOYALSOCK TOWNSHIP SD,Biology,All Students,107,53.3,32.7,9.3,4.7,2019
 LOYALSOCK TOWNSHIP SD,Biology,Historically Underperforming,29,31,34.5,20.7,13.8,2019
 LOYALSOCK TOWNSHIP SD,Literature,All Students,108,9.3,73.1,14.8,2.8,2019
 LOYALSOCK TOWNSHIP SD,Literature,Historically Underperforming,30,3.3,60,30,6.7,2019
-LYCOMING CTC,Algebra I,All Students,5,,,,,2019
-LYCOMING CTC,Algebra I,Historically Underperforming,3,,,,,2019
-LYCOMING CTC,Biology,All Students,5,,,,,2019
-LYCOMING CTC,Biology,Historically Underperforming,3,,,,,2019
-LYCOMING CTC,Literature,All Students,4,,,,,2019
-LYCOMING CTC,Literature,Historically Underperforming,3,,,,,2019
+LYCOMING CTC,Algebra I,All Students,5,NULL,NULL,NULL,NULL,2019
+LYCOMING CTC,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+LYCOMING CTC,Biology,All Students,5,NULL,NULL,NULL,NULL,2019
+LYCOMING CTC,Biology,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+LYCOMING CTC,Literature,All Students,4,NULL,NULL,NULL,NULL,2019
+LYCOMING CTC,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
 MONTGOMERY AREA SD,Algebra I,All Students,49,32.7,61.2,4.1,2,2019
 MONTGOMERY AREA SD,Algebra I,Historically Underperforming,21,42.9,42.9,9.5,4.8,2019
 MONTGOMERY AREA SD,Biology,All Students,49,16.3,59.2,20.4,4.1,2019
@@ -2776,10 +2776,10 @@ PORT ALLEGANY SD,Biology,All Students,69,24.6,44.9,23.2,7.2,2019
 PORT ALLEGANY SD,Biology,Historically Underperforming,32,15.6,46.9,25,12.5,2019
 PORT ALLEGANY SD,Literature,All Students,69,4.3,63.8,26.1,5.8,2019
 PORT ALLEGANY SD,Literature,Historically Underperforming,32,0,50,40.6,9.4,2019
-SENECA HIGHLANDS CAREER AND TECHNICAL CENTER,Algebra I,All Students,1,,,,,2019
-SENECA HIGHLANDS CAREER AND TECHNICAL CENTER,Algebra I,Historically Underperforming,1,,,,,2019
-SENECA HIGHLANDS CAREER AND TECHNICAL CENTER,Biology,All Students,1,,,,,2019
-SENECA HIGHLANDS CAREER AND TECHNICAL CENTER,Biology,Historically Underperforming,1,,,,,2019
+SENECA HIGHLANDS CAREER AND TECHNICAL CENTER,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2019
+SENECA HIGHLANDS CAREER AND TECHNICAL CENTER,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+SENECA HIGHLANDS CAREER AND TECHNICAL CENTER,Biology,All Students,1,NULL,NULL,NULL,NULL,2019
+SENECA HIGHLANDS CAREER AND TECHNICAL CENTER,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
 SMETHPORT AREA SD,Algebra I,All Students,50,24,36,32,8,2019
 SMETHPORT AREA SD,Algebra I,Historically Underperforming,16,0,43.8,31.3,25,2019
 SMETHPORT AREA SD,Biology,All Students,51,11.8,54.9,23.5,9.8,2019
@@ -2848,10 +2848,10 @@ MERCER AREA SD,Literature,All Students,70,15.7,62.9,17.1,4.3,2019
 MERCER AREA SD,Literature,Historically Underperforming,28,14.3,50,32.1,3.6,2019
 MERCER COUNTY CAREER CENTER,Algebra I,All Students,11,0,9.1,54.5,36.4,2019
 MERCER COUNTY CAREER CENTER,Algebra I,Historically Underperforming,11,0,9.1,54.5,36.4,2019
-MERCER COUNTY CAREER CENTER,Biology,All Students,10,,,,,2019
-MERCER COUNTY CAREER CENTER,Biology,Historically Underperforming,10,,,,,2019
-MERCER COUNTY CAREER CENTER,Literature,All Students,10,,,,,2019
-MERCER COUNTY CAREER CENTER,Literature,Historically Underperforming,10,,,,,2019
+MERCER COUNTY CAREER CENTER,Biology,All Students,10,NULL,NULL,NULL,NULL,2019
+MERCER COUNTY CAREER CENTER,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
+MERCER COUNTY CAREER CENTER,Literature,All Students,10,NULL,NULL,NULL,NULL,2019
+MERCER COUNTY CAREER CENTER,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 REYNOLDS SD,Algebra I,All Students,67,37.3,37.3,20.9,4.5,2019
 REYNOLDS SD,Algebra I,Historically Underperforming,36,27.8,25,38.9,8.3,2019
 REYNOLDS SD,Biology,All Students,67,23.9,46.3,22.4,7.5,2019
@@ -2876,12 +2876,12 @@ WEST MIDDLESEX AREA SD,Biology,All Students,70,24.3,41.4,15.7,18.6,2019
 WEST MIDDLESEX AREA SD,Biology,Historically Underperforming,24,16.7,25,25,33.3,2019
 WEST MIDDLESEX AREA SD,Literature,All Students,70,1.4,62.9,27.1,8.6,2019
 WEST MIDDLESEX AREA SD,Literature,Historically Underperforming,24,0,45.8,37.5,16.7,2019
-MIFFLIN COUNTY ACADEMY OF SCIENCE AND TECHNOLOGY,Algebra I,All Students,1,,,,,2019
-MIFFLIN COUNTY ACADEMY OF SCIENCE AND TECHNOLOGY,Algebra I,Historically Underperforming,1,,,,,2019
-MIFFLIN COUNTY ACADEMY OF SCIENCE AND TECHNOLOGY,Biology,All Students,1,,,,,2019
-MIFFLIN COUNTY ACADEMY OF SCIENCE AND TECHNOLOGY,Biology,Historically Underperforming,1,,,,,2019
-MIFFLIN COUNTY ACADEMY OF SCIENCE AND TECHNOLOGY,Literature,All Students,1,,,,,2019
-MIFFLIN COUNTY ACADEMY OF SCIENCE AND TECHNOLOGY,Literature,Historically Underperforming,1,,,,,2019
+MIFFLIN COUNTY ACADEMY OF SCIENCE AND TECHNOLOGY,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2019
+MIFFLIN COUNTY ACADEMY OF SCIENCE AND TECHNOLOGY,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+MIFFLIN COUNTY ACADEMY OF SCIENCE AND TECHNOLOGY,Biology,All Students,1,NULL,NULL,NULL,NULL,2019
+MIFFLIN COUNTY ACADEMY OF SCIENCE AND TECHNOLOGY,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+MIFFLIN COUNTY ACADEMY OF SCIENCE AND TECHNOLOGY,Literature,All Students,1,NULL,NULL,NULL,NULL,2019
+MIFFLIN COUNTY ACADEMY OF SCIENCE AND TECHNOLOGY,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
 MIFFLIN COUNTY SD,Algebra I,All Students,350,26.6,22.6,34.3,16.6,2019
 MIFFLIN COUNTY SD,Algebra I,Historically Underperforming,157,15.3,15.9,39.5,29.3,2019
 MIFFLIN COUNTY SD,Biology,All Students,351,15.4,43.9,23.1,17.7,2019
@@ -2901,11 +2901,11 @@ EAST STROUDSBURG AREA SD,Biology,Historically Underperforming,169,13,30.2,30.8,2
 EAST STROUDSBURG AREA SD,Literature,All Students,295,13.2,52.9,23.1,10.8,2019
 EAST STROUDSBURG AREA SD,Literature,Historically Underperforming,172,4.1,48.3,31.4,16.3,2019
 EVERGREEN COMMUNITY CS,Algebra I,All Students,15,20,40,40,0,2019
-EVERGREEN COMMUNITY CS,Algebra I,Historically Underperforming,2,,,,,2019
+EVERGREEN COMMUNITY CS,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
 EVERGREEN COMMUNITY CS,Biology,All Students,14,14.3,50,28.6,7.1,2019
-EVERGREEN COMMUNITY CS,Biology,Historically Underperforming,2,,,,,2019
+EVERGREEN COMMUNITY CS,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
 EVERGREEN COMMUNITY CS,Literature,All Students,14,0,85.7,14.3,0,2019
-EVERGREEN COMMUNITY CS,Literature,Historically Underperforming,2,,,,,2019
+EVERGREEN COMMUNITY CS,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
 PLEASANT VALLEY SD,Algebra I,All Students,336,23.2,41.4,30.4,5.1,2019
 PLEASANT VALLEY SD,Algebra I,Historically Underperforming,129,17.8,32.6,40.3,9.3,2019
 PLEASANT VALLEY SD,Biology,All Students,339,20.9,41.9,23.9,13.3,2019
@@ -2954,12 +2954,12 @@ COLONIAL SD,Biology,All Students,363,58.1,34.4,5.5,1.9,2019
 COLONIAL SD,Biology,Historically Underperforming,99,31.3,52.5,12.1,4,2019
 COLONIAL SD,Literature,All Students,368,23.1,64.4,10.1,2.4,2019
 COLONIAL SD,Literature,Historically Underperforming,102,7.8,64.7,22.5,4.9,2019
-EASTERN CENTER FOR ARTS & TECHNOLOGY,Algebra I,All Students,1,,,,,2019
-EASTERN CENTER FOR ARTS & TECHNOLOGY,Algebra I,Historically Underperforming,1,,,,,2019
-EASTERN CENTER FOR ARTS & TECHNOLOGY,Biology,All Students,1,,,,,2019
-EASTERN CENTER FOR ARTS & TECHNOLOGY,Biology,Historically Underperforming,1,,,,,2019
-EASTERN CENTER FOR ARTS & TECHNOLOGY,Literature,All Students,1,,,,,2019
-EASTERN CENTER FOR ARTS & TECHNOLOGY,Literature,Historically Underperforming,1,,,,,2019
+EASTERN CENTER FOR ARTS & TECHNOLOGY,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2019
+EASTERN CENTER FOR ARTS & TECHNOLOGY,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+EASTERN CENTER FOR ARTS & TECHNOLOGY,Biology,All Students,1,NULL,NULL,NULL,NULL,2019
+EASTERN CENTER FOR ARTS & TECHNOLOGY,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+EASTERN CENTER FOR ARTS & TECHNOLOGY,Literature,All Students,1,NULL,NULL,NULL,NULL,2019
+EASTERN CENTER FOR ARTS & TECHNOLOGY,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
 HATBORO-HORSHAM SD,Algebra I,All Students,392,32.1,34.2,26.3,7.4,2019
 HATBORO-HORSHAM SD,Algebra I,Historically Underperforming,129,17.1,20.9,44.2,17.8,2019
 HATBORO-HORSHAM SD,Biology,All Students,391,25.3,38.4,23.3,13,2019
@@ -2967,11 +2967,11 @@ HATBORO-HORSHAM SD,Biology,Historically Underperforming,128,10.9,28.9,29.7,30.5,
 HATBORO-HORSHAM SD,Literature,All Students,387,4.4,56.3,29.7,9.6,2019
 HATBORO-HORSHAM SD,Literature,Historically Underperforming,126,2.4,34.9,38.1,24.6,2019
 JENKINTOWN SD,Algebra I,All Students,43,16.3,41.9,41.9,0,2019
-JENKINTOWN SD,Algebra I,Historically Underperforming,10,,,,,2019
+JENKINTOWN SD,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 JENKINTOWN SD,Biology,All Students,43,14,46.5,37.2,2.3,2019
-JENKINTOWN SD,Biology,Historically Underperforming,10,,,,,2019
+JENKINTOWN SD,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 JENKINTOWN SD,Literature,All Students,43,9.3,69.8,16.3,4.7,2019
-JENKINTOWN SD,Literature,Historically Underperforming,10,,,,,2019
+JENKINTOWN SD,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 LOWER MERION SD,Algebra I,All Students,294,50.7,36.7,9.9,2.7,2019
 LOWER MERION SD,Algebra I,Historically Underperforming,63,22.2,38.1,27,12.7,2019
 LOWER MERION SD,Biology,All Students,295,54.6,35.3,7.1,3.1,2019
@@ -3002,18 +3002,18 @@ NORRISTOWN AREA SD,Biology,All Students,324,11.4,36.1,30.6,21.9,2019
 NORRISTOWN AREA SD,Biology,Historically Underperforming,237,7.2,32.1,32.9,27.8,2019
 NORRISTOWN AREA SD,Literature,All Students,295,4.7,61.7,22.7,10.8,2019
 NORRISTOWN AREA SD,Literature,Historically Underperforming,210,3.8,54.8,27.6,13.8,2019
-NORRISTOWN AREA SD,Algebra I,All Students,6,,,,,2019
-NORRISTOWN AREA SD,Algebra I,Historically Underperforming,3,,,,,2019
-NORRISTOWN AREA SD,Biology,All Students,6,,,,,2019
-NORRISTOWN AREA SD,Biology,Historically Underperforming,3,,,,,2019
-NORRISTOWN AREA SD,Literature,All Students,6,,,,,2019
-NORRISTOWN AREA SD,Literature,Historically Underperforming,3,,,,,2019
-NORTH MONTCO TECH CAREER CENTER,Algebra I,All Students,2,,,,,2019
-NORTH MONTCO TECH CAREER CENTER,Algebra I,Historically Underperforming,1,,,,,2019
-NORTH MONTCO TECH CAREER CENTER,Biology,All Students,2,,,,,2019
-NORTH MONTCO TECH CAREER CENTER,Biology,Historically Underperforming,1,,,,,2019
-NORTH MONTCO TECH CAREER CENTER,Literature,All Students,2,,,,,2019
-NORTH MONTCO TECH CAREER CENTER,Literature,Historically Underperforming,1,,,,,2019
+NORRISTOWN AREA SD,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2019
+NORRISTOWN AREA SD,Algebra I,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+NORRISTOWN AREA SD,Biology,All Students,6,NULL,NULL,NULL,NULL,2019
+NORRISTOWN AREA SD,Biology,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+NORRISTOWN AREA SD,Literature,All Students,6,NULL,NULL,NULL,NULL,2019
+NORRISTOWN AREA SD,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
+NORTH MONTCO TECH CAREER CENTER,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2019
+NORTH MONTCO TECH CAREER CENTER,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+NORTH MONTCO TECH CAREER CENTER,Biology,All Students,2,NULL,NULL,NULL,NULL,2019
+NORTH MONTCO TECH CAREER CENTER,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+NORTH MONTCO TECH CAREER CENTER,Literature,All Students,2,NULL,NULL,NULL,NULL,2019
+NORTH MONTCO TECH CAREER CENTER,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
 NORTH PENN SD,Algebra I,All Students,957,44.8,35.3,15.2,4.7,2019
 NORTH PENN SD,Algebra I,Historically Underperforming,380,22.6,35.8,30.8,10.8,2019
 NORTH PENN SD,Biology,All Students,945,49.5,32.9,10.1,7.5,2019
@@ -3086,8 +3086,8 @@ UPPER PERKIOMEN SD,Biology,All Students,239,36,32.6,19.7,11.7,2019
 UPPER PERKIOMEN SD,Biology,Historically Underperforming,93,19.4,29,28,23.7,2019
 UPPER PERKIOMEN SD,Literature,All Students,237,16.9,60.8,15.2,7.2,2019
 UPPER PERKIOMEN SD,Literature,Historically Underperforming,92,12,45.7,23.9,18.5,2019
-WESTERN MONTGOMERY CTC,Algebra I,All Students,1,,,,,2019
-WESTERN MONTGOMERY CTC,Algebra I,Historically Underperforming,0,,,,,2019
+WESTERN MONTGOMERY CTC,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2019
+WESTERN MONTGOMERY CTC,Algebra I,Historically Underperforming,0,NULL,NULL,NULL,NULL,2019
 WISSAHICKON SD,Algebra I,All Students,343,47.5,39.9,11.4,1.2,2019
 WISSAHICKON SD,Algebra I,Historically Underperforming,104,19.2,46.2,30.8,3.8,2019
 WISSAHICKON SD,Biology,All Students,343,44.9,36.2,15.2,3.8,2019
@@ -3119,15 +3119,15 @@ BETHLEHEM AREA SD,Biology,Historically Underperforming,324,4.9,23.1,45.4,26.5,20
 BETHLEHEM AREA SD,Literature,All Students,525,9.9,52.6,27.8,9.7,2019
 BETHLEHEM AREA SD,Literature,Historically Underperforming,318,2.8,45.9,36.2,15.1,2019
 BETHLEHEM AVTS,Algebra I,All Students,11,0,0,45.5,54.5,2019
-BETHLEHEM AVTS,Algebra I,Historically Underperforming,10,,,,,2019
-BETHLEHEM AVTS,Biology,All Students,10,,,,,2019
-BETHLEHEM AVTS,Biology,Historically Underperforming,9,,,,,2019
-BETHLEHEM AVTS,Literature,All Students,10,,,,,2019
-BETHLEHEM AVTS,Literature,Historically Underperforming,9,,,,,2019
-CAREER INSTITUTE OF TECHNOLOGY,Algebra I,All Students,10,,,,,2019
-CAREER INSTITUTE OF TECHNOLOGY,Algebra I,Historically Underperforming,10,,,,,2019
-CAREER INSTITUTE OF TECHNOLOGY,Biology,All Students,10,,,,,2019
-CAREER INSTITUTE OF TECHNOLOGY,Biology,Historically Underperforming,10,,,,,2019
+BETHLEHEM AVTS,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
+BETHLEHEM AVTS,Biology,All Students,10,NULL,NULL,NULL,NULL,2019
+BETHLEHEM AVTS,Biology,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
+BETHLEHEM AVTS,Literature,All Students,10,NULL,NULL,NULL,NULL,2019
+BETHLEHEM AVTS,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
+CAREER INSTITUTE OF TECHNOLOGY,Algebra I,All Students,10,NULL,NULL,NULL,NULL,2019
+CAREER INSTITUTE OF TECHNOLOGY,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
+CAREER INSTITUTE OF TECHNOLOGY,Biology,All Students,10,NULL,NULL,NULL,NULL,2019
+CAREER INSTITUTE OF TECHNOLOGY,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 CAREER INSTITUTE OF TECHNOLOGY,Literature,All Students,13,7.7,23.1,30.8,38.5,2019
 CAREER INSTITUTE OF TECHNOLOGY,Literature,Historically Underperforming,13,7.7,23.1,30.8,38.5,2019
 EASTON AREA SD,Algebra I,All Students,636,17.8,41.8,29.4,11,2019
@@ -3239,11 +3239,11 @@ WEST PERRY SD,Biology,Historically Underperforming,58,15.5,32.8,32.8,19,2019
 WEST PERRY SD,Literature,All Students,147,4.8,61.9,25.2,8.2,2019
 WEST PERRY SD,Literature,Historically Underperforming,57,1.8,40.4,40.4,17.5,2019
 ACT ACADEMY CYBER CS,Algebra I,All Students,16,0,18.8,56.3,25,2019
-ACT ACADEMY CYBER CS,Algebra I,Historically Underperforming,8,,,,,2019
+ACT ACADEMY CYBER CS,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 ACT ACADEMY CYBER CS,Biology,All Students,13,0,23.1,23.1,53.8,2019
-ACT ACADEMY CYBER CS,Biology,Historically Underperforming,6,,,,,2019
+ACT ACADEMY CYBER CS,Biology,Historically Underperforming,6,NULL,NULL,NULL,NULL,2019
 ACT ACADEMY CYBER CS,Literature,All Students,15,0,46.7,33.3,20,2019
-ACT ACADEMY CYBER CS,Literature,Historically Underperforming,7,,,,,2019
+ACT ACADEMY CYBER CS,Literature,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
 ASPIRA BILINGUAL CYBER CHARTER SCHOOL,Algebra I,All Students,43,0,4.7,41.9,53.5,2019
 ASPIRA BILINGUAL CYBER CHARTER SCHOOL,Algebra I,Historically Underperforming,35,0,5.7,40,54.3,2019
 ASPIRA BILINGUAL CYBER CHARTER SCHOOL,Biology,All Students,38,0,2.6,23.7,73.7,2019
@@ -3395,11 +3395,11 @@ OLNEY CHARTER HIGH SCHOOL,Biology,Historically Underperforming,310,0.3,7.7,23.2,
 OLNEY CHARTER HIGH SCHOOL,Literature,All Students,367,0,19.3,34.9,45.8,2019
 OLNEY CHARTER HIGH SCHOOL,Literature,Historically Underperforming,309,0,16.5,33.7,49.8,2019
 PEOPLE FOR PEOPLE CS,Algebra I,All Students,15,0,13.3,46.7,40,2019
-PEOPLE FOR PEOPLE CS,Algebra I,Historically Underperforming,9,,,,,2019
+PEOPLE FOR PEOPLE CS,Algebra I,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
 PEOPLE FOR PEOPLE CS,Biology,All Students,15,0,0,53.3,46.7,2019
-PEOPLE FOR PEOPLE CS,Biology,Historically Underperforming,9,,,,,2019
+PEOPLE FOR PEOPLE CS,Biology,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
 PEOPLE FOR PEOPLE CS,Literature,All Students,15,0,60,33.3,6.7,2019
-PEOPLE FOR PEOPLE CS,Literature,Historically Underperforming,9,,,,,2019
+PEOPLE FOR PEOPLE CS,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
 PHILADELPHIA ACADEMY CS,Algebra I,All Students,104,12.5,44.2,28.8,14.4,2019
 PHILADELPHIA ACADEMY CS,Algebra I,Historically Underperforming,53,7.5,35.8,34,22.6,2019
 PHILADELPHIA ACADEMY CS,Biology,All Students,104,7.7,50,24,18.3,2019
@@ -3616,16 +3616,16 @@ PHILADELPHIA CITY SD,Biology,All Students,80,3.8,21.3,33.8,41.3,2019
 PHILADELPHIA CITY SD,Biology,Historically Underperforming,66,3,19.7,39.4,37.9,2019
 PHILADELPHIA CITY SD,Literature,All Students,75,1.3,37.3,29.3,32,2019
 PHILADELPHIA CITY SD,Literature,Historically Underperforming,62,0,38.7,30.6,30.6,2019
-PHILADELPHIA CITY SD,Algebra I,All Students,10,,,,,2019
-PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,8,,,,,2019
-PHILADELPHIA CITY SD,Biology,All Students,8,,,,,2019
-PHILADELPHIA CITY SD,Biology,Historically Underperforming,6,,,,,2019
-PHILADELPHIA CITY SD,Literature,All Students,8,,,,,2019
-PHILADELPHIA CITY SD,Literature,Historically Underperforming,6,,,,,2019
+PHILADELPHIA CITY SD,Algebra I,All Students,10,NULL,NULL,NULL,NULL,2019
+PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
+PHILADELPHIA CITY SD,Biology,All Students,8,NULL,NULL,NULL,NULL,2019
+PHILADELPHIA CITY SD,Biology,Historically Underperforming,6,NULL,NULL,NULL,NULL,2019
+PHILADELPHIA CITY SD,Literature,All Students,8,NULL,NULL,NULL,NULL,2019
+PHILADELPHIA CITY SD,Literature,Historically Underperforming,6,NULL,NULL,NULL,NULL,2019
 PHILADELPHIA CITY SD,Algebra I,All Students,19,0,0,21.1,78.9,2019
 PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,17,0,0,23.5,76.5,2019
 PHILADELPHIA CITY SD,Biology,All Students,13,0,0,0,100,2019
-PHILADELPHIA CITY SD,Biology,Historically Underperforming,10,,,,,2019
+PHILADELPHIA CITY SD,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 PHILADELPHIA CITY SD,Literature,All Students,16,0,0,6.3,93.8,2019
 PHILADELPHIA CITY SD,Literature,Historically Underperforming,13,0,0,7.7,92.3,2019
 PHILADELPHIA CITY SD,Algebra I,All Students,38,0,39.5,52.6,7.9,2019
@@ -3701,11 +3701,11 @@ PHILADELPHIA CITY SD,Biology,Historically Underperforming,68,2.9,33.8,42.6,20.6,
 PHILADELPHIA CITY SD,Literature,All Students,115,2.6,68.7,22.6,6.1,2019
 PHILADELPHIA CITY SD,Literature,Historically Underperforming,68,0,66.2,25,8.8,2019
 PHILADELPHIA CITY SD,Algebra I,All Students,75,4,20,41.3,34.7,2019
-PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,8,,,,,2019
+PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 PHILADELPHIA CITY SD,Biology,All Students,59,0,13.6,30.5,55.9,2019
-PHILADELPHIA CITY SD,Biology,Historically Underperforming,7,,,,,2019
+PHILADELPHIA CITY SD,Biology,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
 PHILADELPHIA CITY SD,Literature,All Students,54,1.9,37,44.4,16.7,2019
-PHILADELPHIA CITY SD,Literature,Historically Underperforming,6,,,,,2019
+PHILADELPHIA CITY SD,Literature,Historically Underperforming,6,NULL,NULL,NULL,NULL,2019
 PHILADELPHIA CITY SD,Algebra I,All Students,47,0,0,42.6,57.4,2019
 PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,44,0,0,45.5,54.5,2019
 PHILADELPHIA CITY SD,Biology,All Students,44,0,0,9.1,90.9,2019
@@ -3728,12 +3728,12 @@ PHILADELPHIA CITY SD,Biology,All Students,69,0,10.1,27.5,62.3,2019
 PHILADELPHIA CITY SD,Biology,Historically Underperforming,55,0,7.3,25.5,67.3,2019
 PHILADELPHIA CITY SD,Literature,All Students,64,0,17.2,45.3,37.5,2019
 PHILADELPHIA CITY SD,Literature,Historically Underperforming,51,0,13.7,47.1,39.2,2019
-PHILADELPHIA CITY SD,Algebra I,All Students,1,,,,,2019
-PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,1,,,,,2019
-PHILADELPHIA CITY SD,Biology,All Students,1,,,,,2019
-PHILADELPHIA CITY SD,Biology,Historically Underperforming,1,,,,,2019
-PHILADELPHIA CITY SD,Literature,All Students,1,,,,,2019
-PHILADELPHIA CITY SD,Literature,Historically Underperforming,1,,,,,2019
+PHILADELPHIA CITY SD,Algebra I,All Students,1,NULL,NULL,NULL,NULL,2019
+PHILADELPHIA CITY SD,Algebra I,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+PHILADELPHIA CITY SD,Biology,All Students,1,NULL,NULL,NULL,NULL,2019
+PHILADELPHIA CITY SD,Biology,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
+PHILADELPHIA CITY SD,Literature,All Students,1,NULL,NULL,NULL,NULL,2019
+PHILADELPHIA CITY SD,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
 PHILADELPHIA ELECTRICAL & TECH CHS,Algebra I,All Students,124,3.2,28.2,50.8,17.7,2019
 PHILADELPHIA ELECTRICAL & TECH CHS,Algebra I,Historically Underperforming,106,2.8,29.2,49.1,18.9,2019
 PHILADELPHIA ELECTRICAL & TECH CHS,Biology,All Students,124,3.2,21.8,46.8,28.2,2019
@@ -3789,11 +3789,11 @@ WALLENPAUPACK AREA SD,Biology,Historically Underperforming,135,24.4,43,21.5,11.1
 WALLENPAUPACK AREA SD,Literature,All Students,229,5.7,65.9,20.1,8.3,2019
 WALLENPAUPACK AREA SD,Literature,Historically Underperforming,139,1.4,57.6,27.3,13.7,2019
 AUSTIN AREA SD,Algebra I,All Students,11,27.3,45.5,18.2,9.1,2019
-AUSTIN AREA SD,Algebra I,Historically Underperforming,6,,,,,2019
+AUSTIN AREA SD,Algebra I,Historically Underperforming,6,NULL,NULL,NULL,NULL,2019
 AUSTIN AREA SD,Biology,All Students,11,9.1,63.6,18.2,9.1,2019
-AUSTIN AREA SD,Biology,Historically Underperforming,6,,,,,2019
-AUSTIN AREA SD,Literature,All Students,10,,,,,2019
-AUSTIN AREA SD,Literature,Historically Underperforming,5,,,,,2019
+AUSTIN AREA SD,Biology,Historically Underperforming,6,NULL,NULL,NULL,NULL,2019
+AUSTIN AREA SD,Literature,All Students,10,NULL,NULL,NULL,NULL,2019
+AUSTIN AREA SD,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
 COUDERSPORT AREA SD,Algebra I,All Students,53,9.4,50.9,22.6,17,2019
 COUDERSPORT AREA SD,Algebra I,Historically Underperforming,25,12,28,28,32,2019
 COUDERSPORT AREA SD,Biology,All Students,54,20.4,53.7,18.5,7.4,2019
@@ -3801,11 +3801,11 @@ COUDERSPORT AREA SD,Biology,Historically Underperforming,26,7.7,50,26.9,15.4,201
 COUDERSPORT AREA SD,Literature,All Students,55,1.8,70.9,21.8,5.5,2019
 COUDERSPORT AREA SD,Literature,Historically Underperforming,26,3.8,57.7,26.9,11.5,2019
 GALETON AREA SD,Algebra I,All Students,17,5.9,41.2,35.3,17.6,2019
-GALETON AREA SD,Algebra I,Historically Underperforming,8,,,,,2019
+GALETON AREA SD,Algebra I,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 GALETON AREA SD,Biology,All Students,17,23.5,29.4,23.5,23.5,2019
-GALETON AREA SD,Biology,Historically Underperforming,8,,,,,2019
+GALETON AREA SD,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 GALETON AREA SD,Literature,All Students,17,5.9,47.1,17.6,29.4,2019
-GALETON AREA SD,Literature,Historically Underperforming,8,,,,,2019
+GALETON AREA SD,Literature,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
 NORTHERN POTTER SD,Algebra I,All Students,26,3.8,46.2,46.2,3.8,2019
 NORTHERN POTTER SD,Algebra I,Historically Underperforming,20,0,45,50,5,2019
 NORTHERN POTTER SD,Biology,All Students,31,6.5,54.8,29,9.7,2019
@@ -3824,12 +3824,12 @@ BLUE MOUNTAIN SD,Biology,All Students,189,30.2,32.3,26.5,11.1,2019
 BLUE MOUNTAIN SD,Biology,Historically Underperforming,74,14.9,35.1,29.7,20.3,2019
 BLUE MOUNTAIN SD,Literature,All Students,190,14.7,66.3,15.3,3.7,2019
 BLUE MOUNTAIN SD,Literature,Historically Underperforming,75,6.7,60,24,9.3,2019
-GILLINGHAM CHARTER SCHOOL,Algebra I,All Students,10,,,,,2019
-GILLINGHAM CHARTER SCHOOL,Algebra I,Historically Underperforming,10,,,,,2019
+GILLINGHAM CHARTER SCHOOL,Algebra I,All Students,10,NULL,NULL,NULL,NULL,2019
+GILLINGHAM CHARTER SCHOOL,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 GILLINGHAM CHARTER SCHOOL,Biology,All Students,11,9.1,18.2,36.4,36.4,2019
 GILLINGHAM CHARTER SCHOOL,Biology,Historically Underperforming,11,9.1,18.2,36.4,36.4,2019
-GILLINGHAM CHARTER SCHOOL,Literature,All Students,10,,,,,2019
-GILLINGHAM CHARTER SCHOOL,Literature,Historically Underperforming,10,,,,,2019
+GILLINGHAM CHARTER SCHOOL,Literature,All Students,10,NULL,NULL,NULL,NULL,2019
+GILLINGHAM CHARTER SCHOOL,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 MAHANOY AREA SD,Algebra I,All Students,65,16.9,23.1,40,20,2019
 MAHANOY AREA SD,Algebra I,Historically Underperforming,44,6.8,13.6,52.3,27.3,2019
 MAHANOY AREA SD,Biology,All Students,65,9.2,38.5,18.5,33.8,2019
@@ -3933,11 +3933,11 @@ ROCKWOOD AREA SD,Biology,Historically Underperforming,12,16.7,50,16.7,16.7,2019
 ROCKWOOD AREA SD,Literature,All Students,43,7,72.1,14,7,2019
 ROCKWOOD AREA SD,Literature,Historically Underperforming,12,0,66.7,16.7,16.7,2019
 SALISBURY-ELK LICK SD,Algebra I,All Students,20,0,50,40,10,2019
-SALISBURY-ELK LICK SD,Algebra I,Historically Underperforming,10,,,,,2019
+SALISBURY-ELK LICK SD,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 SALISBURY-ELK LICK SD,Biology,All Students,20,15,40,20,25,2019
-SALISBURY-ELK LICK SD,Biology,Historically Underperforming,10,,,,,2019
+SALISBURY-ELK LICK SD,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 SALISBURY-ELK LICK SD,Literature,All Students,19,0,68.4,10.5,21.1,2019
-SALISBURY-ELK LICK SD,Literature,Historically Underperforming,10,,,,,2019
+SALISBURY-ELK LICK SD,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 SHADE-CENTRAL CITY SD,Algebra I,All Students,22,27.3,40.9,22.7,9.1,2019
 SHADE-CENTRAL CITY SD,Algebra I,Historically Underperforming,22,27.3,40.9,22.7,9.1,2019
 SHADE-CENTRAL CITY SD,Biology,All Students,22,9.1,50,31.8,9.1,2019
@@ -3956,12 +3956,12 @@ SOMERSET AREA SD,Biology,All Students,145,33.8,42.8,13.8,9.7,2019
 SOMERSET AREA SD,Biology,Historically Underperforming,61,27.9,34.4,21.3,16.4,2019
 SOMERSET AREA SD,Literature,All Students,145,11.7,69,13.8,5.5,2019
 SOMERSET AREA SD,Literature,Historically Underperforming,61,8.2,63.9,18,9.8,2019
-SOMERSET COUNTY TECHNOLOGY CENTER,Algebra I,All Students,5,,,,,2019
-SOMERSET COUNTY TECHNOLOGY CENTER,Algebra I,Historically Underperforming,4,,,,,2019
-SOMERSET COUNTY TECHNOLOGY CENTER,Biology,All Students,5,,,,,2019
-SOMERSET COUNTY TECHNOLOGY CENTER,Biology,Historically Underperforming,4,,,,,2019
-SOMERSET COUNTY TECHNOLOGY CENTER,Literature,All Students,4,,,,,2019
-SOMERSET COUNTY TECHNOLOGY CENTER,Literature,Historically Underperforming,3,,,,,2019
+SOMERSET COUNTY TECHNOLOGY CENTER,Algebra I,All Students,5,NULL,NULL,NULL,NULL,2019
+SOMERSET COUNTY TECHNOLOGY CENTER,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+SOMERSET COUNTY TECHNOLOGY CENTER,Biology,All Students,5,NULL,NULL,NULL,NULL,2019
+SOMERSET COUNTY TECHNOLOGY CENTER,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+SOMERSET COUNTY TECHNOLOGY CENTER,Literature,All Students,4,NULL,NULL,NULL,NULL,2019
+SOMERSET COUNTY TECHNOLOGY CENTER,Literature,Historically Underperforming,3,NULL,NULL,NULL,NULL,2019
 TURKEYFOOT VALLEY AREA SD,Algebra I,All Students,26,3.8,50,42.3,3.8,2019
 TURKEYFOOT VALLEY AREA SD,Algebra I,Historically Underperforming,17,0,58.8,35.3,5.9,2019
 TURKEYFOOT VALLEY AREA SD,Biology,All Students,26,0,30.8,50,19.2,2019
@@ -4016,12 +4016,12 @@ SUSQUEHANNA COMM SD,Biology,All Students,52,36.5,40.4,15.4,7.7,2019
 SUSQUEHANNA COMM SD,Biology,Historically Underperforming,31,22.6,54.8,12.9,9.7,2019
 SUSQUEHANNA COMM SD,Literature,All Students,51,9.8,64.7,21.6,3.9,2019
 SUSQUEHANNA COMM SD,Literature,Historically Underperforming,30,3.3,63.3,33.3,0,2019
-SUSQUEHANNA COUNTY CTC,Algebra I,All Students,9,,,,,2019
-SUSQUEHANNA COUNTY CTC,Algebra I,Historically Underperforming,9,,,,,2019
-SUSQUEHANNA COUNTY CTC,Biology,All Students,10,,,,,2019
-SUSQUEHANNA COUNTY CTC,Biology,Historically Underperforming,10,,,,,2019
-SUSQUEHANNA COUNTY CTC,Literature,All Students,10,,,,,2019
-SUSQUEHANNA COUNTY CTC,Literature,Historically Underperforming,10,,,,,2019
+SUSQUEHANNA COUNTY CTC,Algebra I,All Students,9,NULL,NULL,NULL,NULL,2019
+SUSQUEHANNA COUNTY CTC,Algebra I,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
+SUSQUEHANNA COUNTY CTC,Biology,All Students,10,NULL,NULL,NULL,NULL,2019
+SUSQUEHANNA COUNTY CTC,Biology,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
+SUSQUEHANNA COUNTY CTC,Literature,All Students,10,NULL,NULL,NULL,NULL,2019
+SUSQUEHANNA COUNTY CTC,Literature,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 NORTHERN TIOGA SD,Algebra I,All Students,66,24.2,39.4,30.3,6.1,2019
 NORTHERN TIOGA SD,Algebra I,Historically Underperforming,38,10.5,42.1,36.8,10.5,2019
 NORTHERN TIOGA SD,Biology,All Students,66,24.2,33.3,30.3,12.1,2019
@@ -4064,12 +4064,12 @@ MIFFLINBURG AREA SD,Biology,All Students,161,12.4,52.2,19.9,15.5,2019
 MIFFLINBURG AREA SD,Biology,Historically Underperforming,64,7.8,40.6,25,26.6,2019
 MIFFLINBURG AREA SD,Literature,All Students,161,3.7,60.9,22.4,13,2019
 MIFFLINBURG AREA SD,Literature,Historically Underperforming,63,3.2,47.6,22.2,27,2019
-SUN AREA TECHNICAL INSTITUTE,Algebra I,All Students,2,,,,,2019
-SUN AREA TECHNICAL INSTITUTE,Algebra I,Historically Underperforming,2,,,,,2019
-SUN AREA TECHNICAL INSTITUTE,Biology,All Students,2,,,,,2019
-SUN AREA TECHNICAL INSTITUTE,Biology,Historically Underperforming,2,,,,,2019
-SUN AREA TECHNICAL INSTITUTE,Literature,All Students,1,,,,,2019
-SUN AREA TECHNICAL INSTITUTE,Literature,Historically Underperforming,1,,,,,2019
+SUN AREA TECHNICAL INSTITUTE,Algebra I,All Students,2,NULL,NULL,NULL,NULL,2019
+SUN AREA TECHNICAL INSTITUTE,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+SUN AREA TECHNICAL INSTITUTE,Biology,All Students,2,NULL,NULL,NULL,NULL,2019
+SUN AREA TECHNICAL INSTITUTE,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+SUN AREA TECHNICAL INSTITUTE,Literature,All Students,1,NULL,NULL,NULL,NULL,2019
+SUN AREA TECHNICAL INSTITUTE,Literature,Historically Underperforming,1,NULL,NULL,NULL,NULL,2019
 CRANBERRY AREA SD,Algebra I,All Students,85,12.9,50.6,28.2,8.2,2019
 CRANBERRY AREA SD,Algebra I,Historically Underperforming,35,8.6,34.3,37.1,20,2019
 CRANBERRY AREA SD,Biology,All Students,85,12.9,44.7,25.9,16.5,2019
@@ -4100,12 +4100,12 @@ VALLEY GROVE SD,Biology,All Students,60,6.7,50,33.3,10,2019
 VALLEY GROVE SD,Biology,Historically Underperforming,36,0,38.9,44.4,16.7,2019
 VALLEY GROVE SD,Literature,All Students,60,6.7,61.7,21.7,10,2019
 VALLEY GROVE SD,Literature,Historically Underperforming,36,2.8,50,30.6,16.7,2019
-VENANGO TECHNOLOGY CENTER,Algebra I,All Students,7,,,,,2019
-VENANGO TECHNOLOGY CENTER,Algebra I,Historically Underperforming,7,,,,,2019
-VENANGO TECHNOLOGY CENTER,Biology,All Students,5,,,,,2019
-VENANGO TECHNOLOGY CENTER,Biology,Historically Underperforming,5,,,,,2019
-VENANGO TECHNOLOGY CENTER,Literature,All Students,6,,,,,2019
-VENANGO TECHNOLOGY CENTER,Literature,Historically Underperforming,6,,,,,2019
+VENANGO TECHNOLOGY CENTER,Algebra I,All Students,7,NULL,NULL,NULL,NULL,2019
+VENANGO TECHNOLOGY CENTER,Algebra I,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
+VENANGO TECHNOLOGY CENTER,Biology,All Students,5,NULL,NULL,NULL,NULL,2019
+VENANGO TECHNOLOGY CENTER,Biology,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
+VENANGO TECHNOLOGY CENTER,Literature,All Students,6,NULL,NULL,NULL,NULL,2019
+VENANGO TECHNOLOGY CENTER,Literature,Historically Underperforming,6,NULL,NULL,NULL,NULL,2019
 TIDIOUTE COMMUNITY CS,Algebra I,All Students,27,7.4,48.1,18.5,25.9,2019
 TIDIOUTE COMMUNITY CS,Algebra I,Historically Underperforming,15,6.7,40,26.7,26.7,2019
 TIDIOUTE COMMUNITY CS,Biology,All Students,27,3.7,59.3,18.5,18.5,2019
@@ -4137,11 +4137,11 @@ WARREN COUNTY SD,Biology,Historically Underperforming,27,7.4,29.6,22.2,40.7,2019
 WARREN COUNTY SD,Literature,All Students,49,6.1,55.1,24.5,14.3,2019
 WARREN COUNTY SD,Literature,Historically Underperforming,28,3.6,35.7,35.7,25,2019
 AVELLA AREA SD,Algebra I,All Students,30,20,46.7,33.3,0,2019
-AVELLA AREA SD,Algebra I,Historically Underperforming,10,,,,,2019
+AVELLA AREA SD,Algebra I,Historically Underperforming,10,NULL,NULL,NULL,NULL,2019
 AVELLA AREA SD,Biology,All Students,32,18.8,46.9,28.1,6.3,2019
 AVELLA AREA SD,Biology,Historically Underperforming,11,9.1,45.5,36.4,9.1,2019
 AVELLA AREA SD,Literature,All Students,30,3.3,66.7,30,0,2019
-AVELLA AREA SD,Literature,Historically Underperforming,9,,,,,2019
+AVELLA AREA SD,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
 BENTWORTH SD,Algebra I,All Students,81,11.1,46.9,35.8,6.2,2019
 BENTWORTH SD,Algebra I,Historically Underperforming,35,5.7,42.9,40,11.4,2019
 BENTWORTH SD,Biology,All Students,81,17.3,32.1,37,13.6,2019
@@ -4196,12 +4196,12 @@ MCGUFFEY SD,Biology,All Students,105,11.4,53.3,26.7,8.6,2019
 MCGUFFEY SD,Biology,Historically Underperforming,37,2.7,35.1,48.6,13.5,2019
 MCGUFFEY SD,Literature,All Students,105,14.3,61,14.3,10.5,2019
 MCGUFFEY SD,Literature,Historically Underperforming,37,0,48.6,27,24.3,2019
-MON VALLEY CTC,Algebra I,All Students,7,,,,,2019
-MON VALLEY CTC,Algebra I,Historically Underperforming,7,,,,,2019
-MON VALLEY CTC,Biology,All Students,8,,,,,2019
-MON VALLEY CTC,Biology,Historically Underperforming,8,,,,,2019
-MON VALLEY CTC,Literature,All Students,9,,,,,2019
-MON VALLEY CTC,Literature,Historically Underperforming,9,,,,,2019
+MON VALLEY CTC,Algebra I,All Students,7,NULL,NULL,NULL,NULL,2019
+MON VALLEY CTC,Algebra I,Historically Underperforming,7,NULL,NULL,NULL,NULL,2019
+MON VALLEY CTC,Biology,All Students,8,NULL,NULL,NULL,NULL,2019
+MON VALLEY CTC,Biology,Historically Underperforming,8,NULL,NULL,NULL,NULL,2019
+MON VALLEY CTC,Literature,All Students,9,NULL,NULL,NULL,NULL,2019
+MON VALLEY CTC,Literature,Historically Underperforming,9,NULL,NULL,NULL,NULL,2019
 PETERS TOWNSHIP SD,Algebra I,All Students,325,56.3,38.8,4.3,0.6,2019
 PETERS TOWNSHIP SD,Algebra I,Historically Underperforming,55,25.5,52.7,18.2,3.6,2019
 PETERS TOWNSHIP SD,Biology,All Students,334,59.3,35.3,4.2,1.2,2019
@@ -4226,12 +4226,12 @@ WASHINGTON SD,Biology,All Students,97,13.4,23.7,34,28.9,2019
 WASHINGTON SD,Biology,Historically Underperforming,65,6.2,21.5,36.9,35.4,2019
 WASHINGTON SD,Literature,All Students,98,3.1,62.2,20.4,14.3,2019
 WASHINGTON SD,Literature,Historically Underperforming,66,0,60.6,22.7,16.7,2019
-WESTERN AREA CTC,Algebra I,All Students,5,,,,,2019
-WESTERN AREA CTC,Algebra I,Historically Underperforming,4,,,,,2019
-WESTERN AREA CTC,Biology,All Students,5,,,,,2019
-WESTERN AREA CTC,Biology,Historically Underperforming,4,,,,,2019
-WESTERN AREA CTC,Literature,All Students,5,,,,,2019
-WESTERN AREA CTC,Literature,Historically Underperforming,4,,,,,2019
+WESTERN AREA CTC,Algebra I,All Students,5,NULL,NULL,NULL,NULL,2019
+WESTERN AREA CTC,Algebra I,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+WESTERN AREA CTC,Biology,All Students,5,NULL,NULL,NULL,NULL,2019
+WESTERN AREA CTC,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+WESTERN AREA CTC,Literature,All Students,5,NULL,NULL,NULL,NULL,2019
+WESTERN AREA CTC,Literature,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
 WAYNE HIGHLANDS SD,Algebra I,All Students,197,40.6,42.1,12.2,5.1,2019
 WAYNE HIGHLANDS SD,Algebra I,Historically Underperforming,80,18.8,46.3,22.5,12.5,2019
 WAYNE HIGHLANDS SD,Biology,All Students,199,43.2,41.7,10.6,4.5,2019
@@ -4268,12 +4268,12 @@ DR ROBERT KETTERER CS INC,Biology,All Students,13,0,69.2,15.4,15.4,2019
 DR ROBERT KETTERER CS INC,Biology,Historically Underperforming,13,0,69.2,15.4,15.4,2019
 DR ROBERT KETTERER CS INC,Literature,All Students,13,0,46.2,46.2,7.7,2019
 DR ROBERT KETTERER CS INC,Literature,Historically Underperforming,13,0,46.2,46.2,7.7,2019
-EASTERN WESTMORELAND CTC,Algebra I,All Students,4,,,,,2019
-EASTERN WESTMORELAND CTC,Algebra I,Historically Underperforming,2,,,,,2019
-EASTERN WESTMORELAND CTC,Biology,All Students,4,,,,,2019
-EASTERN WESTMORELAND CTC,Biology,Historically Underperforming,2,,,,,2019
-EASTERN WESTMORELAND CTC,Literature,All Students,4,,,,,2019
-EASTERN WESTMORELAND CTC,Literature,Historically Underperforming,2,,,,,2019
+EASTERN WESTMORELAND CTC,Algebra I,All Students,4,NULL,NULL,NULL,NULL,2019
+EASTERN WESTMORELAND CTC,Algebra I,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+EASTERN WESTMORELAND CTC,Biology,All Students,4,NULL,NULL,NULL,NULL,2019
+EASTERN WESTMORELAND CTC,Biology,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
+EASTERN WESTMORELAND CTC,Literature,All Students,4,NULL,NULL,NULL,NULL,2019
+EASTERN WESTMORELAND CTC,Literature,Historically Underperforming,2,NULL,NULL,NULL,NULL,2019
 FRANKLIN REGIONAL SD,Algebra I,All Students,270,56.3,28.5,11.9,3.3,2019
 FRANKLIN REGIONAL SD,Algebra I,Historically Underperforming,67,29.9,29.9,26.9,13.4,2019
 FRANKLIN REGIONAL SD,Biology,All Students,271,49.1,36.5,9.2,5.2,2019
@@ -4334,12 +4334,12 @@ NEW KENSINGTON-ARNOLD SD,Biology,All Students,75,12,34.7,28,25.3,2019
 NEW KENSINGTON-ARNOLD SD,Biology,Historically Underperforming,41,12.2,24.4,29.3,34.1,2019
 NEW KENSINGTON-ARNOLD SD,Literature,All Students,80,1.3,46.3,35,17.5,2019
 NEW KENSINGTON-ARNOLD SD,Literature,Historically Underperforming,41,0,34.1,41.5,24.4,2019
-NORTHERN WESTMORELAND CTC,Algebra I,All Students,6,,,,,2019
-NORTHERN WESTMORELAND CTC,Algebra I,Historically Underperforming,5,,,,,2019
-NORTHERN WESTMORELAND CTC,Biology,All Students,5,,,,,2019
-NORTHERN WESTMORELAND CTC,Biology,Historically Underperforming,4,,,,,2019
-NORTHERN WESTMORELAND CTC,Literature,All Students,5,,,,,2019
-NORTHERN WESTMORELAND CTC,Literature,Historically Underperforming,5,,,,,2019
+NORTHERN WESTMORELAND CTC,Algebra I,All Students,6,NULL,NULL,NULL,NULL,2019
+NORTHERN WESTMORELAND CTC,Algebra I,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
+NORTHERN WESTMORELAND CTC,Biology,All Students,5,NULL,NULL,NULL,NULL,2019
+NORTHERN WESTMORELAND CTC,Biology,Historically Underperforming,4,NULL,NULL,NULL,NULL,2019
+NORTHERN WESTMORELAND CTC,Literature,All Students,5,NULL,NULL,NULL,NULL,2019
+NORTHERN WESTMORELAND CTC,Literature,Historically Underperforming,5,NULL,NULL,NULL,NULL,2019
 NORWIN SD,Algebra I,All Students,389,28.5,46.3,21.6,3.6,2019
 NORWIN SD,Algebra I,Historically Underperforming,106,17,29.2,41.5,12.3,2019
 NORWIN SD,Biology,All Students,387,39.8,38.8,17.6,3.9,2019
