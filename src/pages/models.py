@@ -117,7 +117,6 @@ class district(models.Model):
     district_id = models.IntegerField(primary_key=True)
     district_name = models.CharField(max_length=100)
     district_address_city = models.CharField(max_length=100)
-    district_address_state = models.CharField(max_length=100)
     district_address_street = models.CharField(max_length=100)
     district_zip_code = models.IntegerField()
     geographic_size_square_miles = models.FloatField()
