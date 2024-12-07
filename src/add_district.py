@@ -4,7 +4,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'webdatabase.settings')
 django.setup()
 from pages.models import district
 import csv
-
+#adds the district data to the database from the cleaned csv file
 with open('/home/cole/github/pennsylvania-department-of-education-app/relation_data/district_data/cleaned_district.csv', mode='r') as file:
     csv_reader = csv.reader(file)
     for row in csv_reader:

@@ -150,14 +150,14 @@ class districtFiscal(models.Model):
 class districtKeystone(models.Model):
     keystone_id = models.IntegerField(primary_key=True)
     district_id = models.ForeignKey(district, on_delete=models.CASCADE)
-    group = models.CharField(max_length=100, default='Null')
-    subject = models.CharField(max_length=100, default='Null')
-    numbers_scored = models.IntegerField(default=0)
-    percent_advanced = models.FloatField(default=0.0)
-    percent_proficient = models.FloatField(default=0.0)
-    percent_basic = models.FloatField(default=0.0)
-    percent_below_basic = models.FloatField(default=0.0)
-    year = models.IntegerField(default='Null')
+    subject = models.CharField(max_length=100)
+    group = models.CharField(max_length=100)
+    numbers_scored = models.IntegerField()
+    percent_advanced = models.FloatField()
+    percent_proficient = models.FloatField()
+    percent_basic = models.FloatField()
+    percent_below_basic = models.FloatField()
+    year = models.IntegerField()
 
 
     
