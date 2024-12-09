@@ -59,6 +59,8 @@ print(School.objects.filter(district_id=1).values_list('name', flat=True))
 #
 # print("School data has been successfully added to the database.")
 
+
+
 # Code to verify the data has been added to the database
 
 # import os
