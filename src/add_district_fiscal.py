@@ -2,11 +2,11 @@ import os
 import django
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'webdatabase.settings')
 django.setup()
-from pages.models import district, districtKeystone
+from pages.models import districtFiscal, district
 import csv
 
 # Adds the district keystone data to the database from the cleaned csv files
-with open('/home/cole/github/pennsylvania-department-of-education-app/relation_data/district_keystone_data/district_keystone_2023.csv', mode='r') as file:
+with open('/home/cole/github/pennsylvania-department-of-education-app/relation_data/district_fiscal_data/district_fiscal_2021.csv', mode='r') as file:
     csv_reader = csv.reader(file)
     
     for row in csv_reader:
@@ -18,26 +18,24 @@ with open('/home/cole/github/pennsylvania-department-of-education-app/relation_d
             continue
         #makes sure conversion works before addding it to the database
         try:
-            numbers_scored = int(row[3])
-            percent_advanced = float(row[4])
-            percent_proficient = float(row[5])
-            percent_basic = float(row[6])
-            percent_below_basic = float(row[7])
-            year = int(row[8])
+            federal_revenue = float(row[1])
+            local_revenue = float(row[2])
+            state_revenue = float(row[3])
+            total_expenditures = float(row[4])
+            total_revenue = float(row[5])
+            year = int(row[6])
 
-            new_district_keystone = districtKeystone(
+            new_district_fiscal = districtFiscal(
                 district_id=district_instance,  
-                subject=row[1],  
-                group=row[2],   
-                numbers_scored=numbers_scored,
-                percent_advanced=percent_advanced,
-                percent_proficient=percent_proficient,
-                percent_basic=percent_basic,
-                percent_below_basic=percent_below_basic,
+                federal_revenue = federal_revenue,
+                local_revenue = local_revenue,
+                state_revenue = state_revenue,
+                total_expenditures = total_expenditures,
+                total_revenue = total_revenue,
                 year=year
             )
             
-            new_district_keystone.save()
+            new_district_fiscal.save()
             print(f"Saved districtKeystone for district: {district_instance.district_name}, Year: {year}")
         
         except ValueError as e:
