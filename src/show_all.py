@@ -2,7 +2,7 @@ import os
 import django
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'webdatabase.settings')
 django.setup()
-from pages.models import districtKeystone, district
+from pages.models import districtKeystone, district, districtFiscal
 
 district2 = districtKeystone.objects.all()
 for entry in district2:
@@ -12,4 +12,10 @@ for entry in district2:
 district3 = district.objects.all()
 for entry in district3:
     print(f"District Name: {entry.district_name}, City: {entry.district_address_city}, Street: {entry.district_address_street}, Zip Code: {entry.district_zip_code}, Geographic Size (sq miles): {entry.geographic_size_square_miles}")
+'''
+
+'''
+district4 = districtFiscal.objects.all()
+for entry in district4:
+    print(f"District: {entry.district_id}, Federal Revenue: {entry.district_federal_revenue}, Local Revenue: {entry.district_local_revenue}, State Revenue: {entry.district_state_revenue}, Total Expenditures: {entry.district_total_expenditures}, Total Revenue: {entry.district_total_revenue} Year: {entry.year}")
 '''

@@ -1,8 +1,8 @@
 import pandas as pd
 
 
-file_path = "/home/cole/github/pennsylvania-department-of-education-app/relation_data/district_fiscal/district.csv"  # Replace with the actual path to your CSV file
-df = pd.read_csv(file_path, sep="\t", header=None)
+file_path = "/home/cole/github/pennsylvania-department-of-education-app/relation_data/district_fiscal_data/district_fiscal_holder.csv"  # Replace with the actual path to your CSV file
+df = pd.read_csv(file_path, delimiter=',', header=None)
 
 
 df.columns = ['School District', 'Attribute', 'Value']
