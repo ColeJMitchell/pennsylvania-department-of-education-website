@@ -7,6 +7,7 @@ df = pd.read_csv(file_path, sep="\t", header=None)
 
 df.columns = ['School District', 'Attribute', 'Value']
 
+#parses the data element column
 df = df.drop_duplicates(subset=['School District', 'Attribute'])
 df_pivoted = df.pivot(index='School District', columns='Attribute', values='Value').reset_index()
 
