@@ -16,7 +16,7 @@ with open('/home/cole/github/pennsylvania-department-of-education-app/relation_d
             print(f"District '{row[0]}' not found in the database.")
             district_instance = None
             continue
-
+        #makes sure conversion works before addding it to the database
         try:
             numbers_scored = int(row[3])
             percent_advanced = float(row[4])
