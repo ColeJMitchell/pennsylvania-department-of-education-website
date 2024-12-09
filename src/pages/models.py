@@ -121,6 +121,28 @@ class district(models.Model):
     district_zip_code = models.IntegerField()
     geographic_size_square_miles = models.FloatField()
 
+class districtFiscal(models.Model):
+    fiscal_id = models.IntegerField(primary_key=True)
+    district_id = models.ForeignKey(district, on_delete=models.CASCADE)
+    federal_revenue = models.FloatField()
+    local_revenue = models.FloatField()
+    state_revenue = models.FloatField()
+    total_expenditures = models.FloatField()
+    total_revenue = models.FloatField()
+    year = models.IntegerField()
+
+class districtKeystone(models.Model):
+    keystone_id = models.IntegerField(primary_key=True)
+    district_id = models.ForeignKey(district, on_delete=models.CASCADE)
+    subject = models.CharField(max_length=100)
+    group = models.CharField(max_length=100)
+    numbers_scored = models.IntegerField()
+    percent_advanced = models.FloatField()
+    percent_proficient = models.FloatField()
+    percent_basic = models.FloatField()
+    percent_below_basic = models.FloatField()
+    year = models.IntegerField()
+
 class districtEnrollment(models.Model):
     district_id = models.ForeignKey(district, on_delete=models.CASCADE)
     year = models.IntegerField(primary_key=True)
@@ -139,43 +161,6 @@ class districtEnrollment(models.Model):
     percent_of_gifted_students = models.FloatField()
     special_education_percent = models.FloatField()
     white_percent = models.FloatField()
-
-class districtFiscal(models.Model):
-    district_id = models.ForeignKey(district, on_delete=models.CASCADE)
-    year = models.IntegerField(primary_key=True)
-    local_non_personnel = models.FloatField()
-    federal_non_personnel = models.FloatField()
-    federal_personnel = models.FloatField()
-
-class districtKeystone(models.Model):
-    keystone_id = models.IntegerField(primary_key=True)
-    district_id = models.ForeignKey(district, on_delete=models.CASCADE)
-    subject = models.CharField(max_length=100)
-    group = models.CharField(max_length=100)
-    numbers_scored = models.IntegerField()
-    percent_advanced = models.FloatField()
-    percent_proficient = models.FloatField()
-    percent_basic = models.FloatField()
-    percent_below_basic = models.FloatField()
-    year = models.IntegerField()
-
-
-    
-class districtPSSA(models.Model):
-    pssa_id = models.IntegerField(primary_key=True)
-    district_id = models.ForeignKey(district, on_delete=models.CASCADE)
-    year = models.IntegerField()
-    subject = models.CharField(max_length=100)
-    grade = models.IntegerField()
-
-class districtPSSAStats(models.Model):
-    pssa_id = models.ForeignKey(districtPSSA, on_delete=models.CASCADE)
-    group = models.CharField(max_length=100)
-    numbers_scored = models.IntegerField()
-    percent_advanced = models.FloatField()
-    percent_proficient = models.FloatField()
-    percent_basic = models.FloatField()
-    percent_below_basic = models.FloatField()
 
 
 class enrollment(models.Model):
