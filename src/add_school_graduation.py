@@ -4,17 +4,18 @@ import csv
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'webdatabase.settings')
 django.setup()
-#
-# from pages.models import School, SchoolGraduation
-#
+
+from pages.models import School, SchoolGraduation
+
 # # Query all school names from the School model and create a dictionary
-# school_names_db_dict = {name.strip().lower(): school for name, school in School.objects.values_list('name', 'school_id')}
-#
-# def parse_float(value, default=0.0):
+# school_names_db_dict = {name.strip().lower(): school_id for name, school_id in School.objects.values_list('name', 'school_id')}
+# # parse int
+# def parse_int(value, default=0):
 #     try:
-#         return float(value)
+#         return int(value)
 #     except (ValueError, TypeError):
 #         return default
+#
 #
 # for year in range(2016, 2023):
 #     count = 0
@@ -27,19 +28,18 @@ django.setup()
 #         for row in csv_reader:
 #             school_name = row[0].strip().lower()
 #             if school_name in school_names_db_dict:
-#                 school = school_names_db_dict[school_name]
-#                 new_enrollment = SchoolGraduation(
+#                 school = School.objects.get(school_id=school_names_db_dict[school_name])  # Retrieve School instance
+#                 new_graduation = SchoolGraduation(
 #                     school_id=school,
 #                     year=year,
-#                     graduation_count=int(row[1]),
-#                     college_bound=int(row[2]),
-#                     two_or_four_year_college_or_university=int(row[3]),
-#                     total_postsecondary_bound=int(row[4]),
-#                     non_degree_granting_postsecondary_bound=int(row[5]),
-#                     specialized_associates_degree_granting_institution=int(row[6])
+#                     graduation_count= parse_int(row[1]),
+#                     college_bound= parse_int(row[2]),
+#                     two_or_four_year_college_or_university=parse_int(row[3]),
+#                     total_postsecondary_bound= parse_int(row[4]),
+#                     non_degree_granting_postsecondary_bound= parse_int(row[5]),
+#                     specialized_associates_degree_granting_institution= parse_int(row[6])
 #                 )
-#
-#                 new_enrollment.save()
+#                 new_graduation.save()
 #             else:
 #                 count += 1
 #
@@ -48,5 +48,13 @@ django.setup()
 #
 # print("School data has been successfully added to the database.")
 
+# print each entry in the SchoolGraduation model
+count = 0
+for entry in SchoolGraduation.objects.all():
+
+    print(entry.school_id, entry.year, entry.graduation_count, entry.college_bound, entry.two_or_four_year_college_or_university, entry.total_postsecondary_bound, entry.non_degree_granting_postsecondary_bound, entry.specialized_associates_degree_granting_institution)
+    count += 1
+
+print(f"Total number of entries: {count}")
 
 
