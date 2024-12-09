@@ -6,7 +6,7 @@ from pages.models import district, districtKeystone
 import csv
 
 # Adds the district keystone data to the database from the cleaned csv files
-with open('/home/cole/github/pennsylvania-department-of-education-app/relation_data/district_keystone_data/district_keystone_2016.csv', mode='r') as file:
+with open('/home/cole/github/pennsylvania-department-of-education-app/relation_data/district_keystone_data/district_keystone_2023.csv', mode='r') as file:
     csv_reader = csv.reader(file)
     
     for row in csv_reader:
