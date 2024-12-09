@@ -61,12 +61,13 @@ from pages.models import School, SchoolEnrollment
 # print("School data has been successfully added to the database.")
 
 
-
-
 enrollments = SchoolEnrollment.objects.all()
 
+count = 0
+
 for enrollment in enrollments:
-    print(f"School ID: {enrollment.school_id_id}, Year: {enrollment.year}, "
+
+      print(f"School Name: {School.objects.get(school_id=enrollment.school_id.school_id).name}, Year: {enrollment.year},"
           f"Two or More Races Percent: {enrollment.two_or_more_races_percent}, "
           f"American Indian/Alaska Native Percent: {enrollment.american_indian_alaska_native_percent}, "
           f"Asian Percent: {enrollment.asian_percent}, "
@@ -82,6 +83,10 @@ for enrollment in enrollments:
           f"Special Education Percent: {enrollment.special_education_percent}, "
           f"Title I School: {enrollment.title_i_school}, "
           f"White Percent: {enrollment.white_percent}")
+
+      count += 1
+
+print(f"Total number of school enrollments: {count}")
 
 
 
