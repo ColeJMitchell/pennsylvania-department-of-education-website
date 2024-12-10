@@ -14,6 +14,8 @@ class School(models.Model):
     elementary = models.BooleanField()
     middle = models.BooleanField()
     high = models.BooleanField()
+    latitude = models.FloatField(null=True, blank=True)
+    longitude = models.FloatField(null=True, blank=True)
 
 class SchoolEnrollment(models.Model):
     school_id = models.ForeignKey(School, on_delete=models.CASCADE)
