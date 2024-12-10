@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from django.conf import settings
-from .models import enrollment
-from django.http import JsonResponse
+from .models import district, districtFiscal, districtKeystone
 import itertools
 
 # Create your views here.
@@ -16,12 +15,49 @@ def map_page(request):
     if request.method == "POST":
         return render(request, "map.html", {"api_key": api_key})
 
-
+#renders the plot page if a post request is made for the page it determines if the post data is correct and then paasses the relevant data from the database to the front end
 def plot_page(request):
     if request.method == "POST":
-        school_submit = request.POST.get('query')
-        print(school_submit)
-        return render(request, "plot.html", {"school_submit": school_submit})
+        keystone_list = ["numbers_scored", "percent_advanced", "percent_proficient", "percent_basic", "percent_below_basic"]
+        fiscal_list = ["federal_revenue", "local_revenue", "state_revenue", "total_expenditures", "total_revenue"]
+        district_post = request.POST.get('query')
+        attribute_post = request.POST.get('dropdown')
+        
+        if not district_post or not attribute_post:
+            return render(request, "plot.html", {})
+        
+        district_post = district_post.upper()
+        
+        if attribute_post in keystone_list:
+            years = []
+            values = []
+            keystone_data = districtKeystone.objects.filter(district_id__district_name=district_post)
+            for data in keystone_data:
+                years.append(data.year)
+                values.append(getattr(data, attribute_post))
+            chart_data = {
+            "years": years,
+            "values": values
+            }
+            print(chart_data)
+            return render(request, "plot.html", {'chart_data': chart_data})
+        
+        if attribute_post in fiscal_list:
+            years = []
+            values = []
+            fiscal_data = districtFiscal.objects.filter(district_id__district_name=district_post)
+            for data in fiscal_data:
+                years.append(data.year)
+                values.append(getattr(data, attribute_post))
+            chart_data = {
+            "years": years,
+            "values": values
+            }
+            print(chart_data)
+            return render(request, "plot.html", {'chart_data': chart_data})
+
+        return render(request, "plot.html", {})
+    
     else:
         return render(request, "plot.html", {})
 
