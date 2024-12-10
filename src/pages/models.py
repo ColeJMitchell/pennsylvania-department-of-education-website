@@ -59,6 +59,19 @@ class SchoolKeystone(models.Model):
     keystone_id = models.IntegerField(primary_key=True)
     school_id = models.ForeignKey(School, on_delete=models.CASCADE)
     year = models.IntegerField()
+    subject = models.CharField(max_length=100, default="Unknown")
+    group = models.CharField(max_length=100, default="Unknown")
+    numbers_scored = models.IntegerField(default=-1)
+    percent_advanced = models.FloatField(default=-1)
+    percent_proficient = models.FloatField(default=-1)
+    percent_basic = models.FloatField(default=-1)
+    percent_below_basic = models.FloatField(default=-1)
+
+"""
+class SchoolKeystone(models.Model):
+    keystone_id = models.IntegerField(primary_key=True)
+    school_id = models.ForeignKey(School, on_delete=models.CASCADE)
+    year = models.IntegerField()
     subject = models.CharField(max_length=100)
 
 class SchoolKeystoneStats(models.Model):
@@ -85,7 +98,7 @@ class SchoolPSSAStats(models.Model):
     percent_proficient = models.FloatField()
     percent_basic = models.FloatField()
     percent_below_basic = models.FloatField()
-
+"""
 class SchoolCohort(models.Model):
     cohort_id = models.IntegerField(primary_key=True)
     school_id = models.ForeignKey(School, on_delete=models.CASCADE)
