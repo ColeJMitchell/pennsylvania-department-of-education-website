@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.conf import settings
 from .models import district, districtFiscal, districtKeystone
 import itertools
+import json
 
 # Create your views here.
 def home_page(request):
@@ -31,16 +32,20 @@ def plot_page(request):
         if attribute_post in keystone_list:
             years = []
             values = []
+            groups = []
+            rows= []
             keystone_data = districtKeystone.objects.filter(district_id__district_name=district_post)
             for data in keystone_data:
                 years.append(data.year)
                 values.append(getattr(data, attribute_post))
+                groups.append(data.group)
+                rows.append([data.year, getattr(data, attribute_post), data.group, data.subject])
             chart_data = {
             "years": years,
-            "values": values
+            "values": values,
+            "groups": groups
             }
-            print(chart_data)
-            return render(request, "plot.html", {'chart_data': chart_data})
+            return render(request, "plot.html", {'chart_data': json.dumps(rows)})
         
         if attribute_post in fiscal_list:
             years = []
