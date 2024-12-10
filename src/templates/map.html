@@ -87,43 +87,22 @@
     </div>
 
     <script>
-    function initMap() {
-        const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 10,
-            center: { lat: 40.688248, lng: -75.236144} // Centering on a middle location
-        });
-
-        const locations = [
-            { lat: 40.11285256, lng: -74.93137643, title: "Bensalem Twp HS" },
-            { lat: 39.95904367, lng: -75.15620362, title: "Folk Arts-Cultural Treasures CS" },
-            { lat: 40.86128714, lng: -75.28406684, title: "Tracy El Sch" },
-            { lat: 40.62032756, lng: -79.85121788, title: "Deer Lakes HS" },
-            { lat: 40.64886648, lng: -78.05442802, title: "Standing Stone El Sch" },
-            { lat: 40.14648088, lng: -75.3599547, title: "Whitehall El Sch" },
-            { lat: 40.6947528, lng: -76.26546218, title: "Minersville Area El Ctr" },
-            { lat: 41.34012788, lng: -80.08935121, title: "Oakview El Sch" },
-            { lat: 40.20099704, lng: -79.98010416, title: "Ringgold MS" },
-            { lat: 39.87993908, lng: -79.72769102, title: "Hatfield El Sch" },
-            { lat: 40.69444594, lng: -79.98506023, title: "Mars Area Primary Ctr" },
-            { lat: 40.68618524, lng: -75.26880819, title: "Palmer El Sch" },
-            { lat: 40.34412482, lng: -79.30890861, title: "Grandview El Sch" },
-            { lat: 40.32368138, lng: -76.80111079, title: "Mountain View El Sch" },
-            { lat: 40.50894278, lng: -80.16262601, title: "Cornell HS" },
-            { lat: 40.31731025, lng: -75.86703536, title: "Exeter Twp JHS" },
-            { lat: 40.62847051, lng: -79.60444736, title: "David Leech El Sch" },
-            { lat: 39.97922056, lng: -75.38527935, title: "Marple Newtown SHS" },
-            { lat: 40.08848343, lng: -79.75488821, title: "Frazier HS" },
-            { lat: 40.09212398, lng: -75.01391526, title: "Swenson Arts & Technology HS" }
-        ];
-
-        locations.forEach(location => {
-            new google.maps.Marker({
-                position: { lat: location.lat, lng: location.lng },
-                map: map,
-                title: location.title
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 10,
+                center: {lat: 40.7128, lng: -74.0060}  // Center the map (example: New York City)
             });
-        });
-    }
+
+            var schools = JSON.parse('{{ schools|escapejs }}');
+            schools.forEach(function(school) {
+                var fields = school.fields;
+                var marker = new google.maps.Marker({
+                    position: {lat: parseFloat(fields.latitude), lng: parseFloat(fields.longitude)},
+                    map: map,
+                    title: fields.name
+                });
+            });
+        }
     </script>
 
 
