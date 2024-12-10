@@ -43,6 +43,7 @@ def plot_page(request):
             keystone_data = districtKeystone.objects.filter(district_id__district_name=district_post)
             for data in keystone_data:
                 rows.append([data.year, getattr(data, attribute_post), data.group, data.subject])
+            print(rows)
             return render(request, "plot.html", {'chart_data': json.dumps(rows)})
         
         if attribute_post in fiscal_list:

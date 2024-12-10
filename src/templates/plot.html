@@ -177,6 +177,12 @@
         
                 groupedData[subject][group].push({ year, value });
             });
+
+            const subjectColors = {
+            "Algebra I": 'rgba(75, 192, 192, 1)',
+            "Biology": 'rgba(170, 255, 0, 1)',
+            "Default": 'rgba(255, 206, 86, 1)',
+            };
         
             Object.keys(groupedData).forEach(subject => {
                 Object.keys(groupedData[subject]).forEach(group => {
@@ -188,7 +194,8 @@
                     const canvas = document.createElement('canvas');
                     canvas.id = canvasId;
                     container.appendChild(canvas);
-        
+                    
+                    const borderColor = subjectColors[subject] || subjectColors.Default;
                     new Chart(canvas, {
                         type: 'line', 
                         data: {
@@ -196,7 +203,8 @@
                             datasets: [{
                                 label: `${subject} - ${group}`,
                                 data: values,
-                                borderColor: 'rgba(75, 192, 192, 1)', 
+                                borderColor: borderColor, 
+                                borderWidth: 5,
                                 fill: false,
                             }]
                         },
