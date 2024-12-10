@@ -12,13 +12,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plot</title>
     <style>
+        
+        #charts-container {
+            margin-top: 10vh;
+            justify-content: center;
+            align-items: center;
+            width: 89%;
+            height: 100%;
+        }
+
         body {
             padding: 0; 
             overflow: hidden;
         }
         .sidebar {
+            display: flex;
             background-color: black; 
-            height: 100vh; 
+            height: 100%; 
             padding-top: 20px; 
             padding-bottom: 20px;
         }
@@ -77,43 +87,43 @@
         }
     </style>
 </head>
-<body>
+<body id="body">
     <div class="container-fluid">
         <div class="row">
 
             <!-- First 2 Col. Sidebar-->
-            <div class="col-2 d-flex flex-column justify-content-center align-items-center sidebar bg-dark" style="height: 100vh;">
+            <div class="col-2 d-flex flex-column justify-content-center align-items-center sidebar bg-dark" style="height: 100vh;" id = "column 2">
               <!-- Home Button -->
               <form method="post" action="{% url 'home' %}" class="w-100 m-auto">
                   {% csrf_token %}
-                  <button type="submit" class="btn btn-dark m-auto p-3 w-100" >Home</button>
+                  <button type="submit" class="btn btn-dark m-auto p-3 w-100"  id = "home">Home</button>
               </form>
   
               <!-- Comparison Button -->
               <form method="post" action="{% url 'comparison' %}" class="w-100 m-auto">
                 {% csrf_token %}
-                <button type="submit" class="btn btn-dark m-auto p-3 w-100">Comparison</button>
+                <button type="submit" class="btn btn-dark m-auto p-3 w-100" id = "comparison">Comparison</button>
               </form>
   
               <!-- Plot Button -->
-              <div class="btn btn-dark m-auto p-3 w-100">
+              <div class="btn btn-dark m-auto p-3 w-100" id = "plot">
                 Plot
               </div>
   
               <!-- Map Button -->
               <form method="post" action="{% url 'map' %}" class="w-100 m-auto">
                   {% csrf_token %}
-                  <button type="submit" class="btn btn-dark m-auto p-3 w-100">Map</button>
+                  <button type="submit" class="btn btn-dark m-auto p-3 w-100" id = "map">Map</button>
               </form>
          </div>
             <!-- Column that takes up 10 out out of the 12 bootstrap columns-->
             <div class="col-10" style="height: 100vh; margin-top: 2vh;">
-                <form method="post" action="{% url 'plot' %}" class="d-flex flex-column align-items-center">
+                <form method="post" action="{% url 'plot' %}" class="d-flex flex-column align-items-center margin-left: 5vw;">
                     {% csrf_token %}
 
-                <div class="d-flex justify-content-between w-75">
+                <div class="d-flex justify-content-between w-100 margin-left 10vw;">
                     <!-- District Name Input -->
-                    <div>
+                    <div style="margin-left: 4.7vw;">
                         <h1 style="font-family: 'Bebas Neue', sans-serif;">Enter A District Name:</h1>
                         <div id="autocomplete" class="autocomplete">
                             <input class="autocomplete-input" name="query" />
@@ -121,7 +131,7 @@
                         </div>
                     </div>
                     
-                    <button type="submit" class="btn btn-dark mt-5" style="font-family: 'Bebas Neue', sans-serif; font-size: 20px; width: 10vw;;">Generate Plot</button>
+                    <button type="submit" class="btn btn-dark mt-5" style="font-family: 'Bebas Neue', sans-serif; font-size: 20px; width: 10vw;">Generate Plot</button>
                     
                     <!-- Attribute Dropdown -->
                     <div>
@@ -146,14 +156,106 @@
                 </div>
                 </form>
 
-                
-
+                <div id="charts-container"></div>
 
             </div>
         </div>
-    </div>
-    <script> 
-    
+
+        <script>
+            const chartData = JSON.parse('{{ chart_data|safe|escapejs }}');
+            let groupedData = {};
+        
+            chartData.forEach(row => {
+                const [year, value, group, subject] = row;
+        
+                if (!groupedData[subject]) {
+                    groupedData[subject] = {};
+                }
+                if (!groupedData[subject][group]) {
+                    groupedData[subject][group] = [];
+                }
+        
+                groupedData[subject][group].push({ year, value });
+            });
+        
+            Object.keys(groupedData).forEach(subject => {
+                Object.keys(groupedData[subject]).forEach(group => {
+                    const data = groupedData[subject][group];
+                    const years = data.map(item => item.year);
+                    const values = data.map(item => item.value);
+                    const canvasId = `chart-${subject}-${group}`;
+                    const container = document.getElementById('charts-container');
+                    const canvas = document.createElement('canvas');
+                    canvas.id = canvasId;
+                    container.appendChild(canvas);
+        
+                    new Chart(canvas, {
+                        type: 'line', 
+                        data: {
+                            labels: years,
+                            datasets: [{
+                                label: `${subject} - ${group}`,
+                                data: values,
+                                borderColor: 'rgba(75, 192, 192, 1)', 
+                                fill: false,
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            scales: {
+                                x: {
+                                    title: {
+                                        display: true,
+                                        text: 'Year'
+                                    }
+                                },
+                                y: {
+                                    title: {
+                                        display: true,
+                                        text: 'Value'
+                                    }
+                                }
+                            }
+                        }
+                    });
+                });
+            });
+            const sidebar = document.getElementById('column 2');
+            sidebar.style.height = `${document.body.scrollHeight}px`;
+            const home = document.getElementById('home');
+            home.style.position = 'fixed';
+            home.style.top = '10.7vh';
+            home.style.left = '.3vw';
+            home.style.width = '16vw'; 
+            home.style.maxWidth = '16vw'; 
+            home.style.minWidth = '16vw'; 
+            const comparison = document.getElementById('comparison');
+            comparison.style.position = 'fixed';
+            comparison.style.top = '34.6vh';
+            comparison.style.left = '.3vw';
+            comparison.style.width = '16vw'; 
+            comparison.style.maxWidth = '16vw'; 
+            comparison.style.minWidth = '16vw';
+            const plot = document.getElementById('plot');
+            plot.style.position = 'fixed';
+            plot.style.top = '58.5vh';
+            plot.style.left = '.3vw';
+            plot.style.width = '16vw'; 
+            plot.style.maxWidth = '16vw'; 
+            plot.style.minWidth = '16vw';
+            const map = document.getElementById('map');
+            map.style.position = 'fixed';
+            map.style.top = '82.4vh';
+            map.style.left = '.3vw';
+            map.style.width = '16vw'; 
+            map.style.maxWidth = '16vw'; 
+            map.style.minWidth = '16vw';
+            const body = document.getElementById('body');
+            body.style.overflow = 'scroll';     
+            
+        </script>
+
+    <script>   
     document.addEventListener('DOMContentLoaded', () => {
     const root = document.getElementById('autocomplete');
     const items = ["Abington Heights SD","Abington SD","Albert Gallatin Area SD","Aliquippa SD","Allegheny Valley SD","Allegheny-Clarion Valley SD",  "Allentown City SD","Altoona Area SD", "Ambridge Area SD", "Annville-Cleona SD", "Antietam SD", "Apollo-Ridge SD",  "Armstrong SD", "Athens Area SD",  "Austin Area SD",  "Avella Area SD",  "Avon Grove SD","Avonworth SD", "Bald Eagle Area SD","Baldwin-Whitehall SD","Bangor Area SD","Beaver Area SD","Bedford Area SD","Belle Vernon Area SD","Bellefonte Area SD","Bellwood-Antis SD","Bensalem Township SD","Benton Area SD","Bentworth SD","Berlin Brothersvalley SD","Bermudian Springs SD","Berwick Area SD","Bethel Park SD","Bethlehem Area SD","Bethlehem-Center SD","Big Beaver Falls Area SD", "Big Spring SD","Blackhawk SD","Blacklick Valley SD","Blairsville-Saltsburg SD","Bloomsburg Area SD","Blue Mountain SD","Blue Ridge SD","Boyertown Area SD","Bradford Area SD","Brandywine Heights Area SD","Brentwood Borough SD","Bristol Borough SD","Bristol Township SD","Brockway Area SD","Brookville Area SD","Brownsville Area SD","Burgettstown Area SD","Burrell SD","Butler Area SD","California Area SD","Cambria Heights SD","Cameron County SD","Camp Hill SD","Canon-Mcmillan SD","Canton Area SD","Carbondale Area SD","Carlisle Area SD","Carlynton SD","Carmichaels Area SD","Catasauqua Area SD","Centennial SD","Central Bucks SD","Central Cambria SD","Central Columbia SD","Central Dauphin SD","Central Fulton SD","Central Greene SD","Central Valley SD","Central York SD","Chambersburg Area SD","Charleroi SD","Chartiers Valley SD","Chartiers-Houston SD","Cheltenham SD","Chester-Upland SD","Chestnut Ridge SD","Chichester SD","Clairton City SD","Clarion Area SD","Clarion-Limestone Area SD","Claysburg-Kimmel SD","Clearfield Area SD","Coatesville Area SD","Cocalico SD", "Colonial SD", "Columbia Borough SD","Commodore Perry SD","Conemaugh Township Area SD","Conemaugh Valley SD","Conestoga Valley SD","Conewago Valley SD","Conneaut SD","Connellsville Area SD","Conrad Weiser Area SD","Cornell SD","Cornwall-Lebanon SD","Corry Area SD","Coudersport Area SD","Council Rock SD","Cranberry Area SD","Crawford Central SD","Crestwood SD","Cumberland Valley SD","Curwensville Area SD","Dallas SD","Dallastown Area SD","Daniel Boone Area SD","Danville Area SD","Deer Lakes SD","Delaware Valley SD","Derry Area SD","Derry Township SD","Donegal SD","Dover Area SD","Downingtown Area SD","Dubois Area SD","Dunmore SD","Duquesne City SD","East Allegheny SD","East Lycoming SD","East Penn SD","East Pennsboro Area SD","East Stroudsburg Area SD","Eastern Lancaster County SD","Eastern Lebanon County SD","Eastern York SD","Easton Area SD","Elizabeth Forward SD","Elizabethtown Area SD","Elk Lake SD","Ellwood City Area SD","Ephrata Area SD","Erie City SD","Everett Area SD","Exeter Township SD","Fairfield Area SD","Fairview SD","Fannett-Metal SD","Farrell Area SD","Ferndale Area SD","Fleetwood Area SD","Forbes Road SD","Forest Area SD","Forest City Regional SD","Forest Hills SD","Fort Cherry SD","Fort Leboeuf SD","Fox Chapel Area SD","Franklin Area SD","Franklin Regional SD","Frazier SD","Freedom Area SD","Freeport Area SD","Galeton Area SD","Garnet Valley SD","Gateway SD","General Mclane SD","Gettysburg Area SD","Girard SD","Glendale SD","Governor Mifflin SD","Great Valley SD","Greater Johnstown SD","Greater Latrobe SD","Greater Nanticoke Area SD","Greencastle-Antrim SD","Greensburg Salem SD","Greenville Area SD","Greenwood SD","Grove City Area SD","Halifax Area SD","Hamburg Area SD","Hampton Township SD","Hanover Area SD","Hanover Public SD","Harbor Creek SD","Harmony Area SD","Harrisburg City SD","Hatboro-Horsham SD","Haverford Township SD","Hazleton Area SD","Hempfield Area SD","Hempfield SD","Hermitage SD","Highlands SD","Hollidaysburg Area SD","Homer-Center SD","Hopewell Area SD","Huntingdon Area SD","Indiana Area SD","Interboro SD","Iroquois SD","Jamestown Area SD","Jeannette City SD","Jefferson-Morgan SD","Jenkintown SD","Jersey Shore Area SD","Jim Thorpe Area SD","Johnsonburg Area SD","Juniata County SD","Juniata Valley SD","Kane Area SD","Karns City Area SD","Kennett Consolidated SD","Keystone Central SD","Keystone Oaks SD","Keystone SD","Kiski Area SD","Kutztown Area SD","Lackawanna Trail SD","Lake-Lehman SD","Lakeland SD","Lakeview SD","Lampeter-Strasburg SD","Lancaster SD","Laurel Highlands SD","Laurel SD","Lebanon SD","Leechburg Area SD","Lehighton Area SD","Lewisburg Area SD","Ligonier Valley SD","Line Mountain SD","Littlestown Area SD","Lower Dauphin SD", "Lower Merion SD", "Lower Moreland Township SD", "Loyalsock Township SD", "Mahanoy Area SD", "Manheim Central SD", "Manheim Township SD", "Marion Center Area SD", "Marple Newtown SD", "Mars Area SD", "Mcguffey SD", "Mckeesport Area SD","Mechanicsburg Area SD","Mercer Area SD","Methacton SD","Meyersdale Area SD","Mid Valley SD","Midd-West SD","Middletown Area SD","Midland Borough SD","Mifflin County SD","Mifflinburg Area SD","Millcreek Township SD","Millersburg Area SD","Millville Area SD","Milton Area SD","Minersville Area SD","Mohawk Area SD","Monessen City SD","Moniteau SD","Montgomery Area SD","Montour SD","Montoursville Area SD","Montrose Area SD","Moon Area SD","Morrisville Borough SD","Moshannon Valley SD","Mount Carmel Area SD","Mount Pleasant Area SD","Mount Union Area SD","Mountain View SD","Mt Lebanon SD","Muhlenberg SD","Muncy SD","Nazareth Area SD","Neshaminy SD","Neshannock Township SD","New Brighton Area SD","New Castle Area SD","New Hope-Solebury SD","New Kensington-Arnold SD","Newport SD","Norristown Area SD","North Allegheny SD","North Clarion County SD","North East SD","North Hills SD","North Penn SD","North Pocono SD","North Schuylkill SD","North Star SD","Northampton Area SD","Northeast Bradford SD","Northeastern York SD","Northern Bedford County SD","Northern Cambria SD","Northern Lebanon SD","Northern Lehigh SD","Northern Potter SD","Northern Tioga SD","Northern York County SD","Northgate SD","Northwest Area SD","Northwestern Lehigh SD","Northwestern SD","Norwin SD","Octorara Area SD","Oil City Area SD","Old Forge SD","Oley Valley SD","Oswayo Valley SD","Otto-Eldred SD","Owen J Roberts SD","Oxford Area SD","Palisades SD","Palmerton Area SD","Palmyra Area SD","Panther Valley SD","Parkland SD","Pen Argyl Area SD","Penn Cambria SD","Penn Hills SD","Penn Manor SD","Penn-Delco SD","Penn-Trafford SD","Penncrest SD","Pennridge SD","Penns Manor Area SD","Penns Valley Area SD","Pennsbury SD","Pequea Valley SD","Perkiomen Valley SD","Peters Township SD","Philadelphia City SD","Philipsburg-Osceola Area SD","Phoenixville Area SD","Pine Grove Area SD","Pine-Richland SD","Pittsburgh SD","Pittston Area SD","Pleasant Valley SD","Plum Borough SD","Pocono Mountain SD","Port Allegany SD","Portage Area SD","Pottsgrove SD","Pottstown SD","Pottsville Area SD", "Punxsutawney Area SD", "Purchase Line SD", "Quaker Valley SD", "Quakertown Community SD", "Radnor Township SD", "Reading SD", "Red Lion Area SD", "Redbank Valley SD", "Reynolds SD", "Richland SD", "Ridgway Area SD", "Ridley SD", "Ringgold SD", "Riverside Beaver County SD", "Riverside SD", "Riverview SD", "Rochester Area SD", "Rockwood Area SD", "Rose Tree Media SD","Saint Clair Area SD","Saint Marys Area SD","Salisbury Township SD","Salisbury-Elk Lick SD","Saucon Valley SD","Sayre Area SD","Schuylkill Haven Area SD","Schuylkill Valley SD","Scranton SD","Selinsgrove Area SD","Seneca Valley SD","Shade-Central City SD","Shaler Area SD","Shamokin Area SD","Shanksville-Stonycreek SD","Sharon City SD","Sharpsville Area SD","Shenandoah Valley SD","Shenango Area SD","Shikellamy SD","Shippensburg Area SD","Slippery Rock Area SD","Smethport Area SD","Solanco SD","Somerset Area SD","Souderton Area SD","South Allegheny SD","South Butler County SD","South Eastern SD","South Fayette Township SD","South Middleton SD","South Park SD","South Side Area SD","South Western SD","South Williamsport Area SD","Southeast Delco SD","Southeastern Greene SD","Southern Columbia Area SD","Southern Fulton SD","Southern Huntingdon County SD", "Southern Lehigh SD", "Southern Tioga SD", "Southern York County SD", "Southmoreland SD","Spring Cove SD", "Spring Grove Area SD", "Spring-Ford Area SD", "Springfield SD", "Springfield Township SD", "State College Area SD", "Steel Valley SD", "Steelton-Highspire SD", "Sto-Rox SD", "Stroudsburg Area SD", "Sullivan County SD", "Susquehanna Community SD", "Susquehanna Township SD", "Susquenita SD", "Tamaqua Area SD", "Titusville Area SD", "Towanda Area SD", "Tredyffrin-Easttown SD", "Tri-Valley SD", "Trinity Area SD", "Troy Area SD", "Tulpehocken Area SD", "Tunkhannock Area SD", "Turkeyfoot Valley Area SD", "Tuscarora SD", "Tussey Mountain SD", "Twin Valley SD", "Tyrone Area SD", "Union Area SD", "Union City Area SD", "Union SD", "Uniontown Area SD", "Unionville-Chadds Ford SD", "United SD", "Upper Adams SD", "Upper Darby SD", "Upper Dauphin Area SD", "Upper Dublin SD", "Upper Merion Area SD", "Upper Moreland Township SD", "Upper Perkiomen SD", "Upper Saint Clair SD", "Valley Grove SD","Valley View SD","Wallenpaupack Area SD","Wallingford-Swarthmore SD","Warren County SD","Warrior Run SD","Warwick SD","Washington SD","Wattsburg Area SD","Wayne Highlands SD","Waynesboro Area SD","Weatherly Area SD","Wellsboro Area SD","West Allegheny SD","West Branch Area SD","West Chester Area SD","West Greene SD","West Jefferson Hills SD","West Middlesex Area SD","West Mifflin Area SD","West Perry SD","West Shore SD","West York Area SD","Western Beaver County SD","Western Wayne SD","Westmont Hilltop SD","Whitehall-Coplay SD","Wilkes-Barre Area SD","Wilkinsburg Borough SD","William Penn SD","Williams Valley SD","Williamsburg Community SD","Williamsport Area SD","Wilmington Area SD","Wilson Area SD", "Wilson SD", "Windber Area SD", "Wissahickon SD", "Woodland Hills SD", "Wyalusing Area SD", "Wyoming Area SD", "Wyoming Valley West SD", "Wyomissing Area SD", "York City SD","York Suburban SD","Yough SD"];
@@ -169,10 +271,7 @@
         }
     });
 });
-
-
-
-    </script>
+ </script>
            
                   
 
