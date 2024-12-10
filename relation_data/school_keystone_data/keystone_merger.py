@@ -23,6 +23,8 @@ for file in files:
       '% Below Basic': 'Percent Below Basic'
    }, inplace=True)
    
+   df.drop(columns=['Grade'], inplace=True)
+   
    dataframes.append(df)
 
 merged_data = pd.concat(dataframes, ignore_index=True)
