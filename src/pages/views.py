@@ -21,7 +21,26 @@ def map_page(request):
 
     if not schools_json:
         schools = School.objects.exclude(latitude__isnull=True).exclude(longitude__isnull=True)
-        schools_json = serialize('json', schools, fields=('name', 'district_id', 'address_street', 'address_city', 'website', 'elementary', 'middle', 'high', 'latitude', 'longitude'))
+        school_data = []
+
+        for school in schools:
+            try:
+                district_name = district.objects.get(district_id=school.district_id).district_name
+            except district.DoesNotExist:
+                district_name = "Self"
+            school_data.append({
+                'name': school.name,
+                'district_name': district_name,
+                'address_street': school.address_street,
+                'address_city': school.address_city,
+                'website': school.website,
+                'elementary': school.elementary,
+                'middle': school.middle,
+                'high': school.high,
+                'latitude': school.latitude,
+                'longitude': school.longitude
+            })
+        schools_json = json.dumps(school_data)
         cache.set(cache_key, schools_json, 60)
     return render(request, "map.html", {"api_key": api_key, "schools": schools_json})
 
@@ -35,9 +54,9 @@ def plot_page(request):
         #error handling
         if not district_post or not attribute_post:
             return render(request, "plot.html", {})
-        
+
         district_post = district_post.upper()
-        
+
         if attribute_post in keystone_list:
             rows= []
             rows.append([attribute_post])
@@ -45,7 +64,7 @@ def plot_page(request):
             for data in keystone_data:
                 rows.append([data.year, getattr(data, attribute_post), data.group, data.subject])
             return render(request, "plot.html", {'chart_data': json.dumps(rows)})
-        
+
         if attribute_post in fiscal_list:
             rows = []
             fiscal_data = districtFiscal.objects.filter(district_id__district_name=district_post)
@@ -55,7 +74,7 @@ def plot_page(request):
             return render(request, "plot.html", {'fiscal_data': json.dumps(rows)})
 
         return render(request, "plot.html", {})
-    
+
     else:
         return render(request, "plot.html", {})
 

@@ -96,20 +96,19 @@
             var infoWindow = new google.maps.InfoWindow();
 
             schools.forEach(function(school) {
-                var fields = school.fields;
                 var marker = new google.maps.Marker({
-                    position: {lat: parseFloat(fields.latitude), lng: parseFloat(fields.longitude)},
+                    position: {lat: parseFloat(school.latitude), lng: parseFloat(school.longitude)},
                     map: map,
-                    title: fields.name
+                    title: school.name
                 });
 
-                var schoolType = fields.elementary ? "Elementary" : fields.middle ? "Middle" : fields.high ? "High" : "Unknown";
+                var schoolType = school.elementary ? "Elementary" : school.middle ? "Middle" : school.high ? "High" : "Unknown";
                 var infoWindowContent = `
                     <div>
-                        <h5>${fields.name}</h5>
-                        <p><strong>District:</strong> ${fields.district_id}</p>
-                        <p><strong>Address:</strong> ${fields.address_street}, ${fields.address_city}</p>
-                        <p><strong>Website:</strong> <a href="${fields.website}" target="_blank">${fields.website}</a></p>
+                        <h5>${school.name}</h5>
+                        <p><strong>District:</strong> ${school.district_name}</p>
+                        <p><strong>Address:</strong> ${school.address_street}, ${school.address_city}</p>
+                        <p><strong>Website:</strong> <a href="${school.website}" target="_blank">${school.website}</a></p>
                         <p><strong>Type:</strong> ${schoolType}</p>
                     </div>
                 `;
