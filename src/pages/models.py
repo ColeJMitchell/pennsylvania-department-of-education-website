@@ -52,7 +52,7 @@ class SchoolGraduation(models.Model):
 
 class SchoolFiscal(models.Model):
     school_id = models.ForeignKey(School, on_delete=models.CASCADE)
-    year = models.IntegerField(primary_key=True)
+    year = models.IntegerField(default=-1)
     local_non_personnel = models.FloatField(default=-1)
     local_personnel = models.FloatField(default=-1)
     state_non_personnel = models.FloatField(default=-1)

@@ -9,4 +9,4 @@ class Command(BaseCommand):
 
     def delete_all_school_keystone(self):
         count, _ = SchoolKeystone.objects.all().delete()
-        self.stdout.write(self.style.SUCCESS(f'Deleted {count} enrollment records.'))
+        self.stdout.write(self.style.SUCCESS(f'Deleted {count} school keystone records.'))
