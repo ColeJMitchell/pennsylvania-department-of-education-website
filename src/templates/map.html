@@ -93,6 +93,8 @@
             });
 
             var schools = JSON.parse('{{ schools|escapejs }}');
+            var infoWindow = new google.maps.InfoWindow();
+
             schools.forEach(function(school) {
                 var fields = school.fields;
                 var marker = new google.maps.Marker({
@@ -112,12 +114,13 @@
                     </div>
                 `;
 
-                var infoWindow = new google.maps.InfoWindow({
-                    content: infoWindowContent
+                marker.addListener('mouseover', function() {
+                    infoWindow.setContent(infoWindowContent);
+                    infoWindow.open(map, marker);
                 });
 
-                marker.addListener('click', function() {
-                    infoWindow.open(map, marker);
+                marker.addListener('mouseout', function() {
+                    infoWindow.close();
                 });
             });
         }
