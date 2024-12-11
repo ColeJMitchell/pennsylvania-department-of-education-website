@@ -60,33 +60,43 @@ from pages.models import School, SchoolEnrollment
 #
 # print("School data has been successfully added to the database.")
 
+# retrieve enrollment data 2023
 
-enrollments = SchoolEnrollment.objects.all()
+enrollments = SchoolEnrollment.objects.filter(year=2023)
+
+schools = set()
 
 count = 0
 
 for enrollment in enrollments:
+    if enrollment.school_id not in schools:
+        schools.add(enrollment.school_id)
+        print(f"School ID : {enrollment.school_id},"f"Year: {2023},"
+        f"Two or More Races Percent: {enrollment.two_or_more_races_percent}, "
+        f"American Indian/Alaska Native Percent: {enrollment.american_indian_alaska_native_percent}, "
+        f"Asian Percent: {enrollment.asian_percent}, "
+        f"Black/African American Percent: {enrollment.black_african_american_percent}, "
+        f"Hispanic Percent: {enrollment.hispanic_percent}, "
+        f"Homeless Percent: {enrollment.homeless_percent}, "
+        f"Military Connected Percent: {enrollment.military_connected_percent}, "
+        f"Native Hawaiian/Pacific Islander Percent: {enrollment.native_hawaiian_or_pacific_islander_percent}, "
+        f"Percent of Gifted Students: {enrollment.percent_of_gifed_students}, "
+        f"Economically Disadvantaged Percent: {enrollment.economically_disadvantaged_percent}, "
+        f"English Learner Percent: {enrollment.english_learner_percent}, "
+        f"School Enrollment: {enrollment.school_enrollment}, "
+        f"Special Education Percent: {enrollment.special_education_percent}, "
+        f"Title I School: {enrollment.title_i_school}, "
+        f"White Percent: {enrollment.white_percent}")
+    else:
+        print(f'Duplicate school! School ID: {enrollment.school_id}')
 
-      print(f"School Name: {School.objects.get(school_id=enrollment.school_id.school_id).name}, Year: {enrollment.year},"
-          f"Two or More Races Percent: {enrollment.two_or_more_races_percent}, "
-          f"American Indian/Alaska Native Percent: {enrollment.american_indian_alaska_native_percent}, "
-          f"Asian Percent: {enrollment.asian_percent}, "
-          f"Black/African American Percent: {enrollment.black_african_american_percent}, "
-          f"Hispanic Percent: {enrollment.hispanic_percent}, "
-          f"Homeless Percent: {enrollment.homeless_percent}, "
-          f"Military Connected Percent: {enrollment.military_connected_percent}, "
-          f"Native Hawaiian/Pacific Islander Percent: {enrollment.native_hawaiian_or_pacific_islander_percent}, "
-          f"Percent of Gifted Students: {enrollment.percent_of_gifed_students}, "
-          f"Economically Disadvantaged Percent: {enrollment.economically_disadvantaged_percent}, "
-          f"English Learner Percent: {enrollment.english_learner_percent}, "
-          f"School Enrollment: {enrollment.school_enrollment}, "
-          f"Special Education Percent: {enrollment.special_education_percent}, "
-          f"Title I School: {enrollment.title_i_school}, "
-          f"White Percent: {enrollment.white_percent}")
+        # delete that entry
+        enrollment.delete()
 
-      count += 1
+    count += 1
 
 print(f"Total number of school enrollments: {count}")
+print(f"Total number of schools: {len(schools)}")
 
 
 

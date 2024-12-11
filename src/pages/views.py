@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.conf import settings
 from django.core.serializers import serialize
 from django.core.cache import cache
-from .models import district, districtFiscal, districtKeystone, School, enrollment
+from .models import district, districtFiscal, districtKeystone, School, enrollment, SchoolEnrollment
 import itertools
 import json
 
@@ -28,12 +28,21 @@ def map_page(request):
                 district_name = district.objects.get(district_id=school.district_id).district_name
             except district.DoesNotExist:
                 district_name = "Self"
+
+            # try to get school enrollment data for the school in 2023
+            try:
+                enrollment_data = SchoolEnrollment.objects.get(school_id=school.school_id, year=2023).school_enrollment
+            except enrollment.DoesNotExist:
+                enrollment_data = None
+
             school_data.append({
                 'name': school.name,
                 'district_name': district_name,
+                'enrollment_data': enrollment_data,
                 'address_street': school.address_street,
                 'address_city': school.address_city,
                 'website': school.website,
+                'telephone': school.telephone,
                 'elementary': school.elementary,
                 'middle': school.middle,
                 'high': school.high,
