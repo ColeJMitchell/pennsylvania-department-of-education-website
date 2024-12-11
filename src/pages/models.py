@@ -53,9 +53,12 @@ class SchoolGraduation(models.Model):
 class SchoolFiscal(models.Model):
     school_id = models.ForeignKey(School, on_delete=models.CASCADE)
     year = models.IntegerField(primary_key=True)
-    local_non_personnel = models.FloatField()
-    federal_non_personnel = models.FloatField()
-    federal_personnel = models.FloatField()
+    local_non_personnel = models.FloatField(default=-1)
+    local_personnel = models.FloatField(default=-1)
+    state_non_personnel = models.FloatField(default=-1)
+    state_personnel = models.FloatField(default=-1)
+    federal_non_personnel = models.FloatField(default=-1)
+    federal_personnel = models.FloatField(default=-1)
 
 class SchoolKeystone(models.Model):
     keystone_id = models.IntegerField(primary_key=True)
