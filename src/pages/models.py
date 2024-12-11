@@ -133,7 +133,7 @@ class SchoolCohortStats(models.Model):
 
 class district(models.Model):
     district_id = models.IntegerField(primary_key=True)
-    district_name = models.CharField(max_length=100)
+    district_name = models.CharField(max_length=100,db_index=True)
     district_address_city = models.CharField(max_length=100)
     district_address_street = models.CharField(max_length=100)
     district_zip_code = models.IntegerField()
@@ -142,24 +142,24 @@ class district(models.Model):
 class districtFiscal(models.Model):
     fiscal_id = models.IntegerField(primary_key=True)
     district_id = models.ForeignKey(district, on_delete=models.CASCADE)
-    federal_revenue = models.FloatField()
-    local_revenue = models.FloatField()
-    state_revenue = models.FloatField()
-    total_expenditures = models.FloatField()
-    total_revenue = models.FloatField()
-    year = models.IntegerField()
+    federal_revenue = models.FloatField(db_index=True)
+    local_revenue = models.FloatField(db_index=True)
+    state_revenue = models.FloatField(db_index=True)
+    total_expenditures = models.FloatField(db_index=True)
+    total_revenue = models.FloatField(db_index=True)
+    year = models.IntegerField(db_index=True)
 
 class districtKeystone(models.Model):
     keystone_id = models.IntegerField(primary_key=True)
     district_id = models.ForeignKey(district, on_delete=models.CASCADE)
-    subject = models.CharField(max_length=100)
-    group = models.CharField(max_length=100)
-    numbers_scored = models.IntegerField()
-    percent_advanced = models.FloatField()
-    percent_proficient = models.FloatField()
-    percent_basic = models.FloatField()
-    percent_below_basic = models.FloatField()
-    year = models.IntegerField()
+    subject = models.CharField(max_length=100,db_index=True)
+    group = models.CharField(max_length=100,db_index=True)
+    numbers_scored = models.IntegerField(db_index=True)
+    percent_advanced = models.FloatField(db_index=True)
+    percent_proficient = models.FloatField(db_index=True)
+    percent_basic = models.FloatField(db_index=True)
+    percent_below_basic = models.FloatField(db_index=True)
+    year = models.IntegerField(db_index=True)
 
 class districtEnrollment(models.Model):
     district_id = models.ForeignKey(district, on_delete=models.CASCADE)
