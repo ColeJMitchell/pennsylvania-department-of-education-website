@@ -25,7 +25,7 @@ def plot_page(request):
         fiscal_list = ["federal_revenue", "local_revenue", "state_revenue", "total_expenditures", "total_revenue"]
         district_post = request.POST.get('query')
         attribute_post = request.POST.get('dropdown')
-        
+        #error handling
         if not district_post or not attribute_post:
             return render(request, "plot.html", {})
         
@@ -33,10 +33,10 @@ def plot_page(request):
         
         if attribute_post in keystone_list:
             rows= []
+            rows.append([attribute_post])
             keystone_data = districtKeystone.objects.filter(district_id__district_name=district_post)
             for data in keystone_data:
                 rows.append([data.year, getattr(data, attribute_post), data.group, data.subject])
-            print(rows)
             return render(request, "plot.html", {'chart_data': json.dumps(rows)})
         
         if attribute_post in fiscal_list:
