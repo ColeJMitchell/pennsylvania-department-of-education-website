@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.conf import settings
 from django.core.serializers import serialize
-from .models import district, districtFiscal, districtKeystone, School
+from django.core.cache import cache
+from .models import district, districtFiscal, districtKeystone, School, enrollment
 import itertools
 import json
 
@@ -14,8 +15,14 @@ def home_page(request):
 
 def map_page(request):
     api_key = settings.MAP_API_KEY
-    schools = School.objects.exclude(latitude__isnull=True).exclude(longitude__isnull=True)
-    schools_json = serialize('json', schools, fields=('name', 'district_id', 'address_street', 'address_city', 'website', 'elementary', 'middle', 'high', 'latitude', 'longitude'))
+
+    cache_key = 'schools_json'
+    schools_json = cache.get(cache_key)
+
+    if not schools_json:
+        schools = School.objects.exclude(latitude__isnull=True).exclude(longitude__isnull=True)
+        schools_json = serialize('json', schools, fields=('name', 'district_id', 'address_street', 'address_city', 'website', 'elementary', 'middle', 'high', 'latitude', 'longitude'))
+        cache.set(cache_key, schools_json, 60)
     return render(request, "map.html", {"api_key": api_key, "schools": schools_json})
 
 #renders the plot page if a post request is made for the page it determines if the post data is correct and then paasses the relevant data from the database to the front end

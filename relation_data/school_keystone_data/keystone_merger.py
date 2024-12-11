@@ -4,7 +4,6 @@ import glob
 file_pattern = '*_Keystone_Exam_School_Level_Data_cleaned.csv'
 files = glob.glob(file_pattern)
 
-print(files)
 dataframes = []
 for file in files:
    df = pd.read_csv(file)
