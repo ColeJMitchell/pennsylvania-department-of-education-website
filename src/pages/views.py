@@ -47,18 +47,12 @@ def plot_page(request):
             return render(request, "plot.html", {'chart_data': json.dumps(rows)})
         
         if attribute_post in fiscal_list:
-            years = []
-            values = []
+            rows = []
             fiscal_data = districtFiscal.objects.filter(district_id__district_name=district_post)
             for data in fiscal_data:
-                years.append(data.year)
-                values.append(getattr(data, attribute_post))
-            chart_data = {
-            "years": years,
-            "values": values
-            }
-            print(chart_data)
-            return render(request, "plot.html", {'chart_data': chart_data})
+                rows.append([data.year, getattr(data, attribute_post)])
+            print(rows)
+            return render(request, "plot.html", {'fiscal_data': json.dumps(rows)})
 
         return render(request, "plot.html", {})
     

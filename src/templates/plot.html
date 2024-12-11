@@ -166,91 +166,238 @@
             </div>
         </div>
 
+        {% if chart_data %}
         <script>
             const chartData = JSON.parse('{{ chart_data|safe|escapejs }}');
-            let groupedData = {};
-            var post_attribute = chartData[0][0];
-            max_height = 0;
-            chartData.shift();
-            if (post_attribute === "numbers_scored") {
-                max_height = 1800;
-            }
-            else{
-                max_height = 100;
-            }
-            chartData.forEach(row => {
-                const [year, value, group, subject] = row;
-        
-                if (!groupedData[subject]) {
-                    groupedData[subject] = {};
-                }
-                if (!groupedData[subject][group]) {
-                    groupedData[subject][group] = [];
-                }
-        
-                groupedData[subject][group].push({ year, value });
-            });
+        </script>
+        {% endif %}
 
-            const subjectColors = {
+        {% if fiscal_data %}
+        <script>
+            const fiscalData = JSON.parse('{{ fiscal_data|safe|escapejs }}');
+        </script>
+        {% endif %}
+
+        <script>
+            const container = document.getElementById('charts-container');
+            container.innerHTML = '';
+
+            try {
+ 
+                if (typeof chartData !== 'undefined' && chartData !== null) {
+                    let groupedData = {};
+                    var post_attribute = chartData[0][0];
+                    let max_height = post_attribute === "numbers_scored" ? 1800 : 100;
+                    chartData.shift();
+
+                    chartData.forEach(row => {
+                    const [year, value, group, subject] = row;
+            
+                    if (!groupedData[subject]) {
+                        groupedData[subject] = {};
+                    }
+                    if (!groupedData[subject][group]) {
+                        groupedData[subject][group] = [];
+                        }
+            
+                    groupedData[subject][group].push({ year, value });
+                 });
+
+        const subjectColors = {
             "Algebra I": 'rgba(75, 192, 192, 1)',
             "Biology": 'rgba(80, 200, 120, 1)',
             "Literature": 'rgba(255, 0, 0, 1)',
-            };
-        
-            Object.keys(groupedData).forEach(subject => {
+        };
 
+        Object.keys(groupedData).forEach(subject => {
             const ethnicGroups = [
-            'White (not Hispanic)',
-            'Black or African American (not Hispanic)',
-            'Hispanic (any race)',
-            'Asian (not Hispanic)',
-            'Multi-Racial (not Hispanic)'
+                'White (not Hispanic)',
+                'Black or African American (not Hispanic)',
+                'Hispanic (any race)',
+                'Asian (not Hispanic)',
+                'Multi-Racial (not Hispanic)'
             ];
-    
 
             const ethnicDatasets = [];
             const colors = [
-            'rgba(75, 192, 192, 0.8)',  
-            'rgba(153, 102, 255, 0.8)', 
-            'rgba(255, 159, 64, 0.8)',  
-            'rgba(255, 99, 132, 0.8)',  
-            'rgba(255, 105, 97, 0.8)'   
+                'rgba(75, 192, 192, 0.8)',
+                'rgba(153, 102, 255, 0.8)',
+                'rgba(255, 159, 64, 0.8)',
+                'rgba(255, 99, 132, 0.8)',
+                'rgba(255, 105, 97, 0.8)'
             ];
 
-
-
+            // Create ethnic datasets
             ethnicGroups.forEach((ethnicGroup, index) => {
-            if (groupedData[subject][ethnicGroup]) {
-            const data = groupedData[subject][ethnicGroup];
-            const years = data.map(item => item.year);
-            const values = data.map(item => item.value);
-            
-            ethnicDatasets.push({
-                label: ethnicGroup,
-                data: values,
-                backgroundColor: colors[index],
-                borderColor: 'transparent',
-                borderWidth: 1,
-                maxBarThickness: 100
+                if (groupedData[subject][ethnicGroup]) {
+                    const data = groupedData[subject][ethnicGroup];
+                    const years = data.map(item => item.year);
+                    const values = data.map(item => item.value);
+                    
+                    ethnicDatasets.push({
+                        label: ethnicGroup,
+                        data: values,
+                        backgroundColor: colors[index],
+                        borderColor: 'transparent',
+                        borderWidth: 1,
+                        maxBarThickness: 100
+                    });
+                }
             });
-            }
-        });
 
-        if (ethnicDatasets.length > 0) {
-        const canvasId = `chart-${subject}-ethnic`;
-        const container = document.getElementById('charts-container');
+            if (ethnicDatasets.length > 0) {
+                const canvas = document.createElement('canvas');
+                canvas.id = `chart-${subject}-ethnic`;
+                container.appendChild(canvas);
+
+                new Chart(canvas, {
+                    type: 'bar',
+                    data: {
+                        labels: groupedData[subject][ethnicGroups[0]].map(item => item.year),
+                        datasets: ethnicDatasets
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: 'Year'
+                                }
+                            },
+                            y: {
+                                title: {
+                                    display: true,
+                                    text: 'Value'
+                                },
+                                max: max_height,
+                            }
+                        },
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: `${subject} - Ethnic Group Comparison`,
+                                font: {
+                                    size: 16,
+                                    weight: 'bold'
+                                }
+                            },
+                            legend: {
+                                position: 'bottom'
+                            }
+                        },
+                        animation: {
+                            duration: 1000,
+                            easing: 'easeInOutQuart'
+                        }
+                    }
+                });
+            }
+
+            Object.keys(groupedData[subject]).forEach(group => {
+                if (!ethnicGroups.includes(group) && 
+                    !['IEP', 'ELL', 'Economically Disadvantaged'].includes(group)) {
+                    
+                    const data = groupedData[subject][group];
+                    const years = data.map(item => item.year);
+                    const values = data.map(item => item.value);
+                    
+                    const canvas = document.createElement('canvas');
+                    canvas.id = `chart-${subject}-${group}`;
+                    container.appendChild(canvas);
+
+                    new Chart(canvas, {
+                        type: 'line',
+                        data: {
+                            labels: years,
+                            datasets: [{
+                                data: values,
+                                borderWidth: 5,
+                                fill: false,
+                                tension: 0.4,
+                                borderColor: subjectColors[subject],
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            scales: {
+                                x: {
+                                    title: {
+                                        display: true,
+                                        text: 'Year'
+                                    }
+                                },
+                                y: {
+                                    title: {
+                                        display: true,
+                                        text: 'Value'
+                                    },
+                                    max: max_height,
+                                }
+                            },
+                            plugins: {
+                                legend: {
+                                    display: false
+                                },
+                                title: {
+                                    display: true,
+                                    text: `${subject} - ${group}`,
+                                    font: {
+                                        size: 16,
+                                        weight: 'bold'
+                                    }
+                                }
+                            },
+                            animation: {
+                                duration: 1000,
+                                easing: 'easeInOutQuart'
+                            }
+                        }
+                    });
+                }
+            });
+        });
+    }
+    if (typeof fiscalData !== 'undefined' && fiscalData !== null) {
+        const fiscalYears = [];
+        const fiscalValues = [];
+
+        fiscalData.forEach(row => {
+            const [fiscal_year, fiscal_value] = row;
+            fiscalYears.push(fiscal_year);
+            fiscalValues.push(fiscal_value);
+        });
+        document.body.style.overflow = 'hidden';
+        document.documentElement.style.overflow = 'hidden'
+        container.style.height = '40vw';
+        container.style.overflow = 'hidden';
         const canvas = document.createElement('canvas');
-        canvas.id = canvasId;
+        canvas.style.height = '100%';
         container.appendChild(canvas);
-        //bar graphy for ethnic distribution data
+        const formatYAxis = (value) => {
+            if (value >= 1000000) {
+                return (value / 1000000).toFixed(1) + 'M';
+            } else if (value >= 1000) {
+                return (value / 1000).toFixed(1) + 'K';
+            }
+            return value;
+        };
+
         new Chart(canvas, {
             type: 'bar',
             data: {
-                labels: groupedData[subject][ethnicGroups[0]].map(item => item.year),
-                datasets: ethnicDatasets
+                labels: fiscalYears,
+                datasets: [{
+                    label: 'Fiscal Value',
+                    data: fiscalValues,
+                    backgroundColor: 'rgba(187, 165, 61, 0.8)',
+                    borderColor: 'rgba(187, 165, 61, 1)',
+                    borderWidth: 1
+                }]
             },
             options: {
                 responsive: true,
+                maintainAspectRatio: false,
                 scales: {
                     x: {
                         title: {
@@ -261,15 +408,17 @@
                     y: {
                         title: {
                             display: true,
-                            text: 'Value',
+                            text: 'Value ($)'
                         },
-                        max: max_height,
+                        ticks: {
+                            callback: formatYAxis
+                        }
                     }
                 },
                 plugins: {
                     title: {
                         display: true,
-                        text: `${subject} - Ethnic Group Comparison`,
+                        text: 'Fiscal Year vs Value',
                         font: {
                             size: 16,
                             weight: 'bold'
@@ -281,218 +430,51 @@
                 },
                 animation: {
                     duration: 1000,
-                    easing: 'easeInOutQuart',
+                    easing: 'easeInOutQuart'
                 }
             }
         });
     }
-    
-    Object.keys(groupedData[subject]).forEach(group => {
-        if (!ethnicGroups.includes(group)) {
-            if (['IEP', 'ELL', 'Economically Disadvantaged'].includes(group)) {
-                return; 
-            }
-            console.log(group);
-            console.log(subject);
-            const data = groupedData[subject][group];
-            const years = data.map(item => item.year);
-            const values = data.map(item => item.value);
-            const canvasId = `chart-${subject}-${group}`;
-            const container = document.getElementById('charts-container');
-            const canvas = document.createElement('canvas');
-            canvas.id = canvasId;
-            container.appendChild(canvas);
-            //graph for historically unperforming and all students
-            new Chart(canvas, {
-                type: 'line',
-                data: {
-                    labels: years,
-                    datasets: [{
-                        data: values,
-                        borderWidth: 5,
-                        fill: false,
-                        tension: 0.4,
-                        borderColor: subjectColors[subject],
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    scales: {
-                        x: {
-                            title: {
-                                display: true,
-                                text: 'Year'
-                            }
-                        },
-                        y: {
-                            title: {
-                                display: true,
-                                text: 'Value'
-                            },
-                            max: max_height,
-                        
-                        }
-                    },
-                    plugins: {
-                        legend: {
-                            display: false  
-                        },
-                        title: {
-                            display: true,
-                            text: `${subject} - ${group}`,
-                            font: {
-                                size: 16,
-                                weight: 'bold'
-                            }
-                        }
-                    },
-                    animation: {
-                        duration: 1000,
-                        easing: 'easeInOutQuart',
-                    }
-                }
-            });
+} 
+catch (error) {
+    console.error('Error generating charts:', error);
+}
 
-            }
-        });
-    });
-            const sidebar = document.getElementById('column 2');
-            sidebar.style.height = `${document.body.scrollHeight}px`;
-            const home = document.getElementById('home');
-            home.style.position = 'fixed';
-            home.style.top = '10.7vh';
-            home.style.left = '.3vw';
-            home.style.width = '16vw'; 
-            home.style.maxWidth = '16vw'; 
-            home.style.minWidth = '16vw'; 
-            const comparison = document.getElementById('comparison');
-            comparison.style.position = 'fixed';
-            comparison.style.top = '34.6vh';
-            comparison.style.left = '.3vw';
-            comparison.style.width = '16vw'; 
-            comparison.style.maxWidth = '16vw'; 
-            comparison.style.minWidth = '16vw';
-            const plot = document.getElementById('plot');
-            plot.style.position = 'fixed';
-            plot.style.top = '58.5vh';
-            plot.style.left = '.3vw';
-            plot.style.width = '16vw'; 
-            plot.style.maxWidth = '16vw'; 
-            plot.style.minWidth = '16vw';
-            const map = document.getElementById('map');
-            map.style.position = 'fixed';
-            map.style.top = '82.4vh';
-            map.style.left = '.3vw';
-            map.style.width = '16vw'; 
-            map.style.maxWidth = '16vw'; 
-            map.style.minWidth = '16vw';
-            const body = document.getElementById('body');
-            body.style.overflow = 'scroll';     
-            
-        </script>
 
-        <script> 
-
-            const fiscalData = JSON.parse('{{ fiscal_data|safe|escapejs }}');
-            max_height = 20000000;
-            chartData.forEach(row => {
-                const [year, value] = row;
-        
-                if (!groupedData[subject]) {
-                    groupedData[subject] = {};
-                }
-                if (!groupedData[subject][group]) {
-                    groupedData[subject][group] = [];
-                }
-        
-                groupedData[subject][group].push({ year, value });
-            });
-
-            const subjectColor = {
-            "Algebra I": 'rgba(75, 192, 192, 1)',
-            "Biology": 'rgba(80, 200, 120, 1)',
-            "Literature": 'rgba(255, 0, 0, 1)',
-            };
-        
-            new Chart(canvas, {
-            type: 'bar',
-            data: {
-                labels: groupedData[subject][ethnicGroups[0]].map(item => item.year),
-                datasets: ethnicDatasets
-            },
-            options: {
-                responsive: true,
-                scales: {
-                    x: {
-                        title: {
-                            display: true,
-                            text: 'Year'
-                        }
-                    },
-                    y: {
-                        title: {
-                            display: true,
-                            text: 'Value',
-                        },
-                        max: max_height,
-                    }
-                },
-                plugins: {
-                    title: {
-                        display: true,
-                        text: `${subject} - Ethnic Group Comparison`,
-                        font: {
-                            size: 16,
-                            weight: 'bold'
-                        }
-                    },
-                    legend: {
-                        position: 'bottom'
-                    }
-                },
-                animation: {
-                    duration: 1000,
-                    easing: 'easeInOutQuart',
-                }
-            }
-        });
-
-            const sidebar = document.getElementById('column 2');
-            sidebar.style.height = `${document.body.scrollHeight}px`;
-            const home = document.getElementById('home');
-            home.style.position = 'fixed';
-            home.style.top = '10.7vh';
-            home.style.left = '.3vw';
-            home.style.width = '16vw'; 
-            home.style.maxWidth = '16vw'; 
-            home.style.minWidth = '16vw'; 
-            const comparison = document.getElementById('comparison');
-            comparison.style.position = 'fixed';
-            comparison.style.top = '34.6vh';
-            comparison.style.left = '.3vw';
-            comparison.style.width = '16vw'; 
-            comparison.style.maxWidth = '16vw'; 
-            comparison.style.minWidth = '16vw';
-            const plot = document.getElementById('plot');
-            plot.style.position = 'fixed';
-            plot.style.top = '58.5vh';
-            plot.style.left = '.3vw';
-            plot.style.width = '16vw'; 
-            plot.style.maxWidth = '16vw'; 
-            plot.style.minWidth = '16vw';
-            const map = document.getElementById('map');
-            map.style.position = 'fixed';
-            map.style.top = '82.4vh';
-            map.style.left = '.3vw';
-            map.style.width = '16vw'; 
-            map.style.maxWidth = '16vw'; 
-            map.style.minWidth = '16vw';
-            const body = document.getElementById('body');
-            body.style.overflow = 'scroll';     
+const sidebar = document.getElementById('column 2');
+sidebar.style.height = `${document.body.scrollHeight}px`;
+const home = document.getElementById('home');
+home.style.position = 'fixed';
+home.style.top = '10.7vh';
+home.style.left = '.3vw';
+home.style.width = '16vw';
+home.style.maxWidth = '16vw';
+home.style.minWidth = '16vw';
+const comparison = document.getElementById('comparison');
+comparison.style.position = 'fixed';
+comparison.style.top = '34.6vh';
+comparison.style.left = '.3vw';
+comparison.style.width = '16vw';
+comparison.style.maxWidth = '16vw';
+comparison.style.minWidth = '16vw';
+const plot = document.getElementById('plot');
+plot.style.position = 'fixed';
+plot.style.top = '58.5vh';
+plot.style.left = '.3vw';
+plot.style.width = '16vw';
+plot.style.maxWidth = '16vw';
+plot.style.minWidth = '16vw';
+const map = document.getElementById('map');
+map.style.position = 'fixed';
+map.style.top = '82.4vh';
+map.style.left = '.3vw';
+map.style.width = '16vw';
+map.style.maxWidth = '16vw';
+map.style.minWidth = '16vw';
+const body = document.getElementById('body');
+body.style.overflow = 'scroll';
 
         </script>
-
-
 
     <script>   
     document.addEventListener('DOMContentLoaded', () => {
