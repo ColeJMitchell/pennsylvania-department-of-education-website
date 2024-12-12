@@ -121,7 +121,7 @@
                     </div>
               
                     <!-- Button -->
-                    <button type="submit" class="btn btn-dark mt-5" style="font-family: 'Bebas Neue', sans-serif; font-size: 20px; width: 10vw; height: 8vh;">Generate Plots</button>
+                    <button type="submit" class="btn btn-dark mt-5" style="font-family: 'Bebas Neue', sans-serif; font-size: 20px; width: 10vw; height: 8vh;">Generate Tables</button>
               
                     <!-- Second School Input -->
                     <div>
@@ -134,17 +134,19 @@
                   </div>
                 </form>
 
-                <div class="table-container" style="overflow-y: auto; height: 100vh;">
-                    <div class="table-title" >
-                        <h2 style="font-family: 'Arial', sans-serif;">School Enrollment Data</h2>
+                <div class="table-container" style="overflow-y: auto; ">
+                    <div class="table-title" style="margin-bottom: 0; margin-top: 5vh;" >
+                        <h2 style="font-family: 'Bebas Neue', sans-serif;">First School Enrollment Data</h2>
                     </div>
-                    <table class="table table-bordered" style="border-width: 5px; border-style: solid; border-color: black;">
+                    <table class="table table-bordered" style="border-width: 5px; border-style: solid; border-color: black; margin-top: 0;">
                         <thead>
                             <tr>
                                 <th>Year</th>
                                 <th>Economically Disadvantaged</th>
                                 <th>English Learner</th>
                                 <th>Homeless</th>
+                                <th>Military Connected</th>
+                                <th>Special Education</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -155,6 +157,8 @@
                                 <td>{{ row.economically_disadvantaged_percent }}</td>
                                 <td>{{ row.english_learner_percent }}</td>
                                 <td>{{ row.homeless_percent }}</td>
+                                <td> {{row.military_connected_percent}}</td>
+                                <td> {{row.special_education_percent}}</td>
                             </tr>
                             {% endfor %}
                             {% else %}
@@ -166,6 +170,114 @@
                     </table>
                 </div>
                 
+                <div class="table-container" style="overflow-y: auto;">
+                    <div class="table-title" style="margin-bottom: 0; margin-top: 5vh;" >
+                        <h2 style="font-family: 'Bebas Neue', sans-serif;">Second School Enrollment Data</h2>
+                    </div>
+                    <table class="table table-bordered" style="border-width: 5px; border-style: solid; border-color: black; margin-top: 0;">
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Economically Disadvantaged</th>
+                                <th>English Learner</th>
+                                <th>Homeless</th>
+                                <th>Military Connected</th>
+                                <th>Special Education</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if school2_enrollment %}
+                            {% for row in school2_enrollment %}
+                            <tr>
+                                <td>{{ row.year }}</td>
+                                <td>{{ row.economically_disadvantaged_percent }}</td>
+                                <td>{{ row.english_learner_percent }}</td>
+                                <td>{{ row.homeless_percent }}</td>
+                                <td> {{row.military_connected_percent}}</td>
+                                <td> {{row.special_education_percent}}</td>
+                            </tr>
+                            {% endfor %}
+                            {% else %}
+                            <tr>
+                                <td colspan="4">No data available for the second school.</td>
+                            </tr>
+                        {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div class="table-container" style="overflow-y: auto;">
+                    <div class="table-title" style="margin-bottom: 0; margin-top: 5vh;" >
+                        <h2 style="font-family: 'Bebas Neue', sans-serif;">First School Graduation Data</h2>
+                    </div>
+                    <table class="table table-bordered" style="border-width: 5px; border-style: solid; border-color: black; margin-top: 0;">
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Graduation Count</th>
+                                <th>College Bound</th>
+                                <th>Postsecondary Bound</th>
+                                <th>Non Degree Granting Postsecondary Bound</th>
+                                <th>Specialized Associates Degree Granting Institution Bound</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if school1_graduation %}
+                            {% for row in school1_graduation %}
+                            <tr>
+                                <td>{{ row.year }}</td>
+                                <td>{{ row.graduation_count }}</td>
+                                <td>{{ row.college_bound }}</td>
+                                <td>{{ row.total_postsecondary_bound }}</td>
+                                <td>{{ row.non_degree_granting_postsecondary_bound }}</td>
+                                <td>{{ row.specialized_associates_degree_granting_institution}}</td>
+                            </tr>
+                            {% endfor %}
+                            {% else %}
+                            <tr>
+                                <td colspan="4">No data available for the first school.</td>
+                            </tr>
+                        {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-container" style="overflow-y: auto;">
+                    <div class="table-title" style="margin-bottom: 0; margin-top: 5vh;" >
+                        <h2 style="font-family: 'Bebas Neue', sans-serif;">Second School Graduation Data</h2>
+                    </div>
+                    <table class="table table-bordered" style="border-width: 5px; border-style: solid; border-color: black; margin-top: 0;">
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Graduation Count</th>
+                                <th>College Bound</th>
+                                <th>Postsecondary Bound</th>
+                                <th>Non Degree Granting Postsecondary Bound</th>
+                                <th>Specialized Associates Degree Granting Institution Bound</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if school2_graduation %}
+                            {% for row in school2_graduation %}
+                            <tr>
+                                <td>{{ row.year }}</td>
+                                <td>{{ row.graduation_count }}</td>
+                                <td>{{ row.college_bound }}</td>
+                                <td>{{ row.total_postsecondary_bound }}</td>
+                                <td>{{ row.non_degree_granting_postsecondary_bound }}</td>
+                                <td>{{ row.specialized_associates_degree_granting_institution}}</td>
+                            </tr>
+                            {% endfor %}
+                            {% else %}
+                            <tr>
+                                <td colspan="4">No data available for the second school.</td>
+                            </tr>
+                        {% endif %}
+                        </tbody>
+                    </table>
+                </div>
 
 
             </div>
