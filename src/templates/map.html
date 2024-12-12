@@ -1,4 +1,3 @@
-<!-- templates/map.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,36 +27,40 @@
             font-size: 20px;
             margin: 60px 0;
         }
-        .full-width-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+        .search-container {
+            position: relative;
         }
-        .overlay-head {
+        .search-bar {
             position: absolute;
-            top: 35%;
-            left: 35%;
-            color: white;
-            font-family: 'Bebas Neue', sans-serif;
-            font-weight: bold;
-            font-size: 130px;
-            text-shadow:
-        -4px -4px 0 black,
-        4px -4px 0 black,
-        -4px 4px 0 black,
-        4px 4px 0 black;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            width: 300px;
+        }
+        #search-results {
+            max-height: 300px;
+            overflow-y: auto;
+            display: none;
+        }
+        #search-results.show {
+            display: block;
+        }
+        .active-page {
+            background-color: #495057 !important;
+            pointer-events: none;
         }
     </style>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
-            <!-- First 2 Col. Sidebar-->
+            <!--Sidebar-->
             <div class="col-2 d-flex flex-column justify-content-center align-items-center sidebar bg-dark" style="height: 100vh;">
                 <!-- Home Button -->
                 <form method="post" action="{% url 'home' %}" class="w-100 m-auto">
                     {% csrf_token %}
-                    <button type="submit" class="btn btn-dark m-auto p-3 w-100" >Home</button>
+                    <button type="submit" class="btn btn-dark m-auto p-3 w-100">Home</button>
                 </form>
 
                 <!-- Comparison Button -->
@@ -73,7 +76,7 @@
                 </form>
 
                 <!-- Map Button -->
-                <div class="btn btn-dark m-auto p-3 w-100">
+                <div class="btn btn-dark m-auto p-3 w-100 active-page">
                     Map
                 </div>
             </div>
@@ -81,6 +84,10 @@
             <!-- Map Column Space-->
             <div class="col-10" style="padding: 0;">
                 <div id="map" style="width: 100%;"></div>
+                <div class="search-bar search-container">
+                    <input type="text" id="search-input" class="form-control" placeholder="Search for a school...">
+                    <ul id="search-results" class="dropdown-menu"></ul>
+                </div>
             </div>
         </div>
     </div>
@@ -89,12 +96,15 @@
         function initMap() {
             var map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 8,
-                center: {lat: 40.8781, lng: -77.7996}  // Center the map (example: New York City)
+                center: {lat: 40.8781, lng: -77.7996}
             });
 
+            // Schools data
             var schools = JSON.parse('{{ schools|escapejs }}');
             var infoWindow = new google.maps.InfoWindow();
+            var markers = [];
 
+            // Add markers to map
             schools.forEach(function(school) {
                 var marker = new google.maps.Marker({
                     position: {lat: parseFloat(school.latitude), lng: parseFloat(school.longitude)},
@@ -115,14 +125,79 @@
                     </div>
                 `;
 
-                marker.addListener('mouseover', function() {
+                // event listener for clicking on marker
+                marker.addListener('click', function() {
                     infoWindow.setContent(infoWindowContent);
                     infoWindow.open(map, marker);
                 });
 
-                marker.addListener('mouseout', function() {
-                    infoWindow.close();
-                });
+                markers.push({marker: marker, school: school});
+            });
+
+
+            // SEARCH FUNCTIONALITY
+
+            // Search input and results
+            var searchInput = document.getElementById('search-input');
+            var searchResults = document.getElementById('search-results');
+
+
+            // helper function to clear search results
+            function clearSearch() {
+                searchResults.innerHTML = '';
+                searchResults.classList.remove('show');
+            }
+
+            // Event listener for input
+            searchInput.addEventListener('input', function() {
+                var query = this.value.toLowerCase();
+                searchResults.innerHTML = '';
+
+                // only show schools when query length is greater than 1
+                if (query.length > 1) {
+                    var filteredSchools = schools.filter(function(school) {
+                        return school.name.toLowerCase().includes(query);
+                    });
+
+                    // show search results
+                    if (filteredSchools.length > 0) {
+                        searchResults.classList.add('show');
+                        filteredSchools.forEach(function(school) {
+                            var li = document.createElement('li');
+                            li.classList.add('dropdown-item');
+                            li.textContent = school.name;
+
+                            // event listener for clicking on search result
+                            li.addEventListener('click', function() {
+                                var selectedSchool = markers.find(function(m) {
+                                    return m.school.name === school.name;
+                                });
+
+                                // center map on selected school and open info window
+                                if (selectedSchool) {
+                                    map.setCenter(selectedSchool.marker.getPosition());
+                                    map.setZoom(15);
+                                    google.maps.event.trigger(selectedSchool.marker, 'click');
+                                }
+
+                                clearSearch();
+                                searchInput.value = school.name;
+                            });
+                            searchResults.appendChild(li);
+                        });
+                    } else {
+                        clearSearch();
+                    }
+                } else {
+                    clearSearch();
+                }
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function(event) {
+                if (!searchInput.contains(event.target) && !searchResults.contains(event.target)) {
+                    clearSearch();
+                }
             });
         }
     </script>
@@ -130,7 +205,5 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key={{api_key}}&callback=initMap">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>   
 </body>
 </html>
