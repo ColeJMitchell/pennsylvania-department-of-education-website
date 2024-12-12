@@ -93,8 +93,28 @@ def comparison_page(request):
         school1 = request.POST.get('query1')
         school2 = request.POST.get('query2')
         school1_enrollment = SchoolEnrollment.objects.filter(school_id__name=school1)
-        school1_enrollment = SchoolEnrollment.objects.filter(school_id__name=school1)
-        context = {}
+        school2_enrollment = SchoolEnrollment.objects.filter(school_id__name=school2)
+        school1_graduation = SchoolGraduation.objects.filter(school_id__name=school1)
+        school2_graduation = SchoolGraduation.objects.filter(school_id__name=school2)
+        school1_data_enrollment = []
+        school2_data_enrollment = []
+        school1_data_graduation = []
+        school2_data_graduation = []
+        for data in school1_enrollment:
+            school1_data_enrollment.append([data.year, data.economically_disadvantaged_percent, data.english_learner_percent, data.homeless_percent, data.military_connected_percent, data.special_education_percent])
+        for data in school2_enrollment: 
+            school2_data_enrollment.append([data.year, data.economically_disadvantaged_percent, data.english_learner_percent, data.homeless_percent, data.military_connected_percent, data.special_education_percent])
+        for data in school1_graduation:
+            school1_data_graduation.append([data.year, data.graduation_count, data.college_bound, data.total_postsecondary_bound, data.non_degree_granting_postsecondary_bound, data.specialized_associates_degree_granting_institution])
+        for data in school2_graduation:
+            school2_data_graduation.append([data.year, data.graduation_count, data.college_bound, data.total_postsecondary_bound, data.non_degree_granting_postsecondary_bound, data.specialized_associates_degree_granting_institution])
+        context = {
+            "school1_enrollment": json.dumps(school1_data_enrollment),
+            "school2_enrollment": json.dumps(school2_data_enrollment),
+            "school1_graduation": json.dumps(school1_data_graduation),
+            "school2_graduation": json.dumps(school2_data_graduation),
+        }
+        print(context)
         return render(request, "comparison.html", context)
     else:
         return render(request, "comparison.html", {})
