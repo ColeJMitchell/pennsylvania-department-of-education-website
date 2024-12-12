@@ -4,9 +4,9 @@ import django
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'webdatabase.settings')
 django.setup()
 
-from pages.models import districtFiscal
+from pages.models import districtKeystone
 
 # Delete all records in the district table
-districtFiscal.objects.all().delete()
+districtKeystone.objects.all().delete()
 
 print("All records in the district table have been deleted.")
