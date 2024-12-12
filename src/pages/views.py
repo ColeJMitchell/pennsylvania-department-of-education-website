@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.conf import settings
 from django.core.serializers import serialize
 from django.core.cache import cache
-from .models import district, districtFiscal, districtKeystone, School, enrollment, SchoolEnrollment
+from .models import district, districtFiscal, districtKeystone, School, enrollment, SchoolEnrollment, SchoolGraduation
 import itertools
 import json
 
@@ -90,6 +90,10 @@ def plot_page(request):
 #code to compare two schools in the front-end based on context sent from the front end
 def comparison_page(request):
     if request.method == "POST":
+        school1 = request.POST.get('query1')
+        school2 = request.POST.get('query2')
+        school1_enrollment = SchoolEnrollment.objects.filter(school_id__name=school1)
+        school1_enrollment = SchoolEnrollment.objects.filter(school_id__name=school1)
         context = {}
         return render(request, "comparison.html", context)
     else:
